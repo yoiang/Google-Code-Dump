@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>1995 - Stuffer</title>
+		<link rel="stylesheet" href="../style.css" type="text/css" />
+	</head>
+	<body>
+	<br/>
+	<h1>Stuffer - <a href="./Stuffer.bin.zip"><font size="5">bin</font></a> - <a href="./Stuffer.src.zip"><font size="5">src</font></a></h1>
+	<center><font size="3">Stuffer is a little app for creating a list of garbage files.  The user supplies two parameters: the filename of a list of filenames and a size for each of the files to be.</font></center><br/>
+	<br/>
+	<code>
+#include &lt;stdio.h&gt;<br/>
+#include &lt;stdlib.h&gt;<br/>
+<br/>
+int main (int iargc, char **argv)<br/>
+{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if (iargc < 3)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("format: stuffer.exe <list file> <filesize>\n");<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;FILE *pFile = fopen(argv[1], "r");<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;FILE *pCreate;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;char szCreate[256];<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;double  dSize = strtod(argv[2], NULL);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if (pFile == 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("error opening %s\n", argv[1]);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;while (!feof(pFile))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fscanf(pFile, "%s", szCreate);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (feof(pFile)) break;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pCreate = fopen(szCreate, "w");<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("%s\n", szCreate);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (double iTrav = 0; iTrav < dSize; iTrav ++)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fprintf(pCreate, "a");<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fclose(pCreate);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;fclose(pFile);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br/>
+}
+	</code>
+</body>
+</html>
