@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleTranslateCommandLine", "GoogleTranslateCommandLine.csproj", "{916F6EE5-4D9C-4EA5-9F80-956B17878490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gdata", "C:\Program Files (x86)\Google\Google Data API SDK\Sources\src\VS2003\gdata\gdata.csproj", "{B6F6D938-0D45-42BA-8A67-55D92EF03995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ASP|Any CPU = ASP|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{916F6EE5-4D9C-4EA5-9F80-956B17878490}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{916F6EE5-4D9C-4EA5-9F80-956B17878490}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{916F6EE5-4D9C-4EA5-9F80-956B17878490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916F6EE5-4D9C-4EA5-9F80-956B17878490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916F6EE5-4D9C-4EA5-9F80-956B17878490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916F6EE5-4D9C-4EA5-9F80-956B17878490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.ASP|Any CPU.ActiveCfg = ASP|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.ASP|Any CPU.Build.0 = ASP|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
