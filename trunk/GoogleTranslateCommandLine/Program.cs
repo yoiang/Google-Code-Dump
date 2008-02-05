@@ -14,13 +14,17 @@ namespace GoogleTranslateCommandLine
                 WriteSyntax();
                 return 1;
             }
+            if ( args[0] == "-l" )
+            {
+                return DoCheckLanguage( args );
+            }
+            if( args[ 0 ] == "-p" )
+            {
+                return DoCheckPair( args );
+            }
             if( args[ 0 ] == "-t" )
             {
                 return DoTranslate( args );
-            }
-            if( args[ 0 ] == "-c" )
-            {
-                return DoCheckPair( args );
             }
             return 1;
         }
@@ -29,26 +33,27 @@ namespace GoogleTranslateCommandLine
         {
             Console.Write( "Invalid syntax\n" );
             Console.Write( "\tExpected: GoogleTranslateCommandLine.exe <Switch> <Switch Parameters>\n" );
+            Console.Write( "\t\t-l <Language>" );
+            Console.Write( "\t\t-p <From> <To>" );
             Console.Write( "\t\t-t <From> <To> <Text>\n" );
-            Console.Write( "\t\t-c <From> <To>" );
         }
 
-        static int DoTranslate( string[] args )
+        static int DoCheckLanguage( string[] args )
         {
-            if( args.Length < 4 )
+            if( args.Length < 2 )
             {
                 WriteSyntax();
                 return 1;
             }
 
-            string From = args[ 1 ];
-            string To = args[ 2 ];
-            string Text = args[ 3 ];
-            for( int nTravTextParams = 4; nTravTextParams < args.Length; ++nTravTextParams )
+            string CheckLanguage = args[ 1 ];
+            if( !Language.isValidLanguage( CheckLanguage ) )
             {
-                Text += " " + args[ nTravTextParams ];
+                Console.Write( CheckLanguage + " is an invalid language" );
+                return 0;
             }
-            Console.Write( Translate.translate( Text, From, To ) );
+
+            Console.Write( CheckLanguage + " is a valid language" );
             return 0;
         }
 
@@ -71,5 +76,25 @@ namespace GoogleTranslateCommandLine
             Console.Write( From + " " + To + " is a valid pair" );
             return 0;
         }
+
+        static int DoTranslate( string[] args )
+        {
+            if( args.Length < 4 )
+            {
+                WriteSyntax();
+                return 1;
+            }
+
+            string From = args[ 1 ];
+            string To = args[ 2 ];
+            string Text = args[ 3 ];
+            for( int nTravTextParams = 4; nTravTextParams < args.Length; ++nTravTextParams )
+            {
+                Text += " " + args[ nTravTextParams ];
+            }
+            Console.Write( Translate.translate( Text, From, To ) );
+            return 0;
+        }
+
     }
 }
