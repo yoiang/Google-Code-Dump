@@ -1,0 +1,78 @@
+# Microsoft Developer Studio Generated Dependency File, included by AllianceMUD Server.mak
+
+.\src\Entity.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
+
+.\src\Globals.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
+
+.\src\Log.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
+
+.\src\Main.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
+
+.\src\Queue.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
+
+.\src\Server.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
+
+.\src\WinProcs.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\src\Defs.h"\
+	".\src\Entity.h"\
+	".\src\Globals.h"\
+	".\src\Log.h"\
+	".\src\Main.h"\
+	".\src\Server.h"\
+	".\src\WinProcs.h"\
+	
