@@ -1,0 +1,87 @@
+
+; This is the default script file
+; You may edit this file or create your own in the same mannor
+; Read the readme.txt for more information
+
+
+; Global Stuff
+AlwaysSee 1
+; How many meters to add to camera velocity per input reading
+move_speed 1.0E2
+;turn_speed 0.0245436f
+; How many times to calculate new locations for all the planets before displaying again
+nCalcsPDisplay 100
+
+
+; Make a camera
+Camera
+{
+ ; Name the camera
+ Name Camera
+ ; Make its initial X coordinate -7.0*10^6 meters from the origin
+ ;location z -7.0E7
+ Magnification 1.0E-5
+}
+
+
+; Make a planet
+Body
+{
+ ; Name the planet Earth
+ Name Earth
+ ; Make the radius of Earth 6.378*10^6 m
+ Radius 6.378E6
+ ; Make the mass 5.98*10^24 g
+ Mass 5.98E24
+ ; Make the planet's color's red component 127
+ Red 127
+ ; Make the planet's color's green component 127
+ Green 127
+ ; Make the planet's color's blue component 255
+ Blue 255
+ ; Make the planet's name's color's red component (talk about possesive :)
+ NameRed 255
+ ; Make the planet's name's blah blah blah
+ NameGreen 255
+ NameBlue 255
+ ; Assign the planet's texture to this file
+ ;texture earth.3df
+}
+
+
+ ; Make another planet
+Body
+{
+ Name Satellite
+ Radius 1E1
+ Mass 200
+ ; Assign the inital x component of the location to 19.2*10^6 m
+ Location 19.2E6 0 0
+ ; Assign the initial y companent of the velocity of this body 4570 m/s
+ Velocity 0 4557.88 0
+ Red 220
+ Green 220
+ Blue 220
+ NameRed 255
+ NameGreen 255
+ NameBlue 255
+ ;texture sat.3df
+}
+
+
+; Aaaand another
+Body
+{
+ Name Satellite2
+ Radius 1E1
+ Mass 40
+ Location -12.8E6 0 0
+ Velocity 0 5600 0
+ Red 255
+ Green 127
+ Blue 127
+ NameRed 255
+ NameGreen 255
+ NameBlue 255
+ ;texture sat.3df
+}

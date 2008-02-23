@@ -1,0 +1,70 @@
+;view.location.z -100
+
+;move_speed 1.0E5
+;refresh_time 256
+OnlyFirst 1
+AlwaysSee 2
+
+Body {
+Name Planet
+Blue 240
+Red 0
+Green 0
+;alpha 255
+;show_Name 1
+;Name_color white
+Radius 5.0 5.0
+Mass 1000000.0
+}
+
+Body {
+Name Moon
+Red 100
+Green 100
+Blue 100
+;Name_color white
+Velocity 2.582634E-3 0
+Location 0 10
+Radius 2.5 2.5
+Mass 0.0001
+}
+
+Body {
+Name Moon2
+;show_Name 1
+;Name_color white
+Velocity 0 2.109E-3
+Location 15 0
+Radius 1 1
+Mass 0.0001
+Red 100
+Green 100
+Blue 100
+;color light_gray
+}
+
+Body {
+Name Moon3
+;show_Name 1
+;Name_color white
+Velocity 0 -1.6334E-3
+Location 25 0
+Radius 1 1 
+Mass 0.0001
+Red 100
+Green 100
+Blue 100
+}
+
+Body {
+Name Moon4
+;show_Name 1
+;Name_color white
+Velocity 0 1.1549E-3
+Location -50 0
+Radius 4 4
+Mass 0.0001
+Red 100
+Green 100
+Blue 100
+}

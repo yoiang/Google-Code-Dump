@@ -1,0 +1,288 @@
+AlwaysSee 2
+OnlyFirst 1
+
+Body
+{
+Name Moon1
+Mass 9.5E12
+Red 255
+Green 255
+Blue 0
+Radius 2.0 2.0
+}
+
+Body
+{
+Name Moon2
+Mass 0.21
+Location 10 0
+Velocity 0 10
+Red 255
+Green 176
+Blue 176
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon3
+Mass 0.21
+Location 9.659258 2.58819
+Velocity -2.58819 9.659258
+Red 255
+Green 255
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon4
+Mass 0.21
+Location 8.660254 5.0
+Velocity -5.0 8.660254
+Red 255
+Green 0
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon5
+Mass 0.21
+Location 7.071068 7.071068
+Velocity -7.071068 7.071068
+Red 0
+Green 255
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon6
+Mass 0.21
+Location 5.0 8.660254
+Velocity -8.660254 5.0
+Red 0
+Green 0
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon7
+Mass 0.21
+Location 2.58819 9.659258
+Velocity -9.659258 2.58819
+Red 255
+Green 255
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon8
+Mass 0.21
+Location 0 10
+Velocity -10 0
+Red 255
+Green 0
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon9
+Mass 0.21
+Location -2.58819 9.659258
+Velocity -9.659258 -2.58819
+Red 0
+Green 255
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon10
+Mass 0.21
+Location -5.0 8.660254
+Velocity -8.660254 -5.0
+Red 170
+Green 170
+Blue 170
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon11
+Mass 0.21
+Location -7.071068 7.071068
+Velocity -7.071068 -7.071068
+Red 0
+Green 170
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon12
+Mass 0.21
+Location -8.660254 5.0
+Velocity -5.0 -8.660254
+Red 0
+Green 0
+Blue 170
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon13
+Mass 0.21
+Location -9.659258 2.58819
+Velocity -2.58819 -9.659258
+Red 170
+Green 170
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon14
+Mass 0.21
+Location -10 0
+Velocity 0 -10
+Red 0
+Green 255
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon15
+Mass 0.21
+Location -9.659258 -2.58819
+Velocity 2.58819 -9.659258
+Red 170
+Green 0
+Blue 170
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon16
+Mass 0.21
+Location -8.660254 -5.0
+Velocity 5.0 -8.660254
+Red 0
+Green 170
+Blue 170
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon17
+Mass 0.21
+Location -7.071068 -7.071068
+Velocity 7.071068 -7.071068
+Red 255
+Green 170
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon18
+Mass 0.21
+Location -5.0 -8.660254 
+Velocity 8.660254 -5.0
+Red 255
+Green 0
+Blue 170
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon19
+Mass 0.21
+Location -2.58819 -9.659258 
+Velocity 9.659258 -2.58819
+Red 170
+Green 255
+Blue 0
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon20
+Mass 0.21
+Location 0.0 -10.0 
+Velocity 10.0 0.0
+Red 0
+Green 255
+Blue 170
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon21
+Mass 0.21
+Location 2.58819 -9.659258
+Velocity 9.659258 2.58819
+Red 170
+Green 0
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon22
+Mass 0.21
+Location 5.0 -8.660254 
+Velocity 8.660254 5.0
+Red 0
+Green 170
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon23
+Mass 0.21
+Location 7.071068 -7.071068
+Velocity 7.071068 7.071068
+Red 255
+Green 170
+Blue 255
+Radius 0.8 0.8
+}
+
+Body
+{
+Name Moon24
+Mass 0.21
+Location 8.660254 -5.0 
+Velocity 5.0 8.660254
+Red 255
+Green 255
+Blue 170
+Radius 0.8 0.8
+}

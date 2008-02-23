@@ -1,0 +1,46 @@
+; to get circular orbits like this the two bodys' momentums must be equal magnitudes but opposite directions
+; ie: m1 * v1 = - m2 * v2
+AlwaysSee 5.0
+;move_speed 1.0E2
+;turn_speed 0.0245436f
+;calcs_per_display 25
+
+Camera
+{
+ Name Camera
+; location z -7.0E7
+ Magnification 9.0E-6
+}
+
+Body
+{
+ Name Body1
+ Radius 6.378E5 6.378E5
+ Mass 6E24
+ Location 1.0E7 1.0E7
+ Velocity -2.0E3 0
+ Red 249
+ Green 255
+ Blue 0
+ NameRed 255
+ NameGreen 255
+ NameBlue 255
+ ;texture earth.3df
+}
+
+
+Body
+{
+ Name Body2
+ Radius 6.37E5 6.37E5
+ Mass 6E24
+ Location -1.0E7 -1.0E7
+ Velocity 2.0E3 0
+ Red 255
+ Green 210
+ Blue 0
+ NameRed 255
+ NameGreen 255
+ NameBlue 255
+ ;texture sat.3df
+}

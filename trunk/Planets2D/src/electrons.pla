@@ -1,0 +1,32 @@
+GCoefficent 9E9
+AlwaysSee 5
+OnlyFirst 1
+
+Camera
+{
+ Name Camera
+ Magnification 1.0E9
+}
+
+Body
+{
+ Name Electron1
+ Radius 1.2E-15 1.2E-15
+ Mass 1.6E-19
+ Red 127
+ Green 127
+ Blue 255
+}
+
+
+Body
+{
+ Name Proton1
+ Radius 1E-15 1E-15
+ Mass 1.6E-19
+ Location 1E-10 0
+ Velocity 0 3.795
+ Red 220
+ Green 220
+ Blue 220
+}

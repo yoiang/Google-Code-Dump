@@ -1,0 +1,6 @@
+Now
+
+Soon
+- add collision check - if distance from point to planet checking against * distance from point to planet checking against is <= radius, then collistion
+
+Eventually
