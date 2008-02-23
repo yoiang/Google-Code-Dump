@@ -1,0 +1,8 @@
+#summary simple flight sim ish project for a graphics class
+
+
+[http://yoiang.googlecode.com/svn/trunk/FlightSim/docs/screen1.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:FlightSim Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:FlightSim Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
