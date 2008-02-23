@@ -1,6 +1,6 @@
-#summary Queue Delete main page
+#summary queue up files for manual or automatic deletion at a later time
 #labels QueueDelete
-queue up files for manual or automatic deletion at a later time, particularly useful for files locked by an unknown process, Queue Delete can be made to take care of these files startup
+particularly useful for files locked by an unknown process, Queue Delete can be made to take care of these files at startup
  ----
 [http://code.google.com/p/yoiang/downloads/list?q=label:QueueDelete Downloads]
 [http://code.google.com/p/yoiang/issues/list?q=label:QueueDelete Issues and Todo]
