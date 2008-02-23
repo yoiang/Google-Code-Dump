@@ -1,0 +1,8 @@
+#summary simple mock up of terrain system from the game Magic Carpet
+This is a little tribute to two games on my all time favorites list, Magic Carpet and it's sequel, Magic Carpet 2. I was planning to make enough to actually play a level, but I just haven't had the time to. The game allowed the player to fly around the entire world, looping once you reach the edge, shoot down enemies, collect mana to shoot down more enemies, and cast spells that deformed the terrain and shoot even more enemies. I have coded a continuous world in which the user can fly around and deform the terrain. Currently it is set up to read a raw bitmap as a height map but it has functionality to read from my own format as well.
+
+[http://yoiang.googlecode.com/svn/trunk/MagicCarpet/docs/screen1.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:MagicCarpet Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:MagicCarpet Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
