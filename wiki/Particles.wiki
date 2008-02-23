@@ -1,0 +1,10 @@
+#summary simple example of a particle rendering system
+
+
+[http://yoiang.googlecode.com/svn/trunk/Particles/docs/screen1.jpg]
+[http://yoiang.googlecode.com/svn/trunk/Particles/docs/screen2.jpg]
+[http://yoiang.googlecode.com/svn/trunk/Particles/docs/screen3.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:Particles Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:Particles Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
