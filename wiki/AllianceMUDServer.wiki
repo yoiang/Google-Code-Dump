@@ -1,0 +1,11 @@
+#summary AllianceMUD Server main page
+[http://yoiang.googlecode.com/svn/trunk/AllianceMUD/docs/title.jpg]
+
+This was a project involving myself and about ten people in Canada who I had met and become friends with through a Star Wars themed MUD. We all enjoyed MUDs and it turned out that they had been working on a universe, back story, characters, races, planets, etc of their own.  They had binders full of information but felt that the MUD servers out there wouldn't be able to give them the flexibility they needed. So I became the programmer and techie for them.  I got to set up an ftp server, web server, message board and per member file hosting for us to share and communicate with, all hosted off my box. At one point we had a webcam meeting with all of them at one end and me at the other, more of a cool factor at the time than it was productive.  When I set out to actually code the AllianceMUD code it turned out to be quite a task (much more than I initially thought it would be of course) considering I was still developing as a programmer (and had to finish up high school =P). I ended up learning WinSocks, multithreading and MFC for the project. Unfortunately by the time I got a basic, working code base the lot of them had gotten into a big fight and the whole team broke up. I ended up making a small little world of my house for demonstration purposes. In any case working on it and working with them was a lot of fun and a great learning experience.
+
+
+[http://yoiang.googlecode.com/svn/trunk/AllianceMUD/docs/screen1.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:Shooter Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:Shooter Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
