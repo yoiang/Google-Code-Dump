@@ -1,4 +1,5 @@
 #summary Remote Windows main page
+#labels RemoteWindows
 render specific windows on a remote machine and forward input back to the actual process
  ---- 
 [http://code.google.com/p/yoiang/downloads/list?q=label:RemoteWindows Downloads]
