@@ -1,0 +1,12 @@
+#summary a Quake mod that made it play something like Bomberman
+has both the original Bomberman + explosions as well as the lazy spherical explosions from Bomberman 64.  it got two posts on Planet Quake back when that had cred! =D
+
+still trying to find the source
+
+
+[http://yoiang.googlecode.com/svn/trunk/BombermanQuake/docs/screen1.jpg]
+[http://yoiang.googlecode.com/svn/trunk/BombermanQuake/docs/screen2.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:Shooter Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:Shooter Issues and Todo]
+[http://web.archive.org/web/20001024135712/qbomb.hypermart.net/index.html Link]
