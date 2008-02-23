@@ -1,0 +1,8 @@
+#summary Google Translate Command Line main page
+
+= Introduction =
+
+access to Google Translate from a Windows command line
+
+= Issues/To Do =
+http://code.google.com/p/yoiang/issues/list?q=label:GoogleTranslateCommandLine
