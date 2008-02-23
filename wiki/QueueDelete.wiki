@@ -1,0 +1,5 @@
+#summary Queue Delete main page
+#labels QueueDelete
+[http://code.google.com/p/yoiang/downloads/list?q=label:QueueDelete Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:QueueDelete Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
