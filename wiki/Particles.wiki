@@ -1,4 +1,4 @@
-#summary simple example of a particle rendering system
+#summary simple particle rendering system
 
 
 [http://yoiang.googlecode.com/svn/trunk/Particles/docs/screen1.jpg]
