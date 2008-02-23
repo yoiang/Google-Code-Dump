@@ -1,4 +1,4 @@
-#summary Mario DS Flip Puzzle Test Bed
+#summary Mario DS Flip Puzzle Test Bed main page
 #labels MarioDSFlipPuzzleTestBed
 [http://code.google.com/p/yoiang/downloads/list?q=label:MarioDSFlipPuzzleTestBed Downloads]
 [http://code.google.com/p/yoiang/issues/list?q=label:MarioDSFlipPuzzleTestBed Issues and Todo]
