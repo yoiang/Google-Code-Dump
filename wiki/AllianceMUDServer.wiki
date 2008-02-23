@@ -1,4 +1,4 @@
-#summary AllianceMUD Server main page
+#summary Telnet MUD server
 #labels AllianceMUDServer
 [http://yoiang.googlecode.com/svn/trunk/AllianceMUD/docs/title.jpg]
 
