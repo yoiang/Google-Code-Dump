@@ -1,6 +1,5 @@
-#summary Remote Windows main page
+#summary render specific windows on a remote machine and forward input back to the actual process
 #labels RemoteWindows
-render specific windows on a remote machine and forward input back to the actual process
  ----
 [http://code.google.com/p/yoiang/downloads/list?q=label:RemoteWindows Downloads]
 [http://code.google.com/p/yoiang/issues/list?q=label:RemoteWindows Issues and Todo]
