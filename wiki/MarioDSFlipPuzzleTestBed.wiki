@@ -1,7 +1,7 @@
 #summary Mario DS Flip Puzzle Test Bed main page
 #labels MarioDSFlipPuzzleTestBed
 quick mock up for the common flip puzzle found in Mario DS, half as an exercise
- ----   
+ ----
 [http://code.google.com/p/yoiang/downloads/list?q=label:MarioDSFlipPuzzleTestBed Downloads]
 [http://code.google.com/p/yoiang/issues/list?q=label:MarioDSFlipPuzzleTestBed Issues and Todo]
 [http://code.google.com/p/yoiang/source/browse Source]
