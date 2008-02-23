@@ -1,4 +1,5 @@
 #summary Shooter main page
+#labels Shooter
 a very simple space shooter example coded a day before my interview with Vicarious Visions in 2003
  ----
 [http://code.google.com/p/yoiang/downloads/list?q=label:Shooter Downloads]
