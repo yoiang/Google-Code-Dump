@@ -4,5 +4,4 @@
 
 access to Google Translate from a Windows command line
 
-= Issues/To Do =
-http://code.google.com/p/yoiang/issues/list?q=label:GoogleTranslateCommandLine
+[http://code.google.com/p/yoiang/issues/list?q=label:GoogleTranslateCommandLine Issues and Todo]
