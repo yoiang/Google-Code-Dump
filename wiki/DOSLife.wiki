@@ -1,0 +1,10 @@
+#summary DOSLife main page
+#labels DOSLife
+a text based version of Conway's Game of Life
+
+
+[http://yoiang.googlecode.com/svn/trunk/DOSLife/docs/screen1.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:DOSLife Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:DOSLife Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
