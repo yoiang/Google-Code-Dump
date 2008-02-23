@@ -1,0 +1,9 @@
+#summary example implementation of Particles
+Rosie was initially made for someone but became another cool demonstration of how flexible [Particles] is when attached to a quickly made pathing class. I really liked the result.
+
+
+[http://yoiang.googlecode.com/svn/trunk/Rosie/docs/screen1.jpg]
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:Rosie Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:Rosie Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
