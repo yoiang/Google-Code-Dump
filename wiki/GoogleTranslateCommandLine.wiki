@@ -1,6 +1,5 @@
-#summary Google Translate Command Line main page
+#summary access to Google Translate from a Windows command line
 #labels GoogleTranslateCommandLine
-access to Google Translate from a Windows command line
   * some code based on Richard Midwinter's google-api-translate-java found [http://code.google.com/p/google-api-translate-java/ here]
  ----
 [http://code.google.com/p/yoiang/downloads/list?q=label:GoogleTranslateCommandLine Downloads]
