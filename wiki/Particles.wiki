@@ -1,5 +1,5 @@
 #summary simple particle rendering system
-
+Particles is a simple, modular, easily customized particle renderer. The class turned out so compact and modular that I've used it in a few other projects since. This build includes a few presets to demonstrate just how flexible it can be, with just a few variable changes between each preset.  The compiled archive also includes an older build before collision was disabled.
 
 [http://yoiang.googlecode.com/svn/trunk/Particles/docs/screen1.jpg]
 [http://yoiang.googlecode.com/svn/trunk/Particles/docs/screen2.jpg]
