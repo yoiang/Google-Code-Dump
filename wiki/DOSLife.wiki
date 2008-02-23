@@ -1,6 +1,5 @@
-#summary DOSLife main page
+#summary a text based version of Conway's Game of Life
 #labels DOSLife
-a text based version of Conway's Game of Life
 
 
 [http://yoiang.googlecode.com/svn/trunk/DOSLife/docs/screen1.jpg]
