@@ -1,6 +1,6 @@
-#summary Shooter main page
+#summary simple space shooter example
 #labels Shooter
-a very simple space shooter example coded a day before an interview with Vicarious Visions in 2003
+coded a day before an interview with Vicarious Visions in 2003
 
 
 [http://yoiang.googlecode.com/svn/trunk/Shooter/docs/screen1.jpg]
