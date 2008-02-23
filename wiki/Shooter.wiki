@@ -1,0 +1,6 @@
+#summary Shooter main page
+a very simple space shooter example coded a day before my interview with Vicarious Visions in 2003
+ ----
+[http://code.google.com/p/yoiang/downloads/list?q=label:Shooter Downloads]
+[http://code.google.com/p/yoiang/issues/list?q=label:Shooter Issues and Todo]
+[http://code.google.com/p/yoiang/source/browse Source]
