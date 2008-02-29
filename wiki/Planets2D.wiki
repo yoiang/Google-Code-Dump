@@ -1,4 +1,5 @@
 #summary simple simulation of bodies in space cause by gravitational forces
+#labels Planets2D
 was originally done with DOS direct write graphics, it eventually became a means to learn Windows API and GDI.
 
 [http://yoiang.googlecode.com/svn/trunk/Planets2D/docs/screen1.jpg]
