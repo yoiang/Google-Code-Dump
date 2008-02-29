@@ -1,4 +1,5 @@
 #summary a Quake mod that made it play something like Bomberman
+#labels BombermanQuake
 has both the original Bomberman + shaped explosions (which didn't properly destroy and would overflow the game eventually) as well as the lazy spherical explosions from Bomberman 64.  it got two posts on [http://planetquake.gamespy.com/ PlanetQuake] back when that had cred! =D
 
 trying to find the source
