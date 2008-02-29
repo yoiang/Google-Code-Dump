@@ -1,4 +1,5 @@
 #summary example implementation of Particles
+#labels Rosie,Particles
 Rosie was initially made for someone but became another cool demonstration of how flexible [Particles] is when attached to a quickly made pathing class. I really liked the result.
 
 
