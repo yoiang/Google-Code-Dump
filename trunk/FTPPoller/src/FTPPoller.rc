@@ -1,0 +1,238 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FTPPoller.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FTPPoller.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FTPPOLLER_DIALOG DIALOGEX 0, 0, 320, 335
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FTP Poller"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_FTPLIST,"SysListView32",LVS_LIST | 
+                    LVS_SINGLESEL | LVS_SORTASCENDING | WS_BORDER | 
+                    WS_TABSTOP,240,5,75,330,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SITENAME,105,25,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDRESS,105,46,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USERNAME,105,65,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,105,86,130,15,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_REMOTEDIR,105,105,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WILDCARD,105,126,80,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOCALDIR,105,145,130,15,ES_AUTOHSCROLL
+    CONTROL         "Download",IDC_DOWNLOAD,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,190,125,48,10
+    CONTROL         "Upload",IDC_UPLOAD,"Button",BS_AUTORADIOBUTTON,190,135,
+                    39,10
+    CONTROL         "Off",IDC_OFF,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,105,280,25,10
+    CONTROL         "Hourly",IDC_HOURLY,"Button",BS_AUTORADIOBUTTON,105,300,
+                    35,10
+    CONTROL         "Daily",IDC_DAILY,"Button",BS_AUTORADIOBUTTON,105,320,30,
+                    10
+    CONTROL         "DateTimePicker1",IDC_DAILYTIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | 
+                    WS_TABSTOP | 0x8,145,319,49,12,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Add/Update",IDC_ADD,115,5,50,15
+    RTEXT           "Polling:",IDC_STATIC,70,280,30,10
+    RTEXT           "FTP Address:",IDC_STATIC,55,50,44,12
+    RTEXT           "Username:",IDC_STATIC,60,70,39,9
+    RTEXT           "Password:",IDC_STATIC,65,90,35,10
+    RTEXT           "Wildcard:",IDC_STATIC,70,130,30,10
+    RTEXT           "Local Directory:",IDC_STATIC,40,149,60,10
+    RTEXT           "Remote Directory:",IDC_STATIC,35,109,65,10
+    LTEXT           "Site Name:",IDC_STATIC,65,30,40,10
+    PUSHBUTTON      "&Delete",IDC_DELETE,180,5,50,15
+    CONTROL         "Decrypt",IDC_ENCRYPT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,163,45,11
+    EDITTEXT        IDC_ENCRYPTUSERID,105,175,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENCRYPTSIGNINGID,105,195,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENCRYPTPASSWORD,105,215,130,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "PGP   Username:",IDC_STATIC,35,179,65,10
+    RTEXT           "Signing ID:",IDC_STATIC,60,199,40,10
+    RTEXT           "Password:",IDC_STATIC,65,218,35,8
+    EDITTEXT        IDC_ENCRYPTPUBLICRING,105,235,130,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENCRYPTPRIVATERING,105,255,130,15,ES_AUTOHSCROLL
+    RTEXT           "Public Ring File:",IDC_STATIC,45,239,55,10
+    RTEXT           "Private Ring File:",IDC_STATIC,45,259,55,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "FTPPoller MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FTPPoller\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FTPPoller.EXE\0"
+            VALUE "ProductName", "FTPPoller Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FTPPOLLER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_STOP                BITMAP  DISCARDABLE     "res\\stop.bmp"
+IDB_GO                  BITMAP  DISCARDABLE     "res\\go.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FTPPoller.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

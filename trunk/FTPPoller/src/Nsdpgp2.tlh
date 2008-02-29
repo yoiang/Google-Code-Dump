@@ -1,0 +1,287 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (1097155c).
+//
+// Nsdpgp2.tlh
+//
+// C++ source equivalent of Win32 type library C:\WINNT\System32\Nsdpgp2.dll
+// compiler-generated file created 07/16/02 at 14:32:12 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ PGP;
+struct __declspec(uuid("11876445-bbe1-472e-8b94-e7b7fc2601ad"))
+/* dual interface */ IPGP;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IPGP, __uuidof(IPGP));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("3226230d-c1bc-4dc7-b204-94aac8a1314c"))
+PGP;
+    // [ default ] interface IPGP
+
+struct __declspec(uuid("11876445-bbe1-472e-8b94-e7b7fc2601ad"))
+IPGP : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT ConvEncryptFile (
+        enum ALGORITHM cipher,
+        _bstr_t infile,
+        _bstr_t outfile,
+        _bstr_t passphrase );
+    HRESULT EncryptFile (
+        _bstr_t rcptkeyid,
+        _bstr_t infile,
+        _bstr_t outfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT EncryptAndSignFile (
+        enum HASH alg,
+        _bstr_t rcptkeyid,
+        _bstr_t signkeyid,
+        _bstr_t passphrase,
+        _bstr_t infile,
+        _bstr_t outfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT DecryptFile (
+        _bstr_t siginfofile,
+        _bstr_t infile,
+        _bstr_t outfile,
+        _bstr_t passphrase,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT ClearSignFile (
+        enum HASH alg,
+        _bstr_t signkeyid,
+        _bstr_t passphrase,
+        _bstr_t infile,
+        _bstr_t outfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT OpaqueSignFile (
+        enum HASH alg,
+        _bstr_t signkeyid,
+        _bstr_t passphrase,
+        _bstr_t infile,
+        _bstr_t outfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT SignFile (
+        enum HASH alg,
+        _bstr_t signkeyid,
+        _bstr_t passphrase,
+        _bstr_t infile,
+        _bstr_t sigfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT VerifySignedFile (
+        _bstr_t siginfofile,
+        _bstr_t infile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT VerifyFile (
+        _bstr_t siginfofile,
+        _bstr_t infile,
+        _bstr_t sigfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT WipeFile (
+        _bstr_t infile );
+    _bstr_t ConvEncryptString (
+        enum ALGORITHM cipher,
+        _bstr_t passphrase,
+        _bstr_t inputstring );
+    _bstr_t EncryptString (
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring,
+        _bstr_t rcptkeyid,
+        _bstr_t inputstring );
+    _bstr_t DecryptString (
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring,
+        _bstr_t passphrase,
+        _bstr_t inputstring );
+    _bstr_t GetKeyIDFromUserID (
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring,
+        _bstr_t userid );
+    HRESULT GenerateKey (
+        enum KEYTYPE keyalg,
+        int bits,
+        _bstr_t name,
+        _bstr_t passphrase,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT ImportKeyFromFile (
+        _bstr_t infile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT ImportKeyFromKeyServer (
+        _bstr_t userid,
+        _bstr_t keyserver,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+    HRESULT ExportKeyToFile (
+        _bstr_t keyid,
+        _bstr_t outfile,
+        _bstr_t pubkeyring,
+        _bstr_t privkeyring );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_ConvEncryptFile (
+        enum ALGORITHM cipher,
+        BSTR infile,
+        BSTR outfile,
+        BSTR passphrase ) = 0;
+    virtual HRESULT __stdcall raw_EncryptFile (
+        BSTR rcptkeyid,
+        BSTR infile,
+        BSTR outfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_EncryptAndSignFile (
+        enum HASH alg,
+        BSTR rcptkeyid,
+        BSTR signkeyid,
+        BSTR passphrase,
+        BSTR infile,
+        BSTR outfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_DecryptFile (
+        BSTR siginfofile,
+        BSTR infile,
+        BSTR outfile,
+        BSTR passphrase,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_ClearSignFile (
+        enum HASH alg,
+        BSTR signkeyid,
+        BSTR passphrase,
+        BSTR infile,
+        BSTR outfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_OpaqueSignFile (
+        enum HASH alg,
+        BSTR signkeyid,
+        BSTR passphrase,
+        BSTR infile,
+        BSTR outfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_SignFile (
+        enum HASH alg,
+        BSTR signkeyid,
+        BSTR passphrase,
+        BSTR infile,
+        BSTR sigfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_VerifySignedFile (
+        BSTR siginfofile,
+        BSTR infile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_VerifyFile (
+        BSTR siginfofile,
+        BSTR infile,
+        BSTR sigfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_WipeFile (
+        BSTR infile ) = 0;
+    virtual HRESULT __stdcall raw_ConvEncryptString (
+        enum ALGORITHM cipher,
+        BSTR passphrase,
+        BSTR inputstring,
+        BSTR * outputstring ) = 0;
+    virtual HRESULT __stdcall raw_EncryptString (
+        BSTR pubkeyring,
+        BSTR privkeyring,
+        BSTR rcptkeyid,
+        BSTR inputstring,
+        BSTR * outputstring ) = 0;
+    virtual HRESULT __stdcall raw_DecryptString (
+        BSTR pubkeyring,
+        BSTR privkeyring,
+        BSTR passphrase,
+        BSTR inputstring,
+        BSTR * outputstring ) = 0;
+    virtual HRESULT __stdcall raw_GetKeyIDFromUserID (
+        BSTR pubkeyring,
+        BSTR privkeyring,
+        BSTR userid,
+        BSTR * keyid ) = 0;
+    virtual HRESULT __stdcall raw_GenerateKey (
+        enum KEYTYPE keyalg,
+        int bits,
+        BSTR name,
+        BSTR passphrase,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_ImportKeyFromFile (
+        BSTR infile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_ImportKeyFromKeyServer (
+        BSTR userid,
+        BSTR keyserver,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+    virtual HRESULT __stdcall raw_ExportKeyToFile (
+        BSTR keyid,
+        BSTR outfile,
+        BSTR pubkeyring,
+        BSTR privkeyring ) = 0;
+};
+
+enum ALGORITHM
+{
+    CAST5 = 0,
+    IDEA = 1,
+    TripleDES = 2,
+    AES = 3,
+    Twofish = 4
+};
+
+enum HASH
+{
+    MD5 = 0,
+    SHA1 = 1,
+    RIPEMD160 = 2
+};
+
+enum KEYTYPE
+{
+    RSA = 0,
+    DH_DSS = 1
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "Nsdpgp2.tli"
+
+#pragma pack(pop)
