@@ -1,0 +1,14 @@
+/*
+ * Stylesheet for my ruby pages. Nothing too flash
+ */
+
+H1, H2, H3, H4, H5, H6
+{
+	color: #006699;
+	font-family: sans-serif;
+}
+
+H3
+{
+	border-top: #006699 1px solid;
+}

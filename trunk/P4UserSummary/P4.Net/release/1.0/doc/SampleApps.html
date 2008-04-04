@@ -1,0 +1,136 @@
+<html dir="LTR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>P4.Net Sample Applications</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+</head>
+<body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+        <div id="bannerrow1">
+            <table class="bannerparthead" cellspacing="0" id="Table1">
+                <tr id="hdr">
+                    <td class="runninghead">
+                        Perforce API for the .Net CLR</td>
+                    <td class="product">
+                        <img alt="P4.Net" src="p4net.GIF" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="TitleRow">
+            <h1 class="dtH1">
+                Sample Applications</h1>
+        </div>
+    </div>
+    <div id="nstext">
+    <h4 class="dtH4">About the samples</h4>
+        <p>All of the sample applications are written in Visual Studio 2005.  If you don't have VS2005, you can
+        still build them with MSBuild and the .Net 2.0 SDK.</p>
+        <p>
+        <h4 class="dtH4">
+            Job Labeler</h4>
+        <p>
+            Job labeler is a Windows service that polls the Peforce server for new job fixes,
+            and creates a label representing the files fixed by a job.</p>
+        <p>
+            <b>Motivation:</b> Many shops use jobs to organize a collection of changes. For example,
+            if you have Perforce integrated with a defect tracking system, you will have a job
+            representing a defect, and there may be several changes fixed by that job. A frequent
+            question that comes up is, "What files were modified to fix this defect?" Since
+            the JobLabeler sample application creates a label representing the files fixed by
+            a job, this question is readily answered with "p4 files @={joblabel}".
+        </p>
+        <p>
+            <b>Techniques:</b> Even if you don't use jobs in this manner (or jobs at all), there are
+            a number of techniques that may be used in your applications.
+        <list>
+            <li>Using P4.Net from a Windows service</li>
+            <li>Polling the Perforce server for change.</li>
+            <li>Reading/Writing counters to maintain state.</li>
+            <li>Using parsed and unparsed output of several commands.</li>
+            <li>Fetching/Setting p4 settings from an app.config file.</li>
+        </list>
+        </p>
+        <p>
+            JobLabeler requires some administrative setup to run.  See the readme file for details.<p>
+
+    <div id="Div1">
+        <h4 class="dtH4">
+            Recordset Viewer</h4>
+        <p>
+            Recordset Viewer is a Windows GUI application that helps the user visualize
+            the Recordset output from the commands they run.</p>
+        <p>
+            <b>Motivation:</b> When you're using P4.Net (or other P4 APIs), it can be difficult to sort
+            through the vast information returned from Perforce.  The RecordsetViewer graphically displays
+            all the key/value pairs, as well as messages, warnings, and errors.
+        </p>
+        <p>
+            <b>Techniques:</b> A few techniques are demonstrated:
+        <list>
+            <li>Validating a variety of Perforce connection settings.</li>
+            <li>A connection dialog.</li>
+            <li>This is the only sample in VB.Net.</li>
+            <li>Iterating P4RecordSet objects.</li>
+        </list>
+        </p>
+
+
+    <div id="Div2">
+        <h4 class="dtH4">
+            MSBuild Custom Tasks</h4>
+        <p>
+            P4MSBuildTasks is a .Net assembly providing custom tasks for MSBuild.</p>
+        <p>
+            <b>Motivation:</b> Integrating MSBuild with Perforce is something a lot of shops will want to do.
+            I imagine there will be a number of people that use these tasks, and don't even care about the 
+            internals of P4.Net.
+        </p>
+        <p>
+            <b>Usage:</b> P4MSBuildTasks works quite a bit differently than the traditional source control integration
+            tasks (for MSBuild, NAnt, or Ant).  The traditional approach is to have individual tasks to perform a specific
+            action.  For example, you might have tasks like P4Sync, P4Edit, P4Label, etc.
+            <p>In P4MSBuildTasks, there's one main task that executes any Perforce command.  So how's that any  better
+            than just executing p4.exe directly?  The key is the rich output.  The P4RunCommand task outputs an itemgroup
+            representing each P4Record output.  All the key/value pairs are represented as Item metadata.  As an example,
+            the output from p4 files would be an itemgroup similar to the following:</p>
+            <pre class="code" language="xml" escaped="true">
+&lt;ItemGroup&gt;
+  &lt;P4Output Include="P4Output-files-00000000"&gt;
+    &lt;change&gt;5427&lt;/change&gt;
+    &lt;rev&gt;1&lt;/rev&gt;
+    &lt;type&gt;text&lt;/type&gt;
+    &lt;depotFile&gt;//depot/file1.txt&lt;/depotFile&gt;
+    &lt;action&gt;add&lt;/action&gt;
+    &lt;time&gt;1146612676&lt;/time&gt;
+  &lt;/P4Output&gt;
+  &lt;P4Output Include="P4Output-files-00000001"&gt;
+    &lt;change&gt;5798&lt;/change&gt;
+    &lt;rev&gt;2&lt;/rev&gt;
+    &lt;type&gt;text&lt;/type&gt;
+    &lt;depotFile&gt;//depot/file2.txt&lt;/depotFile&gt;
+    &lt;action&gt;edit&lt;/action&gt;
+    &lt;time&gt;1166501810&lt;/time&gt;
+  &lt;/P4Output&gt;
+&lt;/ItemGroup&gt;</pre>
+            <p>Using batching and transformations, you can use this output later in the script.
+            For example, you can print a line 'file#revision' for each record output by batching:</p>
+<pre class="code" escaped="true">
+&lt;Message Text="%(P4Output.depotFile)#%(P4Output.rev)" /&gt;</pre>
+            <p>You can also use transformations to feed output of one Perforce command into the input of another.  
+            Check out the sample "WorkingOffline.proj".  It is well-commented, and provides a number of techniques you can use.</p>
+        </p>
+      
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="Copyright.html">Copyright © 2006 Shawn Hladky</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+</body>
+</html>

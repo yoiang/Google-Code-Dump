@@ -1,0 +1,1178 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>P4.Net API Comparisons</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+    <style>
+    <!--table
+        {mso-displayed-decimal-separator:"\.";
+        mso-displayed-thousand-separator:"\,";}
+    @page
+        {margin:1.0in .75in 1.0in .75in;
+        mso-header-margin:.5in;
+        mso-footer-margin:.5in;
+        mso-page-orientation:landscape;}
+    .font6
+        {color:windowtext;
+        font-size:8.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;}
+    .font7
+        {color:fuchsia;
+        font-size:8.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;}
+    .font8
+        {color:blue;
+        font-size:8.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;}
+    .font10
+        {color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-style:normal;
+        text-decoration:none;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;}
+    .font11
+        {color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-style:normal;
+        text-decoration:none;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;}
+    tr
+        {mso-height-source:auto;}
+    col
+        {mso-width-source:auto;}
+    br
+        {mso-data-placement:same-cell;}
+    .style0
+        {mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        white-space:nowrap;
+        mso-rotate:0;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        border:none;
+        mso-protection:locked visible;
+        mso-style-name:Normal;
+        mso-style-id:0;}
+    td
+        {mso-style-parent:style0;
+        padding-top:1px;
+        padding-right:1px;
+        padding-left:1px;
+        mso-ignore:padding;
+        color:windowtext;
+        font-size:10.0pt;
+        font-weight:400;
+        font-style:normal;
+        text-decoration:none;
+        font-family:Arial;
+        mso-generic-font-family:auto;
+        mso-font-charset:0;
+        mso-number-format:General;
+        text-align:general;
+        vertical-align:bottom;
+        border:none;
+        mso-background-source:auto;
+        mso-pattern:auto;
+        mso-protection:locked visible;
+        white-space:nowrap;
+        mso-rotate:0;}
+    .xl24
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl25
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl26
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl27
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;}
+    .xl28
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl29
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl30
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl31
+        {mso-style-parent:style0;
+        color:fuchsia;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;}
+    .xl32
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:none;
+        border-right:none;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;}
+    .xl33
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;}
+    .xl34
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;}
+    .xl35
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:none;}
+    .xl36
+        {mso-style-parent:style0;
+        color:fuchsia;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl37
+        {mso-style-parent:style0;
+        color:fuchsia;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl38
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;}
+    .xl39
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;}
+    .xl40
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl41
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl42
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;}
+    .xl43
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl44
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl45
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;}
+    .xl46
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;}
+    .xl47
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;}
+    .xl48
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl49
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl50
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl51
+        {mso-style-parent:style0;
+        color:fuchsia;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl52
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl53
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl54
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl55
+        {mso-style-parent:style0;
+        color:fuchsia;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl56
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:none;
+        border-right:none;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl57
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl58
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:none;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl59
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl60
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl61
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl62
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl63
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl64
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl65
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl66
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:none;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl67
+        {mso-style-parent:style0;
+        color:green;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;}
+    .xl68
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl69
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl70
+        {mso-style-parent:style0;
+        color:#993366;
+        font-size:8.0pt;
+        font-weight:700;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:none;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl71
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        vertical-align:middle;
+        border-top:.5pt solid windowtext;
+        border-right:.5pt solid windowtext;
+        border-bottom:none;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl72
+        {mso-style-parent:style0;
+        font-size:8.0pt;
+        font-family:"Courier New", monospace;
+        mso-font-charset:0;
+        text-align:center;
+        vertical-align:middle;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;
+        background:silver;
+        mso-pattern:auto none;}
+    .xl73
+        {mso-style-parent:style0;
+        text-align:center;
+        vertical-align:middle;
+        border-top:none;
+        border-right:.5pt solid windowtext;
+        border-bottom:.5pt solid windowtext;
+        border-left:.5pt solid windowtext;}
+    -->
+    </style>
+  </head>
+  <body id="bodyID" class="dtBODY">
+  <body id="body1" class="dtBODY">
+    <div id="nsbanner">
+	<div id="bannerrow1">
+		<table class="bannerparthead" cellspacing="0" id="Table1">
+			<tr id="hdr">
+				<td class="runninghead">Perforce API for the .Net CLR</td>
+				<td class="product"><img alt="P4.Net" src="p4net.GIF" /></td>
+			</tr>
+		</table>
+	</div>
+    <div id="TitleRow">
+        <h1 class="dtH1">Comparisons with other Perforce APIs</h1>
+</div>
+</div>
+    <div id="nstext">
+    <H4 class="dtH4">Other APIs</H4>
+      <P>
+        There are a number of Perforce APIs out there... 
+      <a href="http://public.perforce.com/guest/tony_smith/perforce/API/Ruby/index.html">P4Ruby</a>,
+	  <a href="http://public.perforce.com/guest/robert_cowham/perforce/API/python/index.html">P4Python</a>,
+	  <a href="http://public.perforce.com/guest/tony_smith/perforce/API/Perl/index.html">P4Perl</a>, and
+	  <a href="http://public.perforce.com/guest/robert_cowham/perforce/API/p4com/main/index.html">P4COM</a> are some of the most popular.
+	  My goal was to make P4.Net as similar as possible to these.  In general, if you're familiar with the
+	  Ruby/Python/Perl APIs, you'll be able to transition to P4.Net fairly quickly.  The biggest conceptual difference
+	  is that those APIs are used in dynamic languages, and P4.Net targets static languages.  As a result, P4.Net 
+	  uses custom types where the other APIs use built-in types, and P4.Net will use separate methods/properties to 
+	  distinguish actions that output different types.
+      </P>
+      <H4 class="dtH4">Python Example</H4>
+      <P>
+        Let's just dive into a sample, and do a side-by-side comparison.  In this case, I'll compare P4.Net using IronPython
+        to P4Python using standard Python.  Note, I don't mean to suggest that P4.Net/IronPython is superior to P4Python/Standard Python, 
+        I just want to show apples-to-apples comparisons, without interference from individual language features.
+      </P>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=817 style='border-collapse:
+ collapse;table-layout:fixed;width:613pt'>
+ <col class=xl46 width=28 style='mso-width-source:userset;mso-width-alt:1024;
+ width:21pt'>
+ <col class=xl29 width=385 style='mso-width-source:userset;mso-width-alt:14080;
+ width:289pt'>
+ <col class=xl30 width=13 style='mso-width-source:userset;mso-width-alt:475;
+ width:10pt'>
+ <col class=xl27 width=391 style='mso-width-source:userset;mso-width-alt:14299;
+ width:293pt'>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl24 width=28 style='height:11.25pt;width:21pt'>&nbsp;</td>
+  <td class=xl47 width=385 style='width:289pt'># Standard Python and P4Python</td>
+  <td class=xl26 width=13 style='border-left:none;width:10pt'>&nbsp;</td>
+  <td class=xl67 width=391 style='width:293pt'># IronPython and P4.Net</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl32 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td class=xl34 style='border-left:none'>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl48 style='height:11.25pt;border-top:none'>&nbsp;</td>
+  <td class=xl49 style='border-top:none'>&nbsp;</td>
+  <td class=xl50 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl51 style='border-top:none'>import<font class="font6"> clr</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt' x:num><a href="#Block1">1</a></td>
+  <td class=xl53>&nbsp;</td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl55>from<font class="font6"> System </font><font class="font7">import</font><font
+  class="font6"> Array, String</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl56 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl58 style='border-left:none'>&nbsp;</td>
+  <td class=xl59>clr.AddReferenceToFile('<font class="font8">P4API.dll</font><font
+  class="font6">')</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl36>import<font class="font6"> p4 as P4API</font></td>
+  <td class=xl37 style='border-left:none'>&nbsp;</td>
+  <td class=xl31>import<font class="font6"> P4API</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl48 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl49>p4 = P4API.P4()</td>
+  <td class=xl50 style='border-left:none'>&nbsp;</td>
+  <td class=xl60>p4 = P4API.P4Connection()</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt' x:num><a href="#Block2">2</a></td>
+  <td class=xl53>p4.parse_forms()</td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl56 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl57>p4.connect()</td>
+  <td class=xl58 style='border-left:none'>&nbsp;</td>
+  <td class=xl59>p4.Connect()</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>lname = '<font class="font8">P4NetTestingSample</font><font
+  class="font6">'</font></td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>lname = '<font class="font8">P4NetTestingSample</font><font
+  class="font6">'</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl40># build my label</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl42># build my label</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl48 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl49>labelForm = p4.fetch_label(lname)</td>
+  <td class=xl50 style='border-left:none'>&nbsp;</td>
+  <td class=xl60>labelForm = p4.Fetch_Form('<font class="font8">label</font><font
+  class="font6">', lname)</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl53>labelForm['<font class="font8">Description</font><font
+  class="font6">'] = '</font><font class="font8">Created for P4.Net sample</font><font
+  class="font6">'</font></td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>labelForm['<font class="font8">Description</font><font
+  class="font6">'] = '</font><font class="font8">Created for P4.Net sample</font><font
+  class="font6">'</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt' x:num><a href="#Block3">3</a></td>
+  <td class=xl53>view = ['<font class="font8">//guest/shawn_hladky/...</font><font
+  class="font6">']</font></td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>view = Array[String](['<font class="font8">//guest/shawn_hladky/...</font><font
+  class="font6">'])</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl53>labelForm['<font class="font8">View</font><font class="font6">']
+  = view</font></td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>labelForm.ArrayFields['<font class="font8">View</font><font
+  class="font6">'] = view</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl56 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl57>res = p4.save_label(labelForm)</td>
+  <td class=xl58 style='border-left:none'>&nbsp;</td>
+  <td class=xl59>res = p4.Save_Form(labelForm)</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td rowspan=2 height=30 class=xl71 style='border-bottom:.5pt solid black;
+  height:22.5pt' x:num><a href="#Block4" >4</a></td>
+  <td class=xl69 style='border-left:none'>if<font class="font6"> len(p4.errors)
+  &gt; 0:</font></td>
+  <td class=xl50 style='border-left:none'>&nbsp;</td>
+  <td class=xl70>if<font class="font6"> res.HasErrors():</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl57 style='height:11.25pt;border-left:none'><span
+  style='mso-spacerun:yes'>    </span><font class="font11">for</font><font
+  class="font6"> e </font><font class="font11">in</font><font class="font6">
+  p4.errors: print e</font></td>
+  <td class=xl58 style='border-left:none'>&nbsp;</td>
+  <td class=xl59><span style='mso-spacerun:yes'>    </span><font class="font11">for</font><font
+  class="font6"> e </font><font class="font11">in</font><font class="font6">
+  res.Errors: print e</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl40># My list of changes.<span style='mso-spacerun:yes'>
+  </span>This is totally arbitrary</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl42># My list of changes.<span style='mso-spacerun:yes'>
+  </span>This is totally arbitrary</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>changes=['<font class="font8">5774</font><font class="font6">',
+  '</font><font class="font8">5680</font><font class="font6">', '</font><font
+  class="font8">5636</font><font class="font6">', '</font><font class="font8">5444</font><font
+  class="font6">']</font></td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>changes=['<font class="font8">5774</font><font class="font6">',
+  '</font><font class="font8">5680</font><font class="font6">', '</font><font
+  class="font8">5636</font><font class="font6">', '</font><font class="font8">5444</font><font
+  class="font6">']</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>sorted_changes = changes.sort()</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>sorted_changes = changes.sort()</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl40># dictionary: keyed by file, value = revision</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl42># dictionary: keyed by file, value = revision</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>filerevs = {}</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>filerevs = {}</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl40># spin the description on each file</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl42># spin the description on each file</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl62 style='height:11.25pt' x:num><a href="#Block5">5</a></td>
+  <td class=xl68>for<font class="font6"> chg </font><font class="font10">in</font><font
+  class="font6"> p4.run_describe('</font><font class="font8">-s</font><font
+  class="font6">', *changes):</font></td>
+  <td class=xl63 style='border-left:none'>&nbsp;</td>
+  <td class=xl64>for<font class="font6"> chg </font><font class="font10">in</font><font
+  class="font6"> p4.Run('</font><font class="font8">describe</font><font
+  class="font6">', '</font><font class="font8">-s</font><font class="font6">',
+  *changes):</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td rowspan=2 height=30 class=xl71 style='border-bottom:.5pt solid black;
+  height:22.5pt;border-top:none' x:num><a href="#Block5">6</a></td>
+  <td class=xl49 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'>    </span>depotFiles = chg['<font class="font8">depotFile</font><font
+  class="font6">']</font></td>
+  <td class=xl50 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl60 style='border-top:none'>
+  <span style='mso-spacerun:yes'>    </span>depotFiles = chg.ArrayFields['<font class="font8">depotFile</font><font
+  class="font6">']</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl57 style='height:11.25pt;border-left:none'><span
+  style='mso-spacerun:yes'>    </span>revisions<span style='mso-spacerun:yes'>
+  </span>= chg['<font class="font8">rev</font><font class="font6">']</font></td>
+  <td class=xl58 style='border-left:none'>&nbsp;</td>
+  <td class=xl59><span style='mso-spacerun:yes'>    </span>revisions<span
+  style='mso-spacerun:yes'> </span>= chg.ArrayFields['<font class="font8">rev</font><font
+  class="font6">']</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl24 style='height:11.25pt;border-top:none'>&nbsp;</td>
+  <td class=xl25 style='border-top:none'><span style='mso-spacerun:yes'>
+  </span><font class="font10">for</font><font class="font6"> i </font><font
+  class="font10">in</font><font class="font6"> range(0, len(depotFiles)):</font></td>
+  <td class=xl26 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl39 style='border-top:none'><span style='mso-spacerun:yes'>
+  </span><font class="font10">for</font><font class="font6"> i </font><font
+  class="font10">in</font><font class="font6"> range(0, len(depotFiles)):</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>
+  &nbsp;&nbsp;&nbsp;&nbsp;key,value = depotFiles[i], revisions[i]</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>
+  &nbsp;&nbsp;&nbsp;&nbsp;key,value = depotFiles[i], revisions[i]</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;&nbsp;&nbsp;&nbsp;filerevs[key]=value</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;&nbsp;&nbsp;&nbsp;filerevs[key]=value</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl40># convert the dictionary to a list</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl42># convert the dictionary to a list</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>flist = []</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>flist = []</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl43>for<font class="font6"> k,v </font><font class="font10">in</font><font
+  class="font6"> filerevs.items():</font></td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl45>for<font class="font6"> k,v </font><font class="font10">in</font><font
+  class="font6"> filerevs.items():</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;&nbsp;&nbsp;&nbsp;flist.append(&quot;%s#%s&quot; % (k,v))</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;&nbsp;&nbsp;&nbsp;flist.append(&quot;%s#%s&quot; % (k,v))</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl32 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td class=xl34 style='border-left:none'>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl48 style='height:11.25pt;border-top:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none'># now I want to run in non-parsed mode</td>
+  <td class=xl66 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl60 style='border-top:none'>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl53>p4.disconnect()</td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl53>p4 = P4API.P4()</td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt' x:num><a href="#Block7">7</a></td>
+  <td class=xl53>p4.connect()</td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl52 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl53>&nbsp;</td>
+  <td class=xl54 style='border-left:none'>&nbsp;</td>
+  <td class=xl61>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl56 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl57>out = p4.run('<font class="font8">labelsync</font><font
+  class="font6">', '</font><font class="font8">-l</font><font class="font6">',
+  lname, *flist)</font></td>
+  <td class=xl58 style='border-left:none'>&nbsp;</td>
+  <td class=xl59>out = p4.RunUnParsed('<font class="font8">labelsync</font><font
+  class="font6">', '</font><font class="font8">-l</font><font class="font6">',
+  lname, *flist)</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl43>for<font class="font6"> s </font><font class="font10">in</font><font
+  class="font6"> out: </font><font class="font10">print</font><font
+  class="font6"> s</font></td>
+  <td class=xl44 style='border-left:none'>&nbsp;</td>
+  <td class=xl45>for<font class="font6"> s </font><font class="font10">in</font><font
+  class="font6"> out: </font><font class="font10">print</font><font
+  class="font6"> s</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl40># delete the label to keep the public depot clean :-)</td>
+  <td class=xl41 style='border-left:none'>&nbsp;</td>
+  <td class=xl42># delete the label to keep the public depot clean :-)</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>p4.run('<font class="font8">label</font><font class="font6">',
+  '</font><font class="font8">-d</font><font class="font6">', lname)</font></td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>p4.RunUnParsed('<font class="font8">label</font><font
+  class="font6">', '</font><font class="font8">-d</font><font class="font6">',
+  lname)</font></td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl28 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl29>&nbsp;</td>
+  <td class=xl30 style='border-left:none'>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+ </tr>
+ <tr height=15 style='height:11.25pt'>
+  <td height=15 class=xl32 style='height:11.25pt'>&nbsp;</td>
+  <td class=xl33>p4.disconnect()</td>
+  <td class=xl34 style='border-left:none'>&nbsp;</td>
+  <td class=xl35>p4.Disconnect()</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=28 style='width:21pt'></td>
+  <td width=385 style='width:289pt'></td>
+  <td width=13 style='width:10pt'></td>
+  <td width=391 style='width:293pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+
+      <H4 class="dtH4"><a name="Block1">Block 1</a></H4>
+        <p>
+        This is some overhead required for IronPython.  It will load the CLR, and P4.Net.
+        </p>
+        
+     <H4 class="dtH4"><a name="Block2">Block 2</a></H4>
+        <p>
+        This chunk of code is establishing a connection to the Perforce server.  There are a couple things
+        unique to P4.Net worth noting here.  Classes in P4.Net are more explicitly named.  Here the connection
+        class is named P4Connection.  While we're talking about naming, P4.Net uses traditional .Net conventions,
+        and all method names use camel case.
+        </p>
+        <p>
+        Also, note that P4.Net does not need the parse_forms() method.  P4.Net is designed to be more statically
+        typed than P4Python/P4Ruby/P4Perl.  You use different methods to retrieve tagged vs. untagged output.  Therefore,
+        P4.Net auto-manages the connection, and will dynamically switch modes in the native C++ API when needed.
+        </p>
+
+     <H4 class="dtH4"><a name="Block3">Block 3</a></H4>
+        <p>
+        There's several things going on in this chunk, so let's break it down line-by-line:
+        </p>
+        <pre class="code" language="C#" escaped="true">
+P4Python: labelForm = p4.fetch_label(lname)
+P4.Net  : labelForm = p4.Fetch_Form('label', lname)</pre>
+        <p>Since P4.Net isn't meant for dynamic languages, there are no shortcut methods available.</p><p/>
+        
+        <pre class="code" language="C#" escaped="true">
+P4Python: labelForm['Description'] = 'Created for P4.Net sample'
+P4.Net  : labelForm['Description'] = 'Created for P4.Net sample'</pre>
+        <p>Identical syntax!</p><p/>
+        
+        <pre class="code" language="C#" escaped="true">
+P4Python: view = ['//guest/shawn_hladky/...']
+P4.Net  : view = Array[String](['//guest/shawn_hladky/...'])</pre>
+        <p>IronPython doesn't explicitly convert Python lists to .Net Arrays.</p><p/>
+
+        <pre class="code" language="C#" escaped="true">
+P4Python: labelForm['View'] = view
+P4.Net  : labelForm.ArrayFields['View'] = view</pre>
+        <p>In P4.Net, you use the ArrayFields property when getting/setting fields with array values.</p><p/>
+        
+        <pre class="code" language="C#" escaped="true">
+P4Python: res = p4.save_label(labelForm)
+P4.Net  : res = p4.Save_Form(labelForm)</pre>
+        <p>There's no shortcut methode available in P4.Net; however, sine the form is a rich object,
+        it already knows the command, and doesn't need to be supplied with the Save_Form method.</p><p />
+        
+    <H4 class="dtH4"><a name="Block4">Block 4</a></H4>
+        <p>
+        This is a subtle, but significant departure from the other APIs.  
+        In P4.Net, results are rich objects, not just simple lists.  All 
+        warnings, errors, and messages are associated with the results object.
+        In other APIs, these are part of the connection object, and are reset with 
+        each run.
+        </p>
+        
+    <H4 class="dtH4"><a name="Block5">Block 5 & 6</a></H4>
+        <p>
+        More of the same... no short-cut methods, and use the ArrayFields property.  Only in this instance
+        we're dealing with a P4Recordset instead of a form.
+        </p>        
+        
+    <H4 class="dtH4"><a name="Block7">Block 7</a></H4>
+        <p>
+        In P4.Net, you use different methods to return tagged and untagged output.  This means P4.Net 
+        auto-manages the connection for you, so no need to explicitly reset as other APIs require.
+        </p>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="Copyright.html">Copyright © 2006 Shawn Hladky</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>C:\p4\shawnhladky_public\guest\shawn_hladky\P4.Net\doc\pythonsample\ironpyton.py.html</title>
+<meta name="Generator" content="Vim/6.4">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<pre>
+&quot;&quot;&quot;
+<font color="blue">This sample demonstrates the following:</font>
+<font color="blue">    Given a list of changelists:</font>
+<font color="blue">    </font>
+<font color="blue">    Create a new label</font>
+<font color="blue">        Change the view</font>
+<font color="blue">        Change the description</font>
+<font color="blue">    </font>
+<font color="blue">    Identify all the files in each Changelist</font>
+<font color="blue">    Add the most recent version of each file in all changelists to the label</font>
+
+&quot;&quot;&quot;
+<font color="#a020f0">import</font> clr
+<font color="#a020f0">from</font> System <font color="#a020f0">import</font> Array, String
+clr.AddReferenceToFile('<font color="blue">P4API.dll</font>')
+
+<font color="#a020f0">import</font> P4API
+
+p4 = P4API.P4Connection()
+p4.Connect()
+
+labelName = '<font color="blue">P4NetTestingSample</font>'
+
+<font color="green"># build my label</font>
+labelForm = p4.Fetch_Form('<font color="blue">label</font>', labelName)
+labelForm['<font color="blue">Description</font>'] = '<font color="blue">Created for P4.Net sample</font>'
+view = Array[String](['<font color="blue">//guest/shawn_hladky/...</font>'])
+labelForm.ArrayFields['<font color="blue">View</font>'] = view
+p4.Save_Form(labelForm)
+
+<font color="green"># My list of changes.  This is totally arbitrary</font>
+changes=['<font color="blue">5774</font>', '<font color="blue">5680</font>', '<font color="blue">5636</font>', '<font color="blue">5444</font>']
+
+<font color="green"># sort ascending, so the highest revisions will be last when looping</font>
+sorted_changes = changes.sort()
+
+<font color="green"># dictionary: keyed by file, value = revision</font>
+filerevs = {}
+
+<font color="green"># spin the description on each file</font>
+<font color="#804040"><b>for</b></font> chg <font color="#804040"><b>in</b></font> p4.Run('<font color="blue">describe</font>', '<font color="blue">-s</font>', *changes):
+    depotFiles = chg.ArrayFields['<font color="blue">depotFile</font>']
+    revisions  = chg.ArrayFields['<font color="blue">rev</font>']
+    <font color="#804040"><b>for</b></font> i <font color="#804040"><b>in</b></font> range(0, len(depotFiles)):
+        key,value = depotFiles[i], revisions[i]
+        filerevs[key]=value
+
+<font color="green"># convert the dictionary to a list like ['//depot/file#5']</font>
+fileRevList = [&quot;<font color="blue">%s#%s</font>&quot; % (k,v) <font color="#804040"><b>for</b></font> k,v <font color="#804040"><b>in</b></font> filerevs.items()]
+
+labelsync_output = p4.RunUnParsed('<font color="blue">labelsync</font>', '<font color="blue">-l</font>', labelName, *fileRevList)
+
+<font color="#804040"><b>for</b></font> s <font color="#804040"><b>in</b></font> labelsync_output: <font color="#804040"><b>print</b></font> s
+
+<font color="green"># delete the label to keep the public depot clean :-)</font>
+p4.RunUnParsed('<font color="blue">label</font>', '<font color="blue">-d</font>', labelName)
+
+p4.Disconnect()
+</pre>
+</body>
+</html>

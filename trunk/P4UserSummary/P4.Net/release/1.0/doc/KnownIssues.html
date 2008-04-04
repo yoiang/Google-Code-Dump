@@ -1,0 +1,83 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>P4Record Class</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+	<div id="bannerrow1">
+		<table class="bannerparthead" cellspacing="0" id="Table1">
+			<tr id="hdr">
+				<td class="runninghead">Perforce API for the .Net CLR</td>
+				<td class="product"><img alt="P4.Net" src="p4net.GIF" /></td>
+			</tr>
+		</table>
+	</div>
+	<div id="TitleRow">
+		<h1 class="dtH1">Known Limitations</h1>
+</div>
+</div>
+    <div id="nstext">
+      <H4 class="dtH4">Internationalized Servers</H4>
+      <P>Perforce servers running in "unicode" or "internationalized" are unsupported.<P/>
+      I would like to have this fixed for v1.0, but unfortunately there are some major changes that need
+      to happen.  My plan is to fix this for 2.0, and therefore will only run on the 2.0 Framework.
+      </P>
+      <h4 class="dtH4">Forms</h4>
+      <P>Direct manipulation of the form text is not supported.  That is, there is no
+      way get the raw text of a form command or to save a form with the raw text.  Instead,
+      you must use the P4Form object.
+      </P>
+      <h4 class="dtH4">p4 print</h4>
+      <P>There is currently no way to obtain an in-memory stream of file contents using the 'print'
+      command.  In other APIs, if multiple files are output using 'print', the contents of the file
+      are concatenated into one in-memory variable.  I have an idea that would correct this behavior,
+      but it is more complex to consume.  So I've punted on the idea for now, and it is unsupported.
+      </P>
+      <h4 class="dtH4">p4 filelog</h4>
+      <P>The parsed output for the of the filelog command is awkward.  In the native C++ api, the
+      integration metadata is a sparse 2 dimensional array.  The parsing logic in P4.Net does not
+      account for this, so you end up with an ArrayFieldDictionary with keys like 'fromFile1,'.
+      So, I could fix this, and come up with some sort of TwoDimArrayFieldDictionary.  However,
+      the trying to make sense of the filelog output using the 2-d arrays will almost certainly
+      give you a headache.  Instead, I want to research Tony Smith's implementation in P4Ruby.  He
+      has created an object model that represents the filelog metadata in an easy-to-use interface.
+      </P>
+      <h4 class="dtH4">Submitting Default Changelist</h4>
+      <P>In P4.Net, there’s no straight-forward way to submit the default pending changelist.
+      This is by design. If the client workspace has opened files in the default changelist
+       before any P4.Net automation runs, those files will "come along for the ride" when
+       you submit the default changelist. If the user has a JobView set, all jobs in that
+       JobView will automatically be fixed when you submit that default changelist. Both
+       of those behaviors are almost never desired, and I’ve found many scripts that have
+       those bugs.
+       </P>
+       <P>
+       Note, starting in 2006.2, Perforce has native support for automatically submitting the
+       default changelist.  This is accomplished with: p4 submit -d "change description".  I caution it's usage,
+       as it has the same limitations decribed above.
+      </P>
+      <h4 class="dtH4">Changing Port after Connected</h4>
+      <P>You can not change the P4Port setting after a P4Connection has been connected.
+      This is true even after a Disconnect().  Instead, create a new P4Connection object.
+      </P>
+      <h4 class="dtH4">Supported Server Versions</h4>
+      <P>Servers lower than 2004.2 begin to fail the unit tests.  However, it is not a complete failure.
+      One issue is the use of p4 login.  The other failure is in the ConvertDate methods, because they
+      use p4 info in parsed mode to determine the server's time zone.  If you avoid those methods, P4.Net
+      should work fine against older servers.
+      </P>
+      <hr />    <div id="footer">
+        <p>
+          <a href="Copyright.html">Copyright © 2006 Shawn Hladky</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

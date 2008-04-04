@@ -1,0 +1,237 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>P4.Net: Getting Started</title>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+</head>
+<body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+        <div id="bannerrow1">
+            <table class="bannerparthead" cellspacing="0" id="Table1">
+                <tr id="hdr">
+                    <td class="runninghead">
+                        Perforce API for the .Net CLR</td>
+                    <td class="product">
+                        <img alt="P4.Net" src="p4net.GIF" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="TitleRow">
+            <h1 class="dtH1">
+                Getting Started</h1>
+        </div>
+    </div>
+    <div id="nstext">
+        <h4 class="dtH4">
+            Connecting to the Server</h4>
+        <p>
+            The P4Connection class is the main player in P4.Net. This represents a connection
+            to the Perforce server. Every utility that uses P4.Net will have some variation
+            of the following code:
+        </p>
+        <pre class="code" language="C#" escaped="true">
+P4Connection p4 = new P4Connection();
+p4.Connect();
+
+// Run some commands
+p4.Disconnect();</pre>
+        <p>
+            Rule number 1: Always remember to disconnect. This frees unmanaged memory, and cleanly
+            disconnects from the Perforce server. P4Connection implements IDisposable, and the
+            Dispose and Disconnect methods can be used interchangeably.
+        </p>
+        <p>
+            P4.Net is based off the command-line syntax (as are most other Perforce APIs). Almost
+            all of the commands you issue in P4.Net will use the same arguments as the p4 client
+            executable. For example, say you need to find the latest submitted changelist under
+            a given path (//depot/path). From the command line:</p>
+        <pre class="code" escaped="true">
+c:\> p4 changes -m1 -s submitted //depot/path/...</pre>
+        <p>
+            From P4.Net:</p>
+        <pre class="code" language="C#" escaped="true">
+P4Connect p4 = new P4Connection();
+p4.Connect();
+P4Recordset changes = p4.Run("changes", "-m1", "-s", "submitted", "//depot/path/...");
+p4.Disconnect();</pre>
+        <p>
+            If you don’t know what all the arguments for p4 changes mean, then p4 help changes
+            is your best friend. The first step in building anything with P4.Net, is to know
+            the exact command lines you’d run manually.
+        </p>
+        <h4 class="dtH4">
+            Interpreting Output</h4>
+        <p>
+            Although the arguments to run Perforce commands are similar to the command line
+            interface, the way we interpret the output can be dramatically different. This is
+            where the power of the API comes in. In the example above, the result changes is
+            of type P4Recordset. This is a rich object in P4.Net that provides a parsed version
+            of the command output. At the core of the P4Recordset is the enumerable collection
+            of P4Records. Each P4Record generally represents all the data on one line’s output
+            from the command-line. P4Records are dictionary-like objects allowing you to access
+            fields by a key:</p>
+        <pre class="code" language="C#" escaped="true">
+// we used the -m1 switch, so we know there is just one record returned.
+P4Record change = changes[0];
+int changeNumber = int(change["change"]);</pre>
+        <p>
+            It can also be accessed using the Fields property:
+        </p>
+        <pre class="code" language="C#" escaped="true">
+int changeNumber = int(change.Fields["change"]);</pre>
+        <p>
+            So, how do you know what keys are available? Well, it depends on the command run,
+            the server version, and sometimes the arguments to the command. The RecordsetViewer
+            sample application is a great tool for determining the keys that are returned from
+            a command. In addition to RecordsetViewer, you can use the -Ztag global option of
+            the p4 command line client to see how the output is parsed. At runtime, you can
+            access all of the keys returned from the Fields.Keys property:
+        </p>
+        <pre class="code" language="C#" escaped="true">
+foreach (string key in change.Fields.Keys)
+{
+    Console.WriteLine("{0} : {1}", key, change[key]);
+}</pre>
+        <p>
+            In addition to the normal parsed output, there may be warnings, errors, and informational
+            messages from the command that are not parsed (i.e. it will be the same English
+            message returned at the command line). Again, the RecordsetViewer sample application
+            can help you identify all the elements returned in a P4Recordset for a particular
+            command. At runtime, we can access those messages as shown below:
+        </p>
+        <pre class="code" language="C#" escaped="true">
+foreach (string e in changes.Errors) Console.WriteLine(e);
+foreach (string e in changes.Warnings) Console.WriteLine(e);
+foreach (string e in changes.Messages) Console.WriteLine(e);</pre>
+        <p>
+            Not all fields have a single string for a value. Some commands return arrays of
+            strings in a field. To access these values at runtime, you can use the ArrayFields
+            property of the P4Record object.
+        </p>
+        <pre class="code" language="C#" escaped="true">
+P4Recordset describes = p4.Run("describe", "-s", "1234");
+
+//One changelist, one record... at least if that changelist exists
+P4Record describe = describes[0];
+
+Console.WriteLine("Changelist: {0}", describe["Change"]);
+
+Console.WriteLine("Files:");
+
+foreach( int i=0; i< describe.ArrayFields["depotFile"].Length; i++)
+{
+    Console.WriteLine("   {0}#{1}",  describe.ArrayFields["depotFile"][i], describe.ArrayFields["rev"][i]);
+}</pre>
+        <p>
+            In the preceding examples, we only looked at the first record in the recordset.
+            However many commands will return multiple records. We can enumerate them as follows:
+        </p>
+        <pre class="code" language="C#" escaped="true">
+// This example enumerates all the files in a folder hierarchy, and prints the ones
+// that are deleted at the head revision.  (Note, there’s a more efficient way to do this.)
+P4Recordset fstats = p4.Run("fstat", "//depot/path/...");
+foreach( P4Record stat in fstats)
+{
+    if (stat["headAction"] == "delete")
+    {
+        Console.WriteLine(stat["depotFile"]);
+    }
+}</pre>
+        <h4 class="dtH4">
+            Unparsed Output</h4>
+        <p>
+            Not all commands support the parsed output. In that case, all of the output will
+            be simple English statements, just as the command line outputs. Again, this is highly
+            dependent on the version of the Perforce server. You can see the Perforce C++ API
+            release notes for your version to see if the parsed output is supported for a given
+            command (referred to as ‘tagged’ in the C++ documentation).
+        </p>
+        <p>
+            While you can access these messages from the P4Recordset.Messages property, it’s
+            often easier to use the RunUnParsed method of the P4Connection class, which returns
+            a P4UnParsedRecordset object. This is similar to the P4Recordset object, except
+            there are no Fields and ArrayFields properties, and the default enumerator is the
+            Messages array.
+        </p>
+        <p>
+            RunUnParsed can also help ensure forward compatibility with newer server versions.
+            In recent releases, many commands that previously only supported the unparsed output,
+            now support parsed output. If the server is upgraded, code that called Run, would
+            still look at the P4Recordset.Messages. However the output from the upgraded server
+            would now be available only in Fields and ArrayFields. By using RunUnParsed, you
+            are guaranteed to get the raw strings from the server.
+        </p>
+        <p />
+        <h4 class="dtH4">
+            Forms</h4>
+        <p>
+            Another major object in P4.Net is the P4Form object. Perforce forms are the text
+            files that pop up in an editor when a "form" command is run. They have fields that
+            are specially formatted in the file, and you can view or change these fields by
+            following the formatting standards. You can see this behavior in the command line:
+            </p>
+            <pre class="code" escaped="true">
+c:\> p4 user</pre>
+            <p>
+                In P4.Net, you do not have to worry about this special formatting. The fields are
+                read/modified using Fields and ArrayFields properties (P4Form inherits P4Record).
+                The only trick is you need to use the methods Fetch_Form and Save_Form:</p>
+            <pre class="code" language="C#" escaped="true">
+// Change the root of the current workspace.
+P4Connection p4 = new P4Connection();
+p4.Connect();
+P4Form client = p4.Fetch_Form("client");
+client["Root"] = @"c:\p4";
+p4.Save_Form(client);
+p4.Disconnect();</pre>
+            <p />
+            <p />
+            <h4 class="dtH4">
+                Submitting Files</h4>
+            <p>
+                In P4.Net, there’s no straight-forward way to submit the default pending changelist.
+                This is by design. If the client workspace has opened files in the default changelist
+                before any P4.Net automation runs, those files will "come along for the ride" when
+                you submit the default changelist. If the user has a JobView set, all jobs in that
+                JobView will automatically be fixed when you submit the default changelist. Both
+                of those behaviors are almost never desired, and I’ve found many scripts that have
+                those bugs.
+            </p>
+            <p>
+                So, how do you submit files in P4.Net? The key is to create a named pending changelist
+                before opening any files. Then add the switches "-c", and "1234" (1234 is the changelist
+                number) to all commands that are opening files. This is quite simple using the P4PendingChangelist
+                object:
+            </p>
+            <pre class="code" language="C#" escaped="true">
+P4Connection p4 = new P4Connection();
+p4.Connect();
+P4PendingChangelist  cl = p4.CreatePendingChangelist("My New Changelist\nVery, Very bad description!\nShame on me!");
+p4.Run("edit", "-c", cl.Number.ToString(), "//depot/path/foo.cs", "//depot/path/bar.cs");
+// Do something to manipulate the files
+cl.Submit();
+p4.Disconnect();</pre>
+            <h4 class="dtH4">
+                Connections Revisited.</h4>
+            <p>
+                Finally, let’s look at the connection properties. You may be wondering how the P4Connection
+                object knows which Port/Client/User to use. It turns out P4.Net will use the default
+                properties using the same logic as all Perforce clients (see Technote 36 and the
+                P4 User Guide). Of course, any of these can be explicitly overridden on the P4Connection
+                object. However, I’ve found using the built-in Perforce configuration system to
+                be much more portable and maintainable than explicitly defining the configuration
+                for each custom tool.
+            </p>
+
+                  <hr />
+      <div id="footer">
+        <p>
+          <a href="Copyright.html">Copyright © 2006 Shawn Hladky</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+</body>
+</html>

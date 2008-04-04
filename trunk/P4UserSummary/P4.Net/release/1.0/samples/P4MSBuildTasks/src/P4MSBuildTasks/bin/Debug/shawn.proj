@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project DefaultTargets = "two" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <UsingTask TaskName="P4RunCommand" AssemblyFile="P4MSBuildTasks.dll"/>
+  <Target Name="one" >
+    <P4RunCommand Command="info" Arguments=" ">
+      <Output TaskParameter="ParsedOutput" ItemName="P4Output"/>
+    </P4RunCommand>
+    <Message Text="%(P4Output.userName)" />
+
+    <P4RunCommand Command="fstat" Arguments="//guest/shawn_hladky/P4.Net/src/...">
+      <Output TaskParameter="ParsedOutput" ItemName="fstatOutput"/>
+    </P4RunCommand>
+    <CreateProperty Value="$(depotFiles);%(fstatOutput.depotFile)">
+      <Output TaskParameter="Value" PropertyName="depotFiles"/>
+    </CreateProperty>
+    <Message Text="@(fstatOutput->'%(depotFile)')" />
+    <Message Text="$(depotFiles)" />
+    <P4RunCommand Command="filelog" Arguments="@(fstatOutput->'%(depotFile)')" Verbose="true">
+    </P4RunCommand>
+    <P4RunCommand Command="change" Arguments="-o">
+      <Output TaskParameter="Messages" PropertyName="dude" />
+    </P4RunCommand>
+    <Message Text="$(dude)" />
+  </Target>
+
+  <Target Name="two" DependsOnTargets="one">
+    <Message Text="%(P4Output.clientName)" />
+  </Target>
+
+</Project>

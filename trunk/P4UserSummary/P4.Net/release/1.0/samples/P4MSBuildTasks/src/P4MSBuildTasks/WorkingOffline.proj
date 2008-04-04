@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+This MSBuild script demonstrates the use of the P4MSBuildTasks.
+It implements the techniques described in Perforce's Technote 002 (working disconnected):
+http://www.perforce.com/perforce/technotes/note002.html
+
+Please read that technote, and you can see how the logic is implemented in this script.
+
+Many different techniques for using P4MSBuildTasks are demonstrated in this sample,
+and there are a lot of comments.  It's intended to be very informative, even if you don't 
+need to use the disconected method exactly.
+
+-->
+
+<Project DefaultTargets = "VerifyPerforceConnection" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <!-- copy the dlls to the bin folder, or update the path here.-->
+  <UsingTask TaskName="P4RunCommand" AssemblyFile="bin\debug\P4MSBuildTasks.dll"/>
+  <UsingTask TaskName="P4NewChangelist" AssemblyFile="bin\debug\P4MSBuildTasks.dll"/>
+
+  <!--
+    Required Variables:
+      OfflineRootDirectory : Root directory to update Perforce.  
+      Must be in your client root.
+      
+    Variables that can be used to override Perforce Environment:
+      P4PORT
+      P4USER
+      P4CLIENT
+      P4PASSWD
+      P4USELOGIN
+  -->
+
+  <PropertyGroup>
+    <!-- Make P4 runs verbose.  Set to false, unless debugging.-->
+    <P4Verbose>false</P4Verbose>
+    
+    <!-- Changelist Description.  Override if desired. -->
+    <ChangelistDescription>Syncing offline work.</ChangelistDescription>
+  </PropertyGroup>
+
+  <!-- Validate Perforce's environment
+       Every project that accesses Perforce should include some kind of initial verification.
+       By design, errors from Perforce will NOT bubble up from P4RunCommand.  So you 'should'
+       check for errors after every run.
+       However, in my experience, most of these errors are related to a bad 
+       P4PORT/P4USER/P4CLIENT or login issues.  And checking these at the beginning 
+       of each script will usually sufice.
+  -->
+  <Target Name="VerifyPerforceConnection">
+
+    <!-- Run a P4 info and verify user name and client spec-->
+    <P4RunCommand Command="info" Verbose="$(P4Verbose)" 
+                  Arguments=" " 
+                  Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="ParsedOutput" ItemName="P4InfoOutput"/>
+      <Output TaskParameter="Errors" PropertyName="P4InfoErrors" />
+    </P4RunCommand>
+
+    <!-- Any errors means we couldn't connect to Perforce at all -->
+    <Error Condition="$(P4InfoErrors)!=''" Text="Unable to Connect to Perforce!" />
+
+    <!-- Do we have a valid User?-->
+    <Error Condition="@(P4InfoOutput->'%(userName)')=='*unknown*'" Text="Perforce User is invalid!" />
+
+    <!-- Is the client spec valid?-->
+    <Error Condition="@(P4InfoOutput->'%(clientName)')=='*unknown*'" Text="Perforce Client is invalid!" />
+    
+    <!-- Unfortunately, 'p4 info' doesn't tell us if we're logged in.  
+         We need to run a 'p4 login -s' to find that out. -->
+    <P4RunCommand Command="login" Verbose="$(P4Verbose)" Arguments="-s" Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="Messages" PropertyName="P4LoginSOutput" />
+      <Output TaskParameter="Errors" PropertyName="P4LoginSErrors" />
+      <Output TaskParameter="Warnings" PropertyName="P4LoginSWarnings" />
+    </P4RunCommand>
+    <Message Text="Messages: $(P4LoginSOutput)" />
+    <Message Text="Errors  : $(P4LoginSErrors)" />
+    <Message Text="Warnings: $(P4LoginSWarnings)" />
+
+  </Target>
+
+  <!-- Verify the required variables are set -->
+  <Target Name="ValidateInputs" DependsOnTargets="VerifyPerforceConnection">
+
+    <Error Condition="!Exists($(OfflineRootDirectory))" Text="Required variable: 'OfflineRootDirectory' is invalid, or unset!" />
+
+    <!-- Need a trailing slash so the world is in-line.  Not really validating, 
+         just add the backslash if necessary-->
+    <CreateProperty Value="$(OfflineRootDirectory)\" Condition="!HasTrailingSlash('$(OfflineRootDirectory)')">
+      <Output TaskParameter="Value" PropertyName="OfflineRootDirectory" />
+    </CreateProperty>
+
+  </Target>
+
+  <!-- Uses 'p4 diff -se' command to find the files that need to be opened for edit-->
+  <Target Name="P4FindEdits" DependsOnTargets="ValidateInputs">
+    <P4RunCommand Command="diff" Verbose="$(P4Verbose)" Arguments="-se;$(OfflineRootDirectory)..." Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="ParsedOutput" ItemName="P4ToEditOutput"/>
+    </P4RunCommand>
+
+    <!-- Filter the metadata so we have a "real" itemgroup representing the files.-->
+    <CreateItem Include="@(P4ToEditOutput->'%(clientFile)')">
+      <Output ItemName="FilesToEdit" TaskParameter="Include"/>
+    </CreateItem>
+  </Target>
+
+  <!-- Uses 'p4 diff -sd' command to find the files that need to be opened for delete-->
+  <Target Name="P4FindDeletes" DependsOnTargets="ValidateInputs">
+    <P4RunCommand Command="diff" Verbose="$(P4Verbose)" Arguments="-sd;$(OfflineRootDirectory)..." Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="ParsedOutput" ItemName="P4ToDeleteOutput"/>
+    </P4RunCommand>
+
+    <CreateItem Include="@(P4ToDeleteOutput->'%(clientFile)')">
+      <Output ItemName="FilesToDelete" TaskParameter="Include"/>
+    </CreateItem>
+  </Target>
+
+  <!-- Finds the files that need to be added to Perforce.  The first step is to get all
+       the files recursively in the folder OfflineRootDirectory.  Then run
+       'p4 add -n' on that list.  -->
+  <Target Name="P4FindAdds" DependsOnTargets="ValidateInputs;GetAllLocalFiles">
+
+    <!-- Notice the use of '@(AllLocalFiles)' in the Arguments.  The default transformation
+         for Items is to concatantate with semicolons.  This is the reason Arguments are 
+         delimited by semicolons. -->
+    <P4RunCommand Command="add" Verbose="$(P4Verbose)" Arguments="-n;@(AllLocalFiles)" Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="ParsedOutput" ItemName="P4ToAddOutput"/>
+    </P4RunCommand>
+
+    <CreateItem Include="@(P4ToAddOutput->'%(clientFile)')">
+      <Output ItemName="FilesToAdd" TaskParameter="Include"/>
+    </CreateItem>
+
+  </Target>
+
+  <!-- Just show the files that would be affected (and how).-->
+  <Target Name="Show" DependsOnTargets="P4FindAdds;P4FindDeletes;P4FindEdits">
+    <Message Text="Edits:" />
+    <Message Text="    %(FilesToEdit.Identity)" />
+
+    <Message Text="Adds:" />
+    <Message Text="    %(FilesToAdd.Identity)" />
+
+    <Message Text="Deletes:" />
+    <Message Text="    %(FilesToDelete.Identity)" />
+
+  </Target>
+
+  <!-- Creates a numbered changelist so we can get started -->
+  <Target Name="CreateChangelist" DependsOnTargets="ValidateInputs">
+
+    <P4NewChangelist ChangeDescription="$(ChangelistDescription)" Verbose="$(P4Verbose)" Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="ChangeNumber" PropertyName="P4ChangelistNumber"/>
+    </P4NewChangelist>
+
+    <Message Text ="Change: $(P4ChangelistNumber)" />
+
+  </Target>
+
+
+  <!-- Submit's the changelist created earlier-->
+  <Target Name="SubmitChangelist" DependsOnTargets="CreateChangelist" >
+    <P4RunCommand Command="submit" Verbose="$(P4Verbose)"
+              Arguments="-c;$(P4ChangelistNumber)"
+              Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="Messages" PropertyName="SubmitMessage"/>
+    </P4RunCommand>
+    <Message Text="$(SubmitMessage)" />
+  </Target>
+
+  <!-- Using the output from P4FindEdits, open that list for edit-->
+  <Target Name="P4DoEdits" DependsOnTargets="CreateChangelist;P4FindEdits" >
+    <P4RunCommand Command="edit" Verbose="$(P4Verbose)" 
+                  Arguments="-c;$(P4ChangelistNumber);@(FilesToEdit)" 
+                  Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)"
+                  Condition="@(FilesToEdit)!=''">
+    </P4RunCommand>
+  </Target>
+
+  <!-- Using the output from P4FindDeletes, open that list for delete-->
+  <!-- Note the condition on the task.  This is important, b/c if there are no files to delete,
+       then the p4 delete command that's generated is invalid. -->
+  <Target Name="P4DoDeletes" DependsOnTargets="P4FindDeletes;CreateChangelist">
+    <P4RunCommand Command="delete" Verbose="$(P4Verbose)" 
+                  Arguments="-c;$(P4ChangelistNumber);@(FilesToDelete);" 
+                  Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)"
+                  Condition="@(FilesToDelete)!=''" />
+  </Target>
+
+  <!-- Add all local files to P4 (it will warn on files that already exist... but who cares :-) -->
+  <!-- Note, we don't depend on P4FindAdds.  There's no reason, since P4FindAdds runs 
+       an 'add -n', and we're just going to run a standard 'add' -->
+  <Target Name="P4DoAdds" DependsOnTargets="CreateChangelist;GetAllLocalFiles">
+
+    <P4RunCommand Command="add" Verbose="$(P4Verbose)" 
+                  Arguments="-c;$(P4ChangelistNumber);@(AllLocalFiles)" 
+                  Client="$(P4CLIENT)" Port="$(P4PORT)" User="$(P4USER)" Password="$(P4PASSWD)"  UseLogin="$(P4USELOGIN)">
+      <Output TaskParameter="ParsedOutput" ItemName="P4ToAddOutput"/>
+    </P4RunCommand>
+
+    <CreateItem Include="@(P4ToAddOutput->'%(clientFile)')">
+      <Output ItemName="FilesToAdd" TaskParameter="Include"/>
+    </CreateItem>
+
+  </Target>
+
+  <!-- Main Target.  Will process Adds, Edits, and Deletes -->
+  <!-- Will NOT submit the pending changelist -->
+  <Target Name="WorkOffline" DependsOnTargets="P4DoAdds;P4DoDeletes;P4DoEdits">
+    
+  </Target>
+
+  <!-- WILL submit the pending changelist after WorkOffline. -->
+  <Target Name="WorkOfflineAndSubmit" DependsOnTargets="WorkOffline;SubmitChangelist">
+
+  </Target>
+
+  <!-- Dynamically create the itemgroup containing all the files (recursively)
+       in OfflineRootDirectory -->
+  <Target Name="GetAllLocalFiles">
+    <CreateItem Include="$(OfflineRootDirectory)**\*.*">
+      <Output ItemName="AllLocalFiles" TaskParameter="Include"/>
+    </CreateItem>
+  </Target>  
+  
+
+
+</Project>

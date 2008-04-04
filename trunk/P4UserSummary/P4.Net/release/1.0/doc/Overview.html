@@ -1,0 +1,168 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>P4.Net Overview</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+    <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0" id="Table1">
+            <tr id="hdr">
+                <td class="runninghead">Perforce API for the .Net CLR</td>
+                <td class="product"><img alt="P4.Net" src="p4net.GIF" /></td>
+            </tr>
+        </table>
+    </div>
+    <div id="TitleRow">
+        <h1 class="dtH1">Overview</h1>
+</div>
+</div>
+    <div id="nstext">
+      <H4 class="dtH4">Introduction</H4>
+      <P>
+        P4.Net is an API for the Microsoft .Net Common Language Runtime (CLR).  It
+        can be used from any managed language including C#, VB.Net, and J#.</P>
+    <list>
+        <li>Support for Framework versions 1.1 and 2.0.</li>
+        <li>Results can be streamed as "pre-parsed", and are abstracted to "Recordsets" and "Records".</li>
+        <li>Direct manipulation of forms (p4 client, branch, user, etc.).</li>
+        <li>Connections are auto-managed (no need to set "ParseForms" or "Tagged" like other APIs).</li>
+        <li>P4PendingChangelist object makes submitting changes a snap.</li>
+     </list>
+     <P/>
+
+      <H4 class="dtH4">License</H4>
+      <P>P4.Net is protected under <a href="Copyright.html">this</a> license, which is the MIT license.</P>
+      <P/>
+
+      <H4 class="dtH4">Support</H4>
+      <P>P4.Net is supported by me personally, in my spare time. If you have any issues you
+    can contact me at p4shawn &lt;at&gt; gmail &lt;dot&gt; com</span>.
+    I use P4.Net at work extensively, so I'm motivated to fix any bugs.  But I can't guarantee I'll be able to help
+    everyone in a timely fashion, or even at all.</P>
+      <P/>
+
+
+    <H4 class="dtH4">P4.Net vs. P4COM</H4>
+    <P>
+        <a href="http://public.perforce.com/guest/robert_cowham/perforce/API/p4com/main/index.html">P4COM</a>
+        can absolutely be used from managed languages w/o issues. So why
+        would you want to use P4.Net? P4COM requires you to register the dll when
+        deploying, but since P4.Net is entirely managed code, there is no need to register
+        any dlls. You can literally use xcopy deployment (or p4 sync :-). Also,
+        P4COM is constrained by some of the inherent limitations in COM. P4.Net uses
+        inheritance, indexers and collection interfaces that all give it a cleaner, more
+        .Net-like interface than P4COM (IMHO).
+      <P/>
+
+    <H4 class="dtH4">Obtaining P4.Net</H4>
+    <p>
+      P4.Net distributables can be downloaded <a href="ftp://public.perforce.com/guest/shawn_hladky/P4.Net/dist/P4.Net.zip">here</a>.
+      It includes the binaries, help file (chm), and sample applications.</p>
+      Source code is maintained in the <a href="http://public.perforce.com/public/index.html">Perforce public depot</a>: //guest/shawn_hladky/P4.Net
+    <p>
+
+    <H4 class="dtH4">Deploying P4.Net</H4>
+    <p>
+      Choose the appropriate binaries.  They are available strong-named or not, and for the 1.1 and 2.0 framework.
+      Include the assemblies (p4dn.dll and p4api.dll) in the bin folder with your application, or install to the GAC.</p>
+    <p>
+
+    <H4 class="dtH4">Architecture</H4>
+    <p>
+      P4.Net is divided into two distinct components.</p>
+    <p>
+      <b>p4dn:</b> Written in C++ (with Managed Extensions), this component marshals all objects between
+      the native Perforce C++ API and managed types. It generally follows the object
+      model of the native Perforce API.  It was ported from Jacob Gladish's
+      implementation in the Perforce public depot.
+    </p>
+      <b>P4API:</b> Written in C#, this component consumes p4dn, and abstracts
+      the complexity of the native API into an easier to use interface. The object
+      model is inspired from a combination
+      <a href="http://public.perforce.com/guest/tony_smith/perforce/API/Ruby/index.html">P4Ruby</a>,
+      <a href="http://public.perforce.com/guest/robert_cowham/perforce/API/python/index.html">P4Python</a>,
+      <a href="http://public.perforce.com/guest/robert_cowham/perforce/API/p4com/main/index.html">P4COM</a>, and
+      <a href="http://msdn2.microsoft.com/en-us/data/aa937722.aspx">ADO</a>.
+      </p>
+
+    <H4 class="dtH4">Release Roadmap</H4>
+    <p><b>Past</b></p>
+    <p>
+      P4.Net began life in early 2004.  I needed to build two Perforce automation tools to support some new processes.
+      C# was the language of choice for these tools, but I've had a bad history with COM interop.
+      So I looked for alternatives to P4COM, and I stumbled across Jacob Gladish's PerforceDotNet implementation
+      in the Perforce public depot.  I built these tools around PerforceDotNet, and ended up fixing a few bugs and
+      adding functionality along the way.
+      </p>
+    <p>
+      PerforceDotNet proved to be very robust, but its object model mirrored the native C++ API... which is
+      not really friendly for simple day-to-day scripting.  As a result, I didn't do much else with it.  Instead,
+      I was turned on to Python and P4Python.  Flash-forward to early 2006, and I realized I needed to add some
+      major enhancements to one of the PerforceDotNet-based applications.  I dreaded having to work directly with
+      PerforceDotNet's interface, and I seriously considered a full re-write in Python.
+    </p>
+    <p>
+      But then I thought the Perforce community could really use a native .Net interface in the likes of P4Python.
+      I realized I'd need a full layer on top of PerforceDotNet, that mimicked an object model more like P4Python.  I also
+      realized that PerforceDotNet would need some major changes to support the full API functionality.  So I came
+      up with the term P4.Net as an umbrella for the two components, and started submitting code.
+    </p>
+    <p><b>Present</b></p>
+    <p>
+      Of course, in typical software project fashion, I under-estimated the work involved.  And even worse, I under-estimated
+      the spare time I'd find to work on it.  It's taken me about a year to deliver 0.9, the beta release.  Although there are some
+      <a href="KnownIssues.html">known issues</a>, I'm
+      proud of the quality of this release... and I hope you find it to be more robust and functional than the
+      typical open-source beta.
+    </p>
+    <p><b>Future</b></p>
+    <p>
+      1.0, general release, should be complete summer 2007.  It will add support for print and raw form text, as well
+      as fixing miscellaneous bugs.
+    </p>
+    <p>
+      2.0 should be complete early 2008.  It will focus on a major re-write of p4dn, and will only support the .Net framework
+      2.0.  P4API will likely add overloaded methods to support generics for many inputs.  And the one glaring bug, support for
+      internationalized servers, will finally be fixed.
+    </p>
+    <p>
+    Other ideas I have, but no plans on when they'll be implemented:
+    <list>
+    <li>P4COM bridge.  A wrapper class that mimics P4COM's object model, but uses P4.Net under the hood.
+    This could be used as a drop-in replacement for .Net applications currently using P4COM... just update the
+    reference and recompile.</li>
+    <li>
+    Filelog object model.  I've written a couple of scripts that try to interpret the output of p4 filelog...
+    and I ended up with a bad headache at the end of the day.  Tony Smith has come up with an object model to simplify
+    this in P4Ruby.  I'd like to do something similar in P4.Net.
+    </li>
+    <li>
+    Enhance P4MSBuildTasks.  I'd like to take it from a sample application to a full-fledged product.  This means
+    it will need to support forms and have a lot more documentation.
+    </li>
+    <li>
+    Add a web application as a sample.
+    </li>
+    <li>
+    P4Python Bridge.  Like the P4COM bride, this would allow Python scripts that used P4Python to run under
+    IronPython using P4.Net, without changing the scripts.
+    </li>
+    </list>
+    </p>
+    <p></p>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="Copyright.html">Copyright © 2006 Shawn Hladky</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

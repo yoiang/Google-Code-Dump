@@ -1,0 +1,54 @@
+﻿<project schemaVersion="1.6.0.2">
+    <assemblies>
+        <assembly assemblyPath="..\bin\CLR_2.0\p4api.dll" xmlCommentsPath="..\bin\CLR_2.0\p4api.xml" commentsOnly="False" />
+    </assemblies>
+    <namespaceSummaries>
+        <namespaceSummaryItem name="" isDocumented="False" />
+        <namespaceSummaryItem name="P4API" isDocumented="True">Objects for connecting to a Perforce server, and running commands.</namespaceSummaryItem>
+        <namespaceSummaryItem name="P4API.Exceptions" isDocumented="True">Exceptions raised in P4API.</namespaceSummaryItem>
+    </namespaceSummaries>
+    <additionalContent>
+        <contentItem sourcePath=".\p4net.gif" destPath="" excludeItems="False" />
+        <contentItem sourcePath=".\Copyright.html" destPath="html\" excludeItems="False" />
+    </additionalContent>
+    <dependencies>
+        <dependencyItem depPath="..\bin\CLR_2.0\p4dn.dll" />
+    </dependencies>
+    <ProjectSummary>Perforce API for the Microsoft .Net Framework.</ProjectSummary>
+    <MissingTags>AutoDocumentCtors</MissingTags>
+    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Protected, SealedProtected</VisibleItems>
+    <HtmlHelp1xCompilerPath path="" />
+    <HtmlHelp2xCompilerPath path="" />
+    <OutputPath>.\sandcastle\</OutputPath>
+    <SandcastlePath path="" />
+    <WorkingPath path="" />
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>False</KeepLogFile>
+    <HelpFileFormat>Help1xAndWebsite</HelpFileFormat>
+    <PurgeDuplicateTopics>False</PurgeDuplicateTopics>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <BinaryTOC>False</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceTitle />
+    <HelpTitle>P4.Net -- Managed API for Perforce</HelpTitle>
+    <HtmlHelpName>P4.Net</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref>Copyright.html</CopyrightHref>
+    <CopyrightText>Copyright © 2007 Shawn Hladky</CopyrightText>
+    <FeedbackEMailAddress />
+    <HeaderText />
+    <FooterText>&lt;a href="http://p4dotnet.sourceforge.net"  target="_blank"&gt;P4.Net SourceForge Project Web Site&lt;/a&gt;</FooterText>
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Msdn</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>vs2005</PresentationStyle>
+    <NamingMethod>MemberName</NamingMethod>
+    <SyntaxFilters>CSharp</SyntaxFilters>
+    <ShowFeedbackControl>False</ShowFeedbackControl>
+    <ContentPlacement>BelowNamespaces</ContentPlacement>
+    <ContentSiteMap path="" />
+    <TopicFileTransform path="" />
+</project>

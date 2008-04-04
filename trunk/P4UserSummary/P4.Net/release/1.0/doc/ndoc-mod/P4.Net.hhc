@@ -1,0 +1,802 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+    <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="default.html">
+        </OBJECT>
+    <UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Getting Started">
+            <param name="Local" value="GettingStarted.html">
+            </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Sample Applications">
+            <param name="Local" value="SampleApps.html">
+            </OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="API Comparisons">
+            <param name="Local" value="APIComparisons.html">
+            </OBJECT>    
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Known Issues">
+            <param name="Local" value="KnownIssues.html">
+            </OBJECT>    
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Copyright">
+            <param name="Local" value="Copyright.html">
+            </OBJECT>             
+    </UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="P4API">
+		<param name="Local" value="P4API.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ArrayFieldDictionary Class">
+			<param name="Local" value="P4API.ArrayFieldDictionary.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ArrayFieldDictionary Members">
+				<param name="Local" value="P4API.ArrayFieldDictionaryMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.ArrayFieldDictionaryProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Item Property">
+					<param name="Local" value="P4API.ArrayFieldDictionary.Item.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Keys Property">
+					<param name="Local" value="P4API.ArrayFieldDictionary.Keys.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Methods">
+				<param name="Local" value="P4API.ArrayFieldDictionaryMethods.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Clear Method">
+					<param name="Local" value="P4API.ArrayFieldDictionary.Clear.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ContainsKey Method">
+					<param name="Local" value="P4API.ArrayFieldDictionary.ContainsKey.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Remove Method">
+					<param name="Local" value="P4API.ArrayFieldDictionary.Remove.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FieldDictionary Class">
+			<param name="Local" value="P4API.FieldDictionary.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FieldDictionary Members">
+				<param name="Local" value="P4API.FieldDictionaryMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.FieldDictionaryProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Item Property">
+					<param name="Local" value="P4API.FieldDictionary.Item.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Keys Property">
+					<param name="Local" value="P4API.FieldDictionary.Keys.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Methods">
+				<param name="Local" value="P4API.FieldDictionaryMethods.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Clear Method">
+					<param name="Local" value="P4API.FieldDictionary.Clear.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ContainsKey Method">
+					<param name="Local" value="P4API.FieldDictionary.ContainsKey.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Remove Method">
+					<param name="Local" value="P4API.FieldDictionary.Remove.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="OnPromptEventHandler Delegate">
+			<param name="Local" value="P4API.OnPromptEventHandler.html">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4BaseRecordSet Class">
+			<param name="Local" value="P4API.P4BaseRecordSet.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4BaseRecordSet Members">
+				<param name="Local" value="P4API.P4BaseRecordSetMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4BaseRecordSetProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ErrorMessage Property">
+					<param name="Local" value="P4API.P4BaseRecordSet.ErrorMessage.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Errors Property">
+					<param name="Local" value="P4API.P4BaseRecordSet.Errors.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Warnings Property">
+					<param name="Local" value="P4API.P4BaseRecordSet.Warnings.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Methods">
+				<param name="Local" value="P4API.P4BaseRecordSetMethods.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="HasErrors Method">
+					<param name="Local" value="P4API.P4BaseRecordSet.HasErrors.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="HasWarnings Method">
+					<param name="Local" value="P4API.P4BaseRecordSet.HasWarnings.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4Connection Class">
+			<param name="Local" value="P4API.P4Connection.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4Connection Members">
+				<param name="Local" value="P4API.P4ConnectionMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4Connection Constructor">
+				<param name="Local" value="P4API.P4ConnectionConstructor.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4ConnectionProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CallingProgram Property">
+					<param name="Local" value="P4API.P4Connection.CallingProgram.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CallingVersion Property">
+					<param name="Local" value="P4API.P4Connection.CallingVersion.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Charset Property">
+					<param name="Local" value="P4API.P4Connection.Charset.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Client Property">
+					<param name="Local" value="P4API.P4Connection.Client.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CWD Property">
+					<param name="Local" value="P4API.P4Connection.CWD.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ExceptionLevel Property">
+					<param name="Local" value="P4API.P4Connection.ExceptionLevel.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Host Property">
+					<param name="Local" value="P4API.P4Connection.Host.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Password Property">
+					<param name="Local" value="P4API.P4Connection.Password.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Port Property">
+					<param name="Local" value="P4API.P4Connection.Port.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="TicketFile Property">
+					<param name="Local" value="P4API.P4Connection.TicketFile.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="User Property">
+					<param name="Local" value="P4API.P4Connection.User.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Methods">
+				<param name="Local" value="P4API.P4ConnectionMethods.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Connect Method">
+					<param name="Local" value="P4API.P4Connection.Connect.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ConvertDate Method">
+					<param name="Local" value="P4API.P4Connection.ConvertDate_overloads.html">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="ConvertDate Method (DateTime)">
+						<param name="Local" value="P4API.P4Connection.ConvertDate_overload_3.html">
+						<param name="ImageNumber" value="11">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="ConvertDate Method (Int32)">
+						<param name="Local" value="P4API.P4Connection.ConvertDate_overload_1.html">
+						<param name="ImageNumber" value="11">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="ConvertDate Method (String)">
+						<param name="Local" value="P4API.P4Connection.ConvertDate_overload_2.html">
+						<param name="ImageNumber" value="11">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CreatePendingChangelist Method">
+					<param name="Local" value="P4API.P4Connection.CreatePendingChangelist.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Disconnect Method">
+					<param name="Local" value="P4API.P4Connection.Disconnect.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dispose Method">
+					<param name="Local" value="P4API.P4Connection.Dispose.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Fetch_Form Method">
+					<param name="Local" value="P4API.P4Connection.Fetch_Form.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="IsValidConnection Method">
+					<param name="Local" value="P4API.P4Connection.IsValidConnection.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Login Method">
+					<param name="Local" value="P4API.P4Connection.Login.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Run Method">
+					<param name="Local" value="P4API.P4Connection.Run.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="RunUnParsed Method">
+					<param name="Local" value="P4API.P4Connection.RunUnParsed.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Save_Form Method">
+					<param name="Local" value="P4API.P4Connection.Save_Form_overloads.html">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Save_Form Method (P4Form)">
+						<param name="Local" value="P4API.P4Connection.Save_Form_overload_1.html">
+						<param name="ImageNumber" value="11">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Save_Form Method (P4Form, Boolean)">
+						<param name="Local" value="P4API.P4Connection.Save_Form_overload_2.html">
+						<param name="ImageNumber" value="11">
+						</OBJECT>
+				</UL>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Events">
+				<param name="Local" value="P4API.P4ConnectionEvents.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="OnPrompt Event">
+					<param name="Local" value="P4API.P4Connection.OnPrompt.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4ExceptionLevels Enumeration">
+			<param name="Local" value="P4API.P4ExceptionLevels.html">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4Form Class">
+			<param name="Local" value="P4API.P4Form.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4Form Members">
+				<param name="Local" value="P4API.P4FormMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4FormProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="FormCommand Property">
+					<param name="Local" value="P4API.P4Form.FormCommand.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4PendingChangelist Class">
+			<param name="Local" value="P4API.P4PendingChangelist.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4PendingChangelist Members">
+				<param name="Local" value="P4API.P4PendingChangelistMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4PendingChangelistProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Description Property">
+					<param name="Local" value="P4API.P4PendingChangelist.Description.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Number Property">
+					<param name="Local" value="P4API.P4PendingChangelist.Number.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Methods">
+				<param name="Local" value="P4API.P4PendingChangelistMethods.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Submit Method">
+					<param name="Local" value="P4API.P4PendingChangelist.Submit.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4PromptEventArgs Class">
+			<param name="Local" value="P4API.P4PromptEventArgs.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4PromptEventArgs Members">
+				<param name="Local" value="P4API.P4PromptEventArgsMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4PromptEventArgsProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.P4PromptEventArgs.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Response Property">
+					<param name="Local" value="P4API.P4PromptEventArgs.Response.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4Record Class">
+			<param name="Local" value="P4API.P4Record.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4Record Members">
+				<param name="Local" value="P4API.P4RecordMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4RecordProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ArrayFields Property">
+					<param name="Local" value="P4API.P4Record.ArrayFields.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Fields Property">
+					<param name="Local" value="P4API.P4Record.Fields.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Item Property">
+					<param name="Local" value="P4API.P4Record.Item.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4RecordSet Class">
+			<param name="Local" value="P4API.P4RecordSet.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4RecordSet Members">
+				<param name="Local" value="P4API.P4RecordSetMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4RecordSetProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Item Property">
+					<param name="Local" value="P4API.P4RecordSet.Item.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Messages Property">
+					<param name="Local" value="P4API.P4RecordSet.Messages.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Records Property">
+					<param name="Local" value="P4API.P4RecordSet.Records.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4UnParsedRecordSet Class">
+			<param name="Local" value="P4API.P4UnParsedRecordSet.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4UnParsedRecordSet Members">
+				<param name="Local" value="P4API.P4UnParsedRecordSetMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.P4UnParsedRecordSetProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Item Property">
+					<param name="Local" value="P4API.P4UnParsedRecordSet.Item.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Messages Property">
+					<param name="Local" value="P4API.P4UnParsedRecordSet.Messages.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="P4API.Exceptions">
+		<param name="Local" value="P4API.Exceptions.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FormCommandException Class">
+			<param name="Local" value="P4API.Exceptions.FormCommandException.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FormCommandException Members">
+				<param name="Local" value="P4API.Exceptions.FormCommandExceptionMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.FormCommandExceptionProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.FormCommandException.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FormFetchException Class">
+			<param name="Local" value="P4API.Exceptions.FormFetchException.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="FormFetchException Members">
+				<param name="Local" value="P4API.Exceptions.FormFetchExceptionMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.FormFetchExceptionProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.FormFetchException.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="InvalidFormArgument Class">
+			<param name="Local" value="P4API.Exceptions.InvalidFormArgument.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="InvalidFormArgument Members">
+				<param name="Local" value="P4API.Exceptions.InvalidFormArgumentMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.InvalidFormArgumentProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.InvalidFormArgument.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="InvalidLogin Class">
+			<param name="Local" value="P4API.Exceptions.InvalidLogin.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="InvalidLogin Members">
+				<param name="Local" value="P4API.Exceptions.InvalidLoginMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.InvalidLoginProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.InvalidLogin.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P4APIExceptions Class">
+			<param name="Local" value="P4API.Exceptions.P4APIExceptions.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="P4APIExceptions Members">
+				<param name="Local" value="P4API.Exceptions.P4APIExceptionsMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.P4APIExceptionsProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.P4APIExceptions.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="PerforceInitializationError Class">
+			<param name="Local" value="P4API.Exceptions.PerforceInitializationError.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="PerforceInitializationError Members">
+				<param name="Local" value="P4API.Exceptions.PerforceInitializationErrorMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.PerforceInitializationErrorProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.PerforceInitializationError.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RunException Class">
+			<param name="Local" value="P4API.Exceptions.RunException.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="RunException Members">
+				<param name="Local" value="P4API.Exceptions.RunExceptionMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.RunExceptionProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.RunException.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="RunUnParsedException Class">
+			<param name="Local" value="P4API.Exceptions.RunUnParsedException.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="RunUnParsedException Members">
+				<param name="Local" value="P4API.Exceptions.RunUnParsedExceptionMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.RunUnParsedExceptionProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.RunUnParsedException.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Result Property">
+					<param name="Local" value="P4API.Exceptions.RunUnParsedException.Result.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ServerAlreadyConnected Class">
+			<param name="Local" value="P4API.Exceptions.ServerAlreadyConnected.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ServerAlreadyConnected Members">
+				<param name="Local" value="P4API.Exceptions.ServerAlreadyConnectedMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.ServerAlreadyConnectedProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.ServerAlreadyConnected.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ServerNotConnected Class">
+			<param name="Local" value="P4API.Exceptions.ServerNotConnected.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ServerNotConnected Members">
+				<param name="Local" value="P4API.Exceptions.ServerNotConnectedMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.ServerNotConnectedProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.ServerNotConnected.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ServerNotConnected_SetVar_AfterInit Class">
+			<param name="Local" value="P4API.Exceptions.ServerNotConnected_SetVar_AfterInit.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ServerNotConnected_SetVar_AfterInit Members">
+				<param name="Local" value="P4API.Exceptions.ServerNotConnected_SetVar_AfterInitMembers.html">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Properties">
+				<param name="Local" value="P4API.Exceptions.ServerNotConnected_SetVar_AfterInitProperties.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Message Property">
+					<param name="Local" value="P4API.Exceptions.ServerNotConnected_SetVar_AfterInit.Message.html">
+					<param name="ImageNumber" value="11">
+					</OBJECT>
+			</UL>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

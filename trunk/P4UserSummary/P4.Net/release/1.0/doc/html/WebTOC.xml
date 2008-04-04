@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC DTDVersion="1.0" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5">
+  <HelpTOCNode Id="d5ad04d5-af61-4b65-a14c-8b5441cae591" Title="P4API Namespace" Url="html/N_P4API.htm">
+    <HelpTOCNode Id="3359f374-d745-4ac0-95b1-282932b6e556" Title="ArrayFieldDictionary Class" Url="html/T_P4API_ArrayFieldDictionary.htm">
+      <HelpTOCNode Title="ArrayFieldDictionary Members" Url="html/AllMembers_T_P4API_ArrayFieldDictionary.htm" />
+      <HelpTOCNode Id="afadba50-6f23-444e-ab53-a9fd9b075fa1" Title="ArrayFieldDictionary Methods " Url="html/Methods_T_P4API_ArrayFieldDictionary.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M_P4API_ArrayFieldDictionary_Clear.htm" />
+        <HelpTOCNode Title="ContainsKey Method " Url="html/M_P4API_ArrayFieldDictionary_ContainsKey.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/M_P4API_ArrayFieldDictionary_Remove.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="10895ea0-0698-4030-af73-5a7edfc3657f" Title="ArrayFieldDictionary Properties " Url="html/Properties_T_P4API_ArrayFieldDictionary.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_P4API_ArrayFieldDictionary_Count.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P_P4API_ArrayFieldDictionary_Item.htm" />
+        <HelpTOCNode Title="Keys Property " Url="html/P_P4API_ArrayFieldDictionary_Keys.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ce14da38-8d73-43ba-92f8-cacb1efa6962" Title="FieldDictionary Class" Url="html/T_P4API_FieldDictionary.htm">
+      <HelpTOCNode Title="FieldDictionary Members" Url="html/AllMembers_T_P4API_FieldDictionary.htm" />
+      <HelpTOCNode Id="74dd33ff-43c2-409f-a680-5d157dc6e3b1" Title="FieldDictionary Methods " Url="html/Methods_T_P4API_FieldDictionary.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M_P4API_FieldDictionary_Clear.htm" />
+        <HelpTOCNode Title="ContainsKey Method " Url="html/M_P4API_FieldDictionary_ContainsKey.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/M_P4API_FieldDictionary_Remove.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0c3ed481-5076-4b74-bb80-6b3b23d2e248" Title="FieldDictionary Properties " Url="html/Properties_T_P4API_FieldDictionary.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_P4API_FieldDictionary_Count.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P_P4API_FieldDictionary_Item.htm" />
+        <HelpTOCNode Title="Keys Property " Url="html/P_P4API_FieldDictionary_Keys.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="OnPrintEndEventHandler Delegate" Url="html/T_P4API_OnPrintEndEventHandler.htm" />
+    <HelpTOCNode Title="OnPrintStreamEventHandler Delegate" Url="html/T_P4API_OnPrintStreamEventHandler.htm" />
+    <HelpTOCNode Title="OnPromptEventHandler Delegate" Url="html/T_P4API_OnPromptEventHandler.htm" />
+    <HelpTOCNode Id="5ce078a6-41d2-432f-ad8e-46f59a037aa8" Title="P4BaseRecordSet Class" Url="html/T_P4API_P4BaseRecordSet.htm">
+      <HelpTOCNode Title="P4BaseRecordSet Members" Url="html/AllMembers_T_P4API_P4BaseRecordSet.htm" />
+      <HelpTOCNode Id="002dc23a-361d-4f36-b35c-04e414f443a5" Title="P4BaseRecordSet Methods " Url="html/Methods_T_P4API_P4BaseRecordSet.htm">
+        <HelpTOCNode Title="HasErrors Method " Url="html/M_P4API_P4BaseRecordSet_HasErrors.htm" />
+        <HelpTOCNode Title="HasWarnings Method " Url="html/M_P4API_P4BaseRecordSet_HasWarnings.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a434e265-d21c-4763-b103-a6cf5f643146" Title="P4BaseRecordSet Properties " Url="html/Properties_T_P4API_P4BaseRecordSet.htm">
+        <HelpTOCNode Title="ErrorMessage Property " Url="html/P_P4API_P4BaseRecordSet_ErrorMessage.htm" />
+        <HelpTOCNode Title="Errors Property " Url="html/P_P4API_P4BaseRecordSet_Errors.htm" />
+        <HelpTOCNode Title="Warnings Property " Url="html/P_P4API_P4BaseRecordSet_Warnings.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0f52631b-8071-4f69-8680-19d5dff4c60c" Title="P4Connection Class" Url="html/T_P4API_P4Connection.htm">
+      <HelpTOCNode Title="P4Connection Members" Url="html/AllMembers_T_P4API_P4Connection.htm" />
+      <HelpTOCNode Title="P4Connection Constructor " Url="html/M_P4API_P4Connection__ctor.htm" />
+      <HelpTOCNode Id="7b2b1e79-4a16-4f0c-8da5-fa7725874c27" Title="P4Connection Methods " Url="html/Methods_T_P4API_P4Connection.htm">
+        <HelpTOCNode Title="Connect Method " Url="html/M_P4API_P4Connection_Connect.htm" />
+        <HelpTOCNode Id="349dd077-c3e7-4d5d-bcd7-64d8a5dfd82f" Title="ConvertDate Method " Url="html/Overload_P4API_P4Connection_ConvertDate.htm">
+          <HelpTOCNode Title="ConvertDate Method (DateTime)" Url="html/M_P4API_P4Connection_ConvertDate.htm" />
+          <HelpTOCNode Title="ConvertDate Method (Int32)" Url="html/M_P4API_P4Connection_ConvertDate_1.htm" />
+          <HelpTOCNode Title="ConvertDate Method (String)" Url="html/M_P4API_P4Connection_ConvertDate_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreatePendingChangelist Method " Url="html/M_P4API_P4Connection_CreatePendingChangelist.htm" />
+        <HelpTOCNode Title="Disconnect Method " Url="html/M_P4API_P4Connection_Disconnect.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/M_P4API_P4Connection_Dispose.htm" />
+        <HelpTOCNode Title="Fetch_Form Method " Url="html/M_P4API_P4Connection_Fetch_Form.htm" />
+        <HelpTOCNode Title="IsServerCaseSensitive Method " Url="html/M_P4API_P4Connection_IsServerCaseSensitive.htm" />
+        <HelpTOCNode Title="IsValidConnection Method " Url="html/M_P4API_P4Connection_IsValidConnection.htm" />
+        <HelpTOCNode Title="Login Method " Url="html/M_P4API_P4Connection_Login.htm" />
+        <HelpTOCNode Title="Parse_Form Method " Url="html/M_P4API_P4Connection_Parse_Form.htm" />
+        <HelpTOCNode Title="PrintBinary Method " Url="html/M_P4API_P4Connection_PrintBinary.htm" />
+        <HelpTOCNode Id="b86c520f-44b5-4b11-8f7a-233c9f84ddb2" Title="PrintStream Method " Url="html/Overload_P4API_P4Connection_PrintStream.htm">
+          <HelpTOCNode Title="PrintStream Method (Stream, String)" Url="html/M_P4API_P4Connection_PrintStream.htm" />
+          <HelpTOCNode Title="PrintStream Method (Stream, String, Encoding)" Url="html/M_P4API_P4Connection_PrintStream_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PrintStreamEvents Method " Url="html/M_P4API_P4Connection_PrintStreamEvents.htm" />
+        <HelpTOCNode Title="PrintText Method " Url="html/M_P4API_P4Connection_PrintText.htm" />
+        <HelpTOCNode Title="Run Method " Url="html/M_P4API_P4Connection_Run.htm" />
+        <HelpTOCNode Title="RunUnParsed Method " Url="html/M_P4API_P4Connection_RunUnParsed.htm" />
+        <HelpTOCNode Id="84220ed3-f625-440a-85db-84697fd7d746" Title="Save_Form Method " Url="html/Overload_P4API_P4Connection_Save_Form.htm">
+          <HelpTOCNode Title="Save_Form Method (P4Form)" Url="html/M_P4API_P4Connection_Save_Form.htm" />
+          <HelpTOCNode Title="Save_Form Method (String, String)" Url="html/M_P4API_P4Connection_Save_Form_2.htm" />
+          <HelpTOCNode Title="Save_Form Method (P4Form, Boolean)" Url="html/M_P4API_P4Connection_Save_Form_1.htm" />
+          <HelpTOCNode Title="Save_Form Method (String, String, Boolean)" Url="html/M_P4API_P4Connection_Save_Form_3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="712f657c-1b82-45a6-95ce-2b338767de86" Title="P4Connection Properties " Url="html/Properties_T_P4API_P4Connection.htm">
+        <HelpTOCNode Title="Api Property " Url="html/P_P4API_P4Connection_Api.htm" />
+        <HelpTOCNode Title="CallingProgram Property " Url="html/P_P4API_P4Connection_CallingProgram.htm" />
+        <HelpTOCNode Title="CallingVersion Property " Url="html/P_P4API_P4Connection_CallingVersion.htm" />
+        <HelpTOCNode Title="Charset Property " Url="html/P_P4API_P4Connection_Charset.htm" />
+        <HelpTOCNode Title="Client Property " Url="html/P_P4API_P4Connection_Client.htm" />
+        <HelpTOCNode Title="CWD Property " Url="html/P_P4API_P4Connection_CWD.htm" />
+        <HelpTOCNode Title="ExceptionLevel Property " Url="html/P_P4API_P4Connection_ExceptionLevel.htm" />
+        <HelpTOCNode Title="Host Property " Url="html/P_P4API_P4Connection_Host.htm" />
+        <HelpTOCNode Title="MaxLockTime Property " Url="html/P_P4API_P4Connection_MaxLockTime.htm" />
+        <HelpTOCNode Title="MaxResults Property " Url="html/P_P4API_P4Connection_MaxResults.htm" />
+        <HelpTOCNode Title="MaxScanRows Property " Url="html/P_P4API_P4Connection_MaxScanRows.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/P_P4API_P4Connection_Password.htm" />
+        <HelpTOCNode Title="Port Property " Url="html/P_P4API_P4Connection_Port.htm" />
+        <HelpTOCNode Title="ServerLevel Property " Url="html/P_P4API_P4Connection_ServerLevel.htm" />
+        <HelpTOCNode Title="TicketFile Property " Url="html/P_P4API_P4Connection_TicketFile.htm" />
+        <HelpTOCNode Title="User Property " Url="html/P_P4API_P4Connection_User.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="76f58c0c-0498-4a00-953e-d9732ba7b056" Title="P4Connection Events" Url="html/Events_T_P4API_P4Connection.htm">
+        <HelpTOCNode Title="OnPrintEndFile Event" Url="html/E_P4API_P4Connection_OnPrintEndFile.htm" />
+        <HelpTOCNode Title="OnPrintStream Event" Url="html/E_P4API_P4Connection_OnPrintStream.htm" />
+        <HelpTOCNode Title="OnPrompt Event" Url="html/E_P4API_P4Connection_OnPrompt.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="P4ExceptionLevels Enumeration" Url="html/T_P4API_P4ExceptionLevels.htm" />
+    <HelpTOCNode Id="e36d6755-5690-4703-97bf-8418e2240e94" Title="P4Form Class" Url="html/T_P4API_P4Form.htm">
+      <HelpTOCNode Title="P4Form Members" Url="html/AllMembers_T_P4API_P4Form.htm" />
+      <HelpTOCNode Id="4c572f2a-44b4-44c2-ba5a-a7ff5813e818" Title="P4Form Methods " Url="html/Methods_T_P4API_P4Form.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/M_P4API_P4Form_Clone.htm" />
+        <HelpTOCNode Title="FormatSpec Method " Url="html/M_P4API_P4Form_FormatSpec.htm" />
+        <HelpTOCNode Title="LoadFromSpec Method " Url="html/M_P4API_P4Form_LoadFromSpec.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b8ae9350-2316-43e5-80ef-d97e9a55d6b8" Title="P4Form Properties " Url="html/Properties_T_P4API_P4Form.htm">
+        <HelpTOCNode Title="FormCommand Property " Url="html/P_P4API_P4Form_FormCommand.htm" />
+        <HelpTOCNode Title="PermittedFields Property " Url="html/P_P4API_P4Form_PermittedFields.htm" />
+        <HelpTOCNode Title="SpecDef Property " Url="html/P_P4API_P4Form_SpecDef.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4b579498-4ccb-4198-86bb-8dc0771c9493" Title="P4PendingChangelist Class" Url="html/T_P4API_P4PendingChangelist.htm">
+      <HelpTOCNode Title="P4PendingChangelist Members" Url="html/AllMembers_T_P4API_P4PendingChangelist.htm" />
+      <HelpTOCNode Id="2055ff2f-3a85-4246-bd25-f7ac749db227" Title="P4PendingChangelist Methods " Url="html/Methods_T_P4API_P4PendingChangelist.htm">
+        <HelpTOCNode Title="Submit Method " Url="html/M_P4API_P4PendingChangelist_Submit.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae2b197a-8cbc-42ba-9860-b6e0780dabc7" Title="P4PendingChangelist Properties " Url="html/Properties_T_P4API_P4PendingChangelist.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P_P4API_P4PendingChangelist_Description.htm" />
+        <HelpTOCNode Title="Number Property " Url="html/P_P4API_P4PendingChangelist_Number.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68116e30-9844-4df6-bf56-6f350b6baab1" Title="P4PrintStreamEventArgs Class" Url="html/T_P4API_P4PrintStreamEventArgs.htm">
+      <HelpTOCNode Title="P4PrintStreamEventArgs Members" Url="html/AllMembers_T_P4API_P4PrintStreamEventArgs.htm" />
+      <HelpTOCNode Id="1de17b15-764d-4883-84a4-ee1be331061d" Title="P4PrintStreamEventArgs Properties " Url="html/Properties_T_P4API_P4PrintStreamEventArgs.htm">
+        <HelpTOCNode Title="Action Property " Url="html/P_P4API_P4PrintStreamEventArgs_Action.htm" />
+        <HelpTOCNode Title="Change Property " Url="html/P_P4API_P4PrintStreamEventArgs_Change.htm" />
+        <HelpTOCNode Title="DepotFile Property " Url="html/P_P4API_P4PrintStreamEventArgs_DepotFile.htm" />
+        <HelpTOCNode Title="FileTime Property " Url="html/P_P4API_P4PrintStreamEventArgs_FileTime.htm" />
+        <HelpTOCNode Title="FileType Property " Url="html/P_P4API_P4PrintStreamEventArgs_FileType.htm" />
+        <HelpTOCNode Title="TextEncoding Property " Url="html/P_P4API_P4PrintStreamEventArgs_TextEncoding.htm" />
+        <HelpTOCNode Title="UnicodeEncoding Property " Url="html/P_P4API_P4PrintStreamEventArgs_UnicodeEncoding.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6cea6d50-501a-4093-8c16-68cc6e10f775" Title="P4PromptEventArgs Class" Url="html/T_P4API_P4PromptEventArgs.htm">
+      <HelpTOCNode Title="P4PromptEventArgs Members" Url="html/AllMembers_T_P4API_P4PromptEventArgs.htm" />
+      <HelpTOCNode Id="72fdb449-f7b4-4cfc-902b-efd90cee544e" Title="P4PromptEventArgs Properties " Url="html/Properties_T_P4API_P4PromptEventArgs.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_P4PromptEventArgs_Message.htm" />
+        <HelpTOCNode Title="Response Property " Url="html/P_P4API_P4PromptEventArgs_Response.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="272433e5-5be1-415b-a33d-2c3e4f86e674" Title="P4Record Class" Url="html/T_P4API_P4Record.htm">
+      <HelpTOCNode Title="P4Record Members" Url="html/AllMembers_T_P4API_P4Record.htm" />
+      <HelpTOCNode Id="297741e1-5b79-495d-8044-041e6e092523" Title="P4Record Properties " Url="html/Properties_T_P4API_P4Record.htm">
+        <HelpTOCNode Title="ArrayFields Property " Url="html/P_P4API_P4Record_ArrayFields.htm" />
+        <HelpTOCNode Title="Fields Property " Url="html/P_P4API_P4Record_Fields.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P_P4API_P4Record_Item.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5eec84a1-1fcf-4ee9-afda-a84da8d33438" Title="P4RecordSet Class" Url="html/T_P4API_P4RecordSet.htm">
+      <HelpTOCNode Title="P4RecordSet Members" Url="html/AllMembers_T_P4API_P4RecordSet.htm" />
+      <HelpTOCNode Id="0a60fa20-b869-4c68-803a-0b400eaff237" Title="P4RecordSet Properties " Url="html/Properties_T_P4API_P4RecordSet.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P_P4API_P4RecordSet_Item.htm" />
+        <HelpTOCNode Title="Messages Property " Url="html/P_P4API_P4RecordSet_Messages.htm" />
+        <HelpTOCNode Title="Records Property " Url="html/P_P4API_P4RecordSet_Records.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d6530e79-e946-4c61-83bd-84062b0b90a7" Title="P4UnParsedRecordSet Class" Url="html/T_P4API_P4UnParsedRecordSet.htm">
+      <HelpTOCNode Title="P4UnParsedRecordSet Members" Url="html/AllMembers_T_P4API_P4UnParsedRecordSet.htm" />
+      <HelpTOCNode Id="3f8a3c66-cc49-4c06-91d6-a5ca7982af9f" Title="P4UnParsedRecordSet Properties " Url="html/Properties_T_P4API_P4UnParsedRecordSet.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P_P4API_P4UnParsedRecordSet_Item.htm" />
+        <HelpTOCNode Title="Messages Property " Url="html/P_P4API_P4UnParsedRecordSet_Messages.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6bb31676-0c5e-4c5c-90a9-51ace496aad2" Title="P4API.Exceptions Namespace" Url="html/N_P4API_Exceptions.htm">
+    <HelpTOCNode Id="e726198b-d74b-4028-b44b-d88b33f1a4fc" Title="DiffNotImplemented Class" Url="html/T_P4API_Exceptions_DiffNotImplemented.htm">
+      <HelpTOCNode Title="DiffNotImplemented Members" Url="html/AllMembers_T_P4API_Exceptions_DiffNotImplemented.htm" />
+      <HelpTOCNode Id="1c362e0c-0d75-4a10-b784-82c2b2aebac2" Title="DiffNotImplemented Properties " Url="html/Properties_T_P4API_Exceptions_DiffNotImplemented.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_DiffNotImplemented_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ed96b213-d722-4bb4-aa6d-9d4a010a8794" Title="ErrorPauseCalled Class" Url="html/T_P4API_Exceptions_ErrorPauseCalled.htm">
+      <HelpTOCNode Title="ErrorPauseCalled Members" Url="html/AllMembers_T_P4API_Exceptions_ErrorPauseCalled.htm" />
+      <HelpTOCNode Title="ErrorPauseCalled Constructor " Url="html/M_P4API_Exceptions_ErrorPauseCalled__ctor.htm" />
+      <HelpTOCNode Id="7e683363-24dc-45b4-adf3-efcdd1935de6" Title="ErrorPauseCalled Properties " Url="html/Properties_T_P4API_Exceptions_ErrorPauseCalled.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_ErrorPauseCalled_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7d7c345e-c7b1-49f1-a304-e7d315828991" Title="FileNotFound Class" Url="html/T_P4API_Exceptions_FileNotFound.htm">
+      <HelpTOCNode Title="FileNotFound Members" Url="html/AllMembers_T_P4API_Exceptions_FileNotFound.htm" />
+      <HelpTOCNode Id="841cc946-a680-4606-9c9f-1433cb748b77" Title="FileNotFound Properties " Url="html/Properties_T_P4API_Exceptions_FileNotFound.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_FileNotFound_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07a27533-0dfa-4d2c-aaf5-05647c467945" Title="FormCommandException Class" Url="html/T_P4API_Exceptions_FormCommandException.htm">
+      <HelpTOCNode Title="FormCommandException Members" Url="html/AllMembers_T_P4API_Exceptions_FormCommandException.htm" />
+      <HelpTOCNode Id="990f7a80-b3e3-4bfa-aaa7-441f17cf303b" Title="FormCommandException Properties " Url="html/Properties_T_P4API_Exceptions_FormCommandException.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_FormCommandException_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="abcd364b-2dbf-41d0-b690-99ad6df70932" Title="FormFetchException Class" Url="html/T_P4API_Exceptions_FormFetchException.htm">
+      <HelpTOCNode Title="FormFetchException Members" Url="html/AllMembers_T_P4API_Exceptions_FormFetchException.htm" />
+      <HelpTOCNode Id="44d0dac7-b90c-41a0-b37e-77adcd3a97f6" Title="FormFetchException Properties " Url="html/Properties_T_P4API_Exceptions_FormFetchException.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_FormFetchException_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="818065ab-8292-4371-ac01-f58e29626e95" Title="FormParseException Class" Url="html/T_P4API_Exceptions_FormParseException.htm">
+      <HelpTOCNode Title="FormParseException Members" Url="html/AllMembers_T_P4API_Exceptions_FormParseException.htm" />
+      <HelpTOCNode Id="40bd6841-06fa-4aa2-9324-cb066a5dd54c" Title="FormParseException Properties " Url="html/Properties_T_P4API_Exceptions_FormParseException.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_FormParseException_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="30132507-690f-42e3-82eb-3bc2b0490df6" Title="InvalidFormArgument Class" Url="html/T_P4API_Exceptions_InvalidFormArgument.htm">
+      <HelpTOCNode Title="InvalidFormArgument Members" Url="html/AllMembers_T_P4API_Exceptions_InvalidFormArgument.htm" />
+      <HelpTOCNode Id="d8eafbcc-4d7c-4ae2-a287-a6fcb23dba9b" Title="InvalidFormArgument Properties " Url="html/Properties_T_P4API_Exceptions_InvalidFormArgument.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_InvalidFormArgument_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="629ea4d5-4b08-47a2-b479-ba4c13efc1fe" Title="InvalidLogin Class" Url="html/T_P4API_Exceptions_InvalidLogin.htm">
+      <HelpTOCNode Title="InvalidLogin Members" Url="html/AllMembers_T_P4API_Exceptions_InvalidLogin.htm" />
+      <HelpTOCNode Id="7da95249-2f5a-44e4-aa52-d310c82c7499" Title="InvalidLogin Properties " Url="html/Properties_T_P4API_Exceptions_InvalidLogin.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_InvalidLogin_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a823bd78-88ef-4ce4-9710-abf4e4ca3323" Title="MergeNotImplemented Class" Url="html/T_P4API_Exceptions_MergeNotImplemented.htm">
+      <HelpTOCNode Title="MergeNotImplemented Members" Url="html/AllMembers_T_P4API_Exceptions_MergeNotImplemented.htm" />
+      <HelpTOCNode Id="e3f1ebf4-80f0-42ce-8fbf-edc3d28c947b" Title="MergeNotImplemented Properties " Url="html/Properties_T_P4API_Exceptions_MergeNotImplemented.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_MergeNotImplemented_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="84107997-b907-4744-b3d9-8387dddd33f9" Title="P4APIExceptions Class" Url="html/T_P4API_Exceptions_P4APIExceptions.htm">
+      <HelpTOCNode Title="P4APIExceptions Members" Url="html/AllMembers_T_P4API_Exceptions_P4APIExceptions.htm" />
+      <HelpTOCNode Id="13c0330b-d065-43bc-96d4-c83f1c6adba3" Title="P4APIExceptions Properties " Url="html/Properties_T_P4API_Exceptions_P4APIExceptions.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_P4APIExceptions_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e70e3f6b-7867-4b9d-9d3f-94e7e5ef3218" Title="PerforceInitializationError Class" Url="html/T_P4API_Exceptions_PerforceInitializationError.htm">
+      <HelpTOCNode Title="PerforceInitializationError Members" Url="html/AllMembers_T_P4API_Exceptions_PerforceInitializationError.htm" />
+      <HelpTOCNode Id="f8c68a74-6599-479a-9c30-93fdff95a60f" Title="PerforceInitializationError Properties " Url="html/Properties_T_P4API_Exceptions_PerforceInitializationError.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_PerforceInitializationError_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="af57ca53-d2f5-46ce-a799-21f14f467951" Title="RunException Class" Url="html/T_P4API_Exceptions_RunException.htm">
+      <HelpTOCNode Title="RunException Members" Url="html/AllMembers_T_P4API_Exceptions_RunException.htm" />
+      <HelpTOCNode Id="63ec1c39-73cf-4486-8f90-2725a1eacb0f" Title="RunException Properties " Url="html/Properties_T_P4API_Exceptions_RunException.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_RunException_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="30899616-4d7b-4772-a0a3-a6332499d257" Title="RunUnParsedException Class" Url="html/T_P4API_Exceptions_RunUnParsedException.htm">
+      <HelpTOCNode Title="RunUnParsedException Members" Url="html/AllMembers_T_P4API_Exceptions_RunUnParsedException.htm" />
+      <HelpTOCNode Id="36a0797a-0be2-4ebf-bf5b-58ef4ea978de" Title="RunUnParsedException Properties " Url="html/Properties_T_P4API_Exceptions_RunUnParsedException.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_RunUnParsedException_Message.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/P_P4API_Exceptions_RunUnParsedException_Result.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3b0d89f-2073-41dc-88b6-c71a1cf5fe0c" Title="ServerAlreadyConnected Class" Url="html/T_P4API_Exceptions_ServerAlreadyConnected.htm">
+      <HelpTOCNode Title="ServerAlreadyConnected Members" Url="html/AllMembers_T_P4API_Exceptions_ServerAlreadyConnected.htm" />
+      <HelpTOCNode Id="97834bf6-5a16-445b-a688-9b35772c83e0" Title="ServerAlreadyConnected Properties " Url="html/Properties_T_P4API_Exceptions_ServerAlreadyConnected.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_ServerAlreadyConnected_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f08a7dc0-dbbf-49b7-9913-ff0f70f14dbb" Title="ServerNotConnected Class" Url="html/T_P4API_Exceptions_ServerNotConnected.htm">
+      <HelpTOCNode Title="ServerNotConnected Members" Url="html/AllMembers_T_P4API_Exceptions_ServerNotConnected.htm" />
+      <HelpTOCNode Id="af665c89-85dd-4df4-ba8e-d7d6a8f2afc2" Title="ServerNotConnected Properties " Url="html/Properties_T_P4API_Exceptions_ServerNotConnected.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_ServerNotConnected_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c0de44b-3538-4b95-99d0-a4a8e7e3785e" Title="ServerNotConnected_SetVar_AfterInit Class" Url="html/T_P4API_Exceptions_ServerNotConnected_SetVar_AfterInit.htm">
+      <HelpTOCNode Title="ServerNotConnected_SetVar_AfterInit Members" Url="html/AllMembers_T_P4API_Exceptions_ServerNotConnected_SetVar_AfterInit.htm" />
+      <HelpTOCNode Id="1248f074-260f-4e7f-9248-8cd066c84bc9" Title="ServerNotConnected_SetVar_AfterInit Properties " Url="html/Properties_T_P4API_Exceptions_ServerNotConnected_SetVar_AfterInit.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_ServerNotConnected_SetVar_AfterInit_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2aae372d-5be9-4f26-b4b5-1927e943b52e" Title="StreamNotWriteable Class" Url="html/T_P4API_Exceptions_StreamNotWriteable.htm">
+      <HelpTOCNode Title="StreamNotWriteable Members" Url="html/AllMembers_T_P4API_Exceptions_StreamNotWriteable.htm" />
+      <HelpTOCNode Title="StreamNotWriteable Constructor " Url="html/M_P4API_Exceptions_StreamNotWriteable__ctor.htm" />
+      <HelpTOCNode Id="236ca222-2e6d-4eb7-8d38-fd2fdaf6ffd8" Title="StreamNotWriteable Properties " Url="html/Properties_T_P4API_Exceptions_StreamNotWriteable.htm">
+        <HelpTOCNode Title="Message Property " Url="html/P_P4API_Exceptions_StreamNotWriteable_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+<HelpTOCNode Url="html/Copyright.html" Title="P4.Net Copyright" />
+</HelpTOC>
