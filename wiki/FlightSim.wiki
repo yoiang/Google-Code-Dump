@@ -1,4 +1,5 @@
 #summary simple flight sim ish project for a graphics class
+#labels FlightSim
 
 
 [http://yoiang.googlecode.com/svn/trunk/FlightSim/docs/screen1.jpg]
