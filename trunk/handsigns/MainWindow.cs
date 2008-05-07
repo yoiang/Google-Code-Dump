@@ -22,14 +22,38 @@ namespace handsigns
         public MainWindow()
         {
             InitializeComponent();
-            UpdateFingerImages();
 
             handsign.Items.Add( new HandSignSelectionItem( "Hand Wave", "Used to greet others", 1, 1, 1, 1, 1 ) );
-            handsign.Items.Add(new HandSignSelectionItem("The Finger", "Translates directly to \"Fuck you\"", 0, 3, 1, 3, 3));
-            handsign.Items.Add(new HandSignSelectionItem("Peace Sign", 0, 1, 1, 3, 3));
-            handsign.Items.Add(new HandSignSelectionItem("Gnarly Sign", 1, 3, 3, 3, 1));
-            handsign.Items.Add(new HandSignSelectionItem("Number 1", 0, 1, 3, 3, 3));
-            handsign.Items.Add(new HandSignSelectionItem("The Finger Fake Out", 0, 3, 3, 1, 3));
+            handsign.Items.Add(new HandSignSelectionItem("The Finger", "Translates directly to \"Fuck you\"", 0, 2, 1, 2, 2));
+            handsign.Items.Add(new HandSignSelectionItem("Peace Sign", 0, 1, 1, 2, 2));
+            handsign.Items.Add(new HandSignSelectionItem("Gnarly Sign", 1, 2, 2, 2, 1));
+            handsign.Items.Add(new HandSignSelectionItem("Number 1", 0, 1, 2, 2, 2));
+            handsign.Items.Add(new HandSignSelectionItem("The Finger Fake Out", 0, 2, 2, 1, 2));
+
+            Properties.Settings.Default.Upgrade();
+            char[] splitOn = { ',' };
+            string[] Last = Properties.Settings.Default.Last.Split( splitOn );
+            if( Last.Length > 0 )
+            {
+                thumbIndex = Convert.ToInt32( Last[ 0 ] );
+            }
+            if( Last.Length > 1 )
+            {
+                indexIndex = Convert.ToInt32( Last[ 1 ] );
+            }
+            if( Last.Length > 2 )
+            {
+                middleIndex = Convert.ToInt32( Last[ 2 ] );
+            }
+            if( Last.Length > 3 )
+            {
+                ringIndex = Convert.ToInt32( Last[ 3 ] );
+            }
+            if( Last.Length > 4 )
+            {
+                pinkyIndex = Convert.ToInt32( Last[ 4 ] );
+            }
+            UpdateFingerImages();
         }
 
         private void UpdateFingerImages()
@@ -37,16 +61,16 @@ namespace handsigns
             Bitmap[] thumbImages = { Properties.Resources._0_0, Properties.Resources._1_0 };
             UpdateImage( ref thumb, ref thumbIndex, thumbImages );
 
-            Bitmap[] indexImages = { Properties.Resources._0_1, Properties.Resources._1_1, Properties.Resources._2_1, Properties.Resources._3_1 };
+            Bitmap[] indexImages = { Properties.Resources._0_1, Properties.Resources._1_1, Properties.Resources._3_1 };
             UpdateImage(ref index, ref indexIndex, indexImages);
             
-            Bitmap[] middleImages = { Properties.Resources._0_2, Properties.Resources._1_2, Properties.Resources._2_2, Properties.Resources._3_2 };
+            Bitmap[] middleImages = { Properties.Resources._0_2, Properties.Resources._1_2, Properties.Resources._3_2 };
             UpdateImage(ref middle, ref middleIndex, middleImages);
             
-            Bitmap[] ringImages = { Properties.Resources._0_3, Properties.Resources._1_3, Properties.Resources._2_3, Properties.Resources._3_3 };
+            Bitmap[] ringImages = { Properties.Resources._0_3, Properties.Resources._1_3, Properties.Resources._3_3 };
             UpdateImage(ref ring, ref ringIndex, ringImages);
             
-            Bitmap[] pinkyImages = { Properties.Resources._0_4, Properties.Resources._1_4, Properties.Resources._2_4, Properties.Resources._3_4 };
+            Bitmap[] pinkyImages = { Properties.Resources._0_4, Properties.Resources._1_4, Properties.Resources._3_4 };
             UpdateImage(ref pinky, ref pinkyIndex, pinkyImages);
         }
         private void UpdateImage(ref PictureBox Update, ref int Index, Bitmap[] Images)
@@ -99,6 +123,12 @@ namespace handsigns
                 pinkyIndex = SelectedItem.pinkyIndex;
                 UpdateFingerImages();
             }
+        }
+
+        private void OnClosing( object sender, FormClosingEventArgs e )
+        {
+            Properties.Settings.Default.Last = thumbIndex + "," + indexIndex + "," + middleIndex + "," + ringIndex + "," + pinkyIndex;
+            Properties.Settings.Default.Save();
         }
     }
 

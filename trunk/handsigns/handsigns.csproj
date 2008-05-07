@@ -85,6 +85,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -106,10 +107,6 @@
     <Content Include="Resources\1_2.jpg" />
     <Content Include="Resources\1_3.jpg" />
     <Content Include="Resources\1_4.jpg" />
-    <Content Include="Resources\2_1.jpg" />
-    <Content Include="Resources\2_2.jpg" />
-    <Content Include="Resources\2_3.jpg" />
-    <Content Include="Resources\2_4.jpg" />
     <Content Include="Resources\3_1.jpg" />
     <Content Include="Resources\3_2.jpg" />
     <Content Include="Resources\3_3.jpg" />
