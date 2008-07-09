@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,12 +13,19 @@
    height="1052.3622047"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.45.1"
+   inkscape:version="0.46"
    sodipodi:docbase="H:\yo.ian.g\trunk\Mom's Hamsa"
    sodipodi:docname="Sketches.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective5079" />
     <linearGradient
        id="linearGradient3328">
       <stop
@@ -179,17 +186,17 @@
      gridtolerance="50"
      guidetolerance="10"
      objecttolerance="10"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142137"
-     inkscape:cx="367.8572"
-     inkscape:cy="553.4528"
+     inkscape:zoom="16"
+     inkscape:cx="122.22172"
+     inkscape:cy="484.23737"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
-     inkscape:window-width="1665"
-     inkscape:window-height="629"
-     inkscape:window-x="1"
-     inkscape:window-y="323"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      showgrid="false"
      inkscape:object-paths="false"
      inkscape:grid-bbox="false"
@@ -3268,77 +3275,73 @@
        id="path5539"
        d="M 348.94307,213.25195 C 348.94307,213.25195 351.50081,213.16632 352.37917,213.21328 C 352.37365,213.60274 352.30183,213.97011 352.30183,213.97011 L 348.93755,213.86515 L 348.94307,213.25195 z "
        style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path5543"
+       d="M 351.61252,207.57845 C 351.56564,207.69563 351.63178,207.62784 351.63178,207.62784 C 351.63178,207.62784 359.60726,234.99145 360.08382,238.44458 C 360.15413,235.92895 361.07601,239.56372 360.13069,235.56176 C 359.63851,233.65356 352.64211,209.48889 351.61252,207.57845 z"
+       style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path5545"
+       d="M 359.95481,238.08404 C 359.95481,238.08404 360.14723,237.13579 360.07468,238.44281 C 362.31462,238.93733 363.80227,239.17098 365.03959,238.43712 C 365.02691,236.76576 365.08647,235.50738 365.08647,235.50738 L 360.13181,235.55487 L 360.06955,236.62227"
+       style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <g
-       style="fill:#666666;display:inline"
-       transform="translate(212.52132,93.340212)"
-       id="g5541">
-      <path
-         style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 139.0912,114.23824 C 139.04432,114.35542 139.11046,114.28763 139.11046,114.28763 C 139.11046,114.28763 147.08594,141.65124 147.5625,145.10437 C 147.63281,142.58874 148.55469,146.22351 147.60937,142.22155 C 147.11719,140.31335 140.12079,116.14868 139.0912,114.23824 z "
-         id="path5543"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 147.43349,144.74383 C 147.43349,144.74383 147.62591,143.79558 147.55336,145.1026 C 149.7933,145.59712 151.28095,145.83077 152.51827,145.09691 C 152.50559,143.42555 152.56515,142.16717 152.56515,142.16717 L 147.61049,142.21466 L 147.54823,143.28206"
-         id="path5545"
-         sodipodi:nodetypes="cccccc" />
+       id="g5547"
+       style="fill:#666666"
+       transform="translate(212.52132,93.340212)">
       <g
-         style="fill:#666666"
-         id="g5547">
+         id="g5549"
+         style="fill:#666666">
+        <path
+           style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 130.85203,151.18412 C 130.85203,151.18412 130.91176,153.61355 130.93726,154.78595 C 133.02527,155.33335 136.17065,155.35119 138.20405,155.12372 C 138.29995,153.58375 138.32085,151.62607 138.32085,151.62607 L 130.85203,151.18412 z"
+           id="path5551"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           id="path5553"
+           d="M 140.76573,147.81589 C 140.76573,147.81589 140.66781,149.25603 140.72154,150.65695 C 142.65027,151.05787 144.03361,151.05188 145.77484,150.63833 C 145.82857,149.34979 145.93645,147.75277 145.93645,147.75277 L 140.76573,147.81589 z"
+           style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
         <g
-           style="fill:#666666"
-           id="g5549">
-          <path
-             sodipodi:nodetypes="ccccc"
-             id="path5551"
-             d="M 130.85203,151.18412 C 130.85203,151.18412 130.91176,153.61355 130.93726,154.78595 C 133.02527,155.33335 136.17065,155.35119 138.20405,155.12372 C 138.29995,153.58375 138.32085,151.62607 138.32085,151.62607 L 130.85203,151.18412 z "
-             style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          <path
-             style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             d="M 140.76573,147.81589 C 140.76573,147.81589 140.66781,149.25603 140.72154,150.65695 C 142.65027,151.05787 144.03361,151.05188 145.77484,150.63833 C 145.82857,149.34979 145.93645,147.75277 145.93645,147.75277 L 140.76573,147.81589 z "
-             id="path5553"
-             sodipodi:nodetypes="ccccc" />
+           id="g5555"
+           style="fill:#666666">
           <g
-             style="fill:#666666"
-             id="g5555">
-            <g
-               style="fill:#666666"
-               id="g5557">
-              <path
-                 transform="translate(37.566021,0.266285)"
-                 style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                 d="M 86.515168,144.88312 C 86.515168,144.88312 86.614548,147.28295 86.704254,148.38868 C 88.04396,149.18191 90.765077,149.62587 91.84274,149.64978 C 91.920403,148.29869 91.998363,146.27209 91.998363,146.27209 L 86.515168,144.88312 z "
-                 id="path5559"
-                 sodipodi:nodetypes="ccccc" />
-              <g
-                 style="fill:#666666"
-                 id="g5561">
-                <path
-                   style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                   d="M 87.699256,135.74084 L 82.497311,134.50812 C 82.497311,134.50812 82.482852,136.68363 82.525683,137.88422 C 83.906493,138.40259 85.418495,138.68878 86.646455,138.83675 C 87.016817,138.88138 87.361341,138.91344 87.668633,138.9355"
-                   id="path5563"
-                   sodipodi:nodetypes="cccsc"
-                   transform="translate(37.566021,0.266285)" />
-                <path
-                   sodipodi:nodetypes="ccccc"
-                   id="path5565"
-                   d="M 138.25058,114.13949 C 138.65766,114.23715 138.23811,114.15512 138.23811,114.15512 L 125.18749,139.17472 C 125.18749,139.17472 125.19884,138.36624 125.2279,136.0756 C 127.37827,133.14415 137.7185,115.16683 138.25058,114.13949 z "
-                   style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-              </g>
-            </g>
+             id="g5557"
+             style="fill:#666666">
             <path
                sodipodi:nodetypes="ccccc"
-               id="path5567"
-               d="M 135.13479,130.80487 C 135.21633,129.8202 135.95876,126.2924 135.47226,128.13317 C 133.29826,134.78644 131.12499,142.09659 129.43749,146.51847 C 129.40624,147.26847 129.34374,150.01847 129.34374,150.01847 C 129.34374,150.01847 134.74942,131.6459 135.13479,130.80487 z "
-               style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+               id="path5559"
+               d="M 86.515168,144.88312 C 86.515168,144.88312 86.614548,147.28295 86.704254,148.38868 C 88.04396,149.18191 90.765077,149.62587 91.84274,149.64978 C 91.920403,148.29869 91.998363,146.27209 91.998363,146.27209 L 86.515168,144.88312 z"
+               style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               transform="translate(37.566021,0.266285)" />
+            <g
+               id="g5561"
+               style="fill:#666666">
+              <path
+                 transform="translate(37.566021,0.266285)"
+                 sodipodi:nodetypes="cccsc"
+                 id="path5563"
+                 d="M 87.699256,135.74084 L 82.497311,134.50812 C 82.497311,134.50812 82.482852,136.68363 82.525683,137.88422 C 83.906493,138.40259 85.418495,138.68878 86.646455,138.83675 C 87.016817,138.88138 87.361341,138.91344 87.668633,138.9355"
+                 style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+              <path
+                 style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 d="M 138.25058,114.13949 C 138.65766,114.23715 138.23811,114.15512 138.23811,114.15512 L 125.18749,139.17472 C 125.18749,139.17472 125.19884,138.36624 125.2279,136.0756 C 127.37827,133.14415 137.7185,115.16683 138.25058,114.13949 z"
+                 id="path5565"
+                 sodipodi:nodetypes="ccccc" />
+            </g>
           </g>
+          <path
+             style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="M 135.13479,130.80487 C 135.21633,129.8202 135.95876,126.2924 135.47226,128.13317 C 133.29826,134.78644 131.12499,142.09659 129.43749,146.51847 C 129.40624,147.26847 129.34374,150.01847 129.34374,150.01847 C 129.34374,150.01847 134.74942,131.6459 135.13479,130.80487 z"
+             id="path5567"
+             sodipodi:nodetypes="ccccc" />
         </g>
-        <path
-           sodipodi:nodetypes="cccccc"
-           id="path5569"
-           d="M 140.75844,147.79587 C 140.74739,149.33162 140.71424,150.53591 140.71424,150.53591 L 139.25584,132.99082 L 138.99067,131.02418 L 139.07905,127.75381 C 139.07905,127.75381 140.19496,143.16653 140.75844,147.79587 z "
-           style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       </g>
+      <path
+         style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 140.75844,147.79587 C 140.74739,149.33162 140.71424,150.53591 140.71424,150.53591 L 139.25584,132.99082 L 138.99067,131.02418 L 139.07905,127.75381 C 139.07905,127.75381 140.19496,143.16653 140.75844,147.79587 z"
+         id="path5569"
+         sodipodi:nodetypes="cccccc" />
     </g>
     <path
        sodipodi:nodetypes="ccccccccccccccc"
@@ -3492,77 +3495,73 @@
        d="M 313.37316,213.03227 C 313.37316,213.03227 315.9309,212.94664 316.80926,212.9936 C 316.80374,213.38306 316.73192,213.75043 316.73192,213.75043 L 313.36764,213.64547 L 313.37316,213.03227 z "
        id="path5633"
        sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 316.04261,207.35878 C 315.99573,207.47596 316.06187,207.40817 316.06187,207.40817 C 316.06187,207.40817 324.03735,234.77178 324.51391,238.22491 C 324.58422,235.70928 325.5061,239.34405 324.56078,235.34209 C 324.0686,233.43389 317.0722,209.26922 316.04261,207.35878 z"
+       id="path5637"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 324.3849,237.86437 C 324.3849,237.86437 324.57732,236.91612 324.50477,238.22314 C 326.74471,238.71766 328.23236,238.95131 329.46968,238.21745 C 329.457,236.54609 329.51656,235.28771 329.51656,235.28771 L 324.5619,235.3352 L 324.49964,236.4026"
+       id="path5639"
+       sodipodi:nodetypes="cccccc" />
     <g
-       id="g5635"
-       transform="translate(176.95141,93.120543)"
-       style="fill:#666666;display:inline">
-      <path
-         sodipodi:nodetypes="ccccc"
-         id="path5637"
-         d="M 139.0912,114.23824 C 139.04432,114.35542 139.11046,114.28763 139.11046,114.28763 C 139.11046,114.28763 147.08594,141.65124 147.5625,145.10437 C 147.63281,142.58874 148.55469,146.22351 147.60937,142.22155 C 147.11719,140.31335 140.12079,116.14868 139.0912,114.23824 z "
-         style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="cccccc"
-         id="path5639"
-         d="M 147.43349,144.74383 C 147.43349,144.74383 147.62591,143.79558 147.55336,145.1026 C 149.7933,145.59712 151.28095,145.83077 152.51827,145.09691 C 152.50559,143.42555 152.56515,142.16717 152.56515,142.16717 L 147.61049,142.21466 L 147.54823,143.28206"
-         style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#666666"
+       id="g5641"
+       transform="translate(176.95141,93.120543)">
       <g
-         id="g5641"
-         style="fill:#666666">
-        <g
-           id="g5643"
-           style="fill:#666666">
-          <path
-             style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             d="M 130.85203,151.18412 C 130.85203,151.18412 130.91176,153.61355 130.93726,154.78595 C 133.02527,155.33335 136.17065,155.35119 138.20405,155.12372 C 138.29995,153.58375 138.32085,151.62607 138.32085,151.62607 L 130.85203,151.18412 z "
-             id="path5645"
-             sodipodi:nodetypes="ccccc" />
-          <path
-             sodipodi:nodetypes="ccccc"
-             id="path5647"
-             d="M 140.76573,147.81589 C 140.76573,147.81589 140.66781,149.25603 140.72154,150.65695 C 142.65027,151.05787 144.03361,151.05188 145.77484,150.63833 C 145.82857,149.34979 145.93645,147.75277 145.93645,147.75277 L 140.76573,147.81589 z "
-             style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-          <g
-             id="g5649"
-             style="fill:#666666">
-            <g
-               id="g5651"
-               style="fill:#666666">
-              <path
-                 sodipodi:nodetypes="ccccc"
-                 id="path5653"
-                 d="M 86.515168,144.88312 C 86.515168,144.88312 86.614548,147.28295 86.704254,148.38868 C 88.04396,149.18191 90.765077,149.62587 91.84274,149.64978 C 91.920403,148.29869 91.998363,146.27209 91.998363,146.27209 L 86.515168,144.88312 z "
-                 style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                 transform="translate(37.566021,0.266285)" />
-              <g
-                 id="g5655"
-                 style="fill:#666666">
-                <path
-                   transform="translate(37.566021,0.266285)"
-                   sodipodi:nodetypes="cccsc"
-                   id="path5657"
-                   d="M 87.699256,135.74084 L 82.497311,134.50812 C 82.497311,134.50812 82.482852,136.68363 82.525683,137.88422 C 83.906493,138.40259 85.418495,138.68878 86.646455,138.83675 C 87.016817,138.88138 87.361341,138.91344 87.668633,138.9355"
-                   style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-                <path
-                   style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                   d="M 138.25058,114.13949 C 138.65766,114.23715 138.23811,114.15512 138.23811,114.15512 L 125.18749,139.17472 C 125.18749,139.17472 125.19884,138.36624 125.2279,136.0756 C 127.37827,133.14415 137.7185,115.16683 138.25058,114.13949 z "
-                   id="path5659"
-                   sodipodi:nodetypes="ccccc" />
-              </g>
-            </g>
-            <path
-               style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               d="M 135.13479,130.80487 C 135.21633,129.8202 135.95876,126.2924 135.47226,128.13317 C 133.29826,134.78644 131.12499,142.09659 129.43749,146.51847 C 129.40624,147.26847 129.34374,150.01847 129.34374,150.01847 C 129.34374,150.01847 134.74942,131.6459 135.13479,130.80487 z "
-               id="path5661"
-               sodipodi:nodetypes="ccccc" />
-          </g>
-        </g>
+         style="fill:#666666"
+         id="g5643">
+        <path
+           sodipodi:nodetypes="ccccc"
+           id="path5645"
+           d="M 130.85203,151.18412 C 130.85203,151.18412 130.91176,153.61355 130.93726,154.78595 C 133.02527,155.33335 136.17065,155.35119 138.20405,155.12372 C 138.29995,153.58375 138.32085,151.62607 138.32085,151.62607 L 130.85203,151.18412 z"
+           style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
         <path
            style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="M 140.75844,147.79587 C 140.74739,149.33162 140.71424,150.53591 140.71424,150.53591 L 139.25584,132.99082 L 138.99067,131.02418 L 139.07905,127.75381 C 139.07905,127.75381 140.19496,143.16653 140.75844,147.79587 z "
-           id="path5663"
-           sodipodi:nodetypes="cccccc" />
+           d="M 140.76573,147.81589 C 140.76573,147.81589 140.66781,149.25603 140.72154,150.65695 C 142.65027,151.05787 144.03361,151.05188 145.77484,150.63833 C 145.82857,149.34979 145.93645,147.75277 145.93645,147.75277 L 140.76573,147.81589 z"
+           id="path5647"
+           sodipodi:nodetypes="ccccc" />
+        <g
+           style="fill:#666666"
+           id="g5649">
+          <g
+             style="fill:#666666"
+             id="g5651">
+            <path
+               transform="translate(37.566021,0.266285)"
+               style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="M 86.515168,144.88312 C 86.515168,144.88312 86.614548,147.28295 86.704254,148.38868 C 88.04396,149.18191 90.765077,149.62587 91.84274,149.64978 C 91.920403,148.29869 91.998363,146.27209 91.998363,146.27209 L 86.515168,144.88312 z"
+               id="path5653"
+               sodipodi:nodetypes="ccccc" />
+            <g
+               style="fill:#666666"
+               id="g5655">
+              <path
+                 style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 d="M 87.699256,135.74084 L 82.497311,134.50812 C 82.497311,134.50812 82.482852,136.68363 82.525683,137.88422 C 83.906493,138.40259 85.418495,138.68878 86.646455,138.83675 C 87.016817,138.88138 87.361341,138.91344 87.668633,138.9355"
+                 id="path5657"
+                 sodipodi:nodetypes="cccsc"
+                 transform="translate(37.566021,0.266285)" />
+              <path
+                 sodipodi:nodetypes="ccccc"
+                 id="path5659"
+                 d="M 138.25058,114.13949 C 138.65766,114.23715 138.23811,114.15512 138.23811,114.15512 L 125.18749,139.17472 C 125.18749,139.17472 125.19884,138.36624 125.2279,136.0756 C 127.37827,133.14415 137.7185,115.16683 138.25058,114.13949 z"
+                 style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            </g>
+          </g>
+          <path
+             sodipodi:nodetypes="ccccc"
+             id="path5661"
+             d="M 135.13479,130.80487 C 135.21633,129.8202 135.95876,126.2924 135.47226,128.13317 C 133.29826,134.78644 131.12499,142.09659 129.43749,146.51847 C 129.40624,147.26847 129.34374,150.01847 129.34374,150.01847 C 129.34374,150.01847 134.74942,131.6459 135.13479,130.80487 z"
+             style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
       </g>
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path5663"
+         d="M 140.75844,147.79587 C 140.74739,149.33162 140.71424,150.53591 140.71424,150.53591 L 139.25584,132.99082 L 138.99067,131.02418 L 139.07905,127.75381 C 139.07905,127.75381 140.19496,143.16653 140.75844,147.79587 z"
+         style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <path
        style="fill:#caffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
@@ -5726,46 +5725,73 @@
        style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 102.47312,428.65098 C 104.57745,430.42699 107.52587,431.83893 109.80931,432.45083 C 113.04791,425.60052 118.04654,409.15593 120.92695,402.15638 C 121.06127,402.32055 121.88211,404.24879 121.88211,404.24879 L 126.38221,404.50626 C 126.38221,404.50626 127.06599,401.39311 127.28988,400.96029 C 129.24497,404.58692 134.17727,431.70642 133.93288,432.98449 C 138.42513,432.83525 140.66172,431.74471 143.1541,430.55074 C 140.69156,423.68553 133.63075,406.12947 128.16839,397.62254 C 124.25821,397.95089 122.27783,400.25161 117.81543,399.78895 C 116.57669,405.41545 105.74156,424.00947 102.47312,428.65098 z "
        id="path4442"
-       sodipodi:nodetypes="ccccccccccc" />
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:nodetypes="cssssccssssc"
        id="path4444"
        d="M 122.61502,405.10848 C 120.854,405.50062 119.59238,406.80772 119.68345,408.27548 C 119.78755,409.9529 121.61793,411.27531 123.77314,411.14371 C 125.92835,411.0121 127.58946,409.43323 127.48538,407.75578 C 127.38127,406.07836 125.4234,404.87144 123.2682,405.00304 C 122.9988,405.01949 122.86659,405.05247 122.61502,405.10848 z M 123.23197,406.71096 C 123.33403,406.68815 123.4406,406.67691 123.54994,406.67045 C 124.42463,406.61882 125.17015,407.13477 125.21454,407.82752 C 125.25895,408.52027 124.58216,409.12656 123.70748,409.1782 C 122.83277,409.22983 122.08726,408.71387 122.04286,408.02114 C 122.00403,407.41497 122.51764,406.87066 123.23197,406.71096 z "
-       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 109.97031,436.74183 C 111.99257,431.23471 117.45468,416.40539 118.6337,410.8535 C 122.43943,411.152 125.02603,411.37331 128.59298,411.43301 C 130.78687,417.76095 132.05032,431.82656 132.79654,437.48292 C 130.72281,438.12707 129.58084,438.31883 126.56626,438.4206 C 126.67073,432.94334 126.61827,419.63075 125.67804,415.3773 C 125.39447,415.36235 125.40823,415.41204 125.21493,415.4792 C 125.15525,422.0758 125.21492,436.06253 124.49857,442.77854 C 121.33458,443.10688 120.97217,443.03225 117.39029,442.36065 C 119.24092,433.98805 122.08125,419.06362 122.09616,415.1982 C 121.93201,415.21312 121.60835,415.09628 121.60835,415.09628 C 121.60835,415.09628 117.63845,432.70456 115.99676,438.6594 C 113.6984,438.64448 111.82839,438.0701 109.97031,436.74183 z "
        id="path4446"
-       sodipodi:nodetypes="ccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        style="fill:#782121;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 102.38887,427.17045 L 102.53663,428.54236 C 102.53663,428.54236 106.88167,431.72257 109.71278,432.19375 C 112.92381,424.68672 119.44498,404.93796 120.92114,402.03376 C 120.90717,401.86552 121.77384,403.81416 121.86675,404.01662 C 121.85567,403.90773 126.33051,404.52981 126.3218,404.42189 C 126.31722,404.36522 127.08731,401.09491 127.19049,400.94595 C 130.44949,403.86908 133.70306,430.97147 133.90627,432.91343 C 138.43239,432.51997 140.3306,431.77396 143.06074,430.49077 C 142.18079,428.56818 136.24948,411.72884 128.21822,397.63157 C 128.15683,397.50965 128.04304,397.95027 127.93804,397.77556 C 127.83308,397.60084 142.47638,429.38781 142.39503,429.22735 C 141.0863,429.68991 133.73215,431.2755 133.72548,431.20044 C 133.91938,426.29846 127.95384,400.35221 126.24446,399.61197 C 126.21409,399.48363 125.64029,403.17948 125.63743,403.14167 C 125.62698,403.00294 121.93156,402.82742 121.92114,402.74836 C 121.952,402.54207 121.16752,400.54804 121.00246,400.07512 L 109.34341,430.54746 L 102.38887,427.17045 z "
        id="path3200"
-       sodipodi:nodetypes="cccccsccccccccscccc" />
+       sodipodi:nodetypes="cccccsccccccccscccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:nodetypes="ccccccccccc"
        id="path3181"
        d="M 102.35116,427.15266 C 104.4555,428.92866 107.17175,430.18231 109.45519,430.79422 C 112.69379,423.94392 120.00675,402.12439 120.96191,400.6021 C 121.09625,400.76628 121.99229,403.40446 121.99229,403.40446 C 121.99229,403.40446 124.71112,403.34494 125.72252,403.41477 C 126.00261,401.79215 126.28801,400.68287 126.30293,400.20829 C 128.30024,403.83492 133.32234,425.48625 133.68096,431.3912 C 138.17322,431.24197 139.90445,430.36611 142.39684,429.17214 C 139.93431,422.30691 133.61011,406.05371 128.14776,397.54681 C 124.23757,397.87514 122.6862,398.36808 118.04701,398.43575 C 116.80829,404.06225 105.6196,422.51117 102.35116,427.15266 z "
-       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        id="path4174"
        d="M 122.79599,404.20486 C 121.03025,404.5 119.61991,405.77115 119.63481,407.18649 C 119.66499,410.05558 121.47552,410.89514 123.61632,410.86881 C 125.75708,410.8425 127.76508,409.64049 127.4262,407.02203 C 127.30018,405.84472 125.71752,404.11243 123.57673,404.13877 C 123.30914,404.14205 123.04822,404.16271 122.79599,404.20486 z M 123.33426,406.64349 C 123.43659,406.6263 123.5427,406.62046 123.65131,406.61933 C 124.52005,406.61036 125.22807,407.14109 125.23189,407.80921 C 125.23573,408.47731 124.53074,409.02878 123.66199,409.03776 C 122.79328,409.04671 122.08525,408.51597 122.08143,407.84787 C 122.07808,407.26328 122.61799,406.76382 123.33426,406.64349 z "
        style="fill:#782121;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       sodipodi:nodetypes="csscsccssssc" />
+       sodipodi:nodetypes="csscsccssssc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 122.54076,404.0323 C 120.79371,404.42375 119.54174,405.73039 119.63154,407.19817 C 119.73418,408.87565 121.54879,410.13455 123.68676,410.00374 C 125.82471,409.87295 127.48098,408.40046 127.37833,406.72299 C 127.2757,405.04551 125.45508,403.79517 123.31712,403.92598 C 123.04986,403.94232 122.79034,403.97636 122.54076,404.0323 z M 123.15218,405.63499 C 123.25343,405.61221 123.35915,405.60102 123.46759,405.59461 C 124.33529,405.5433 125.07463,406.05952 125.1184,406.75229 C 125.16219,407.44505 124.49061,408.05109 123.62292,408.1024 C 122.75522,408.15372 122.01589,407.63748 121.9721,406.94471 C 121.93381,406.33854 122.4435,405.79443 123.15218,405.63499 z "
-       id="path4451" />
+       id="path4451"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        style="fill:#782121;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 109.99138,435.37238 C 109.99138,435.37238 109.96922,436.04461 110.02094,436.58386 C 110.75227,437.12312 113.71311,438.69689 115.8716,438.47499 C 117.35046,432.9934 121.59498,414.98251 121.59498,414.98251 C 121.59498,414.98251 121.58453,415.00875 122.01583,415.12406 C 124.26439,424.62112 116.49,439.51583 117.49906,442.28885 C 120.35492,442.78664 121.46906,442.91611 124.39731,442.68228 C 125.0063,437.0473 125.20557,415.42905 125.20557,415.42905 C 125.20557,415.42905 125.46614,415.30989 125.8079,415.31292 C 127.04909,421.03365 126.65208,436.93563 126.6245,438.31197 C 128.75399,438.46204 130.94023,437.81569 132.71541,437.43949 C 132.4074,432.52756 130.61384,418.30252 128.70194,411.63158 C 128.50387,411.35799 128.25906,410.81488 128.25906,410.81488 C 128.25906,410.81488 131.93343,432.77736 132.3496,435.95437 C 130.53483,436.38337 126.61428,436.81995 126.61428,436.81995 C 126.61428,436.81995 126.28904,414.87989 125.81252,414.027 C 125.15867,414.06057 124.76722,414.14254 124.76722,414.14254 L 123.92435,441.10546 C 123.92435,441.10546 119.48667,441.13739 117.44851,440.69305 C 117.62651,440.13052 121.80551,420.86142 121.97697,414.03432 C 121.51315,413.87048 121.26654,413.85739 121.26654,413.85739 L 115.60565,437.1453 L 109.99138,435.37238 z "
        id="path4453"
-       sodipodi:nodetypes="ccccccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccccccccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:nodetypes="ccccccccccccc"
        id="path4455"
        d="M 109.93277,435.3246 C 111.95504,429.91927 117.29051,415.69554 118.46954,410.24627 C 122.27526,410.53925 124.69302,410.71503 128.25996,410.77362 C 130.45385,416.98461 131.63287,430.59462 132.3791,436.14641 C 130.33491,436.89248 129.52853,437.00919 126.52871,436.84804 C 126.6332,431.47202 126.45411,418.40551 125.51387,414.23068 C 125.23031,414.21603 125.1491,414.28877 124.7975,414.28927 C 124.7378,420.76393 124.79749,434.53356 124.08113,441.12541 C 120.91715,441.44769 120.97684,441.37444 117.39496,440.71526 C 119.2456,432.49742 121.91708,417.84887 121.93201,414.0549 C 121.76784,414.06955 121.27534,413.99631 121.27534,413.99631 C 121.27534,413.99631 117.30543,431.23767 115.66374,437.08243 C 113.36538,437.06776 111.79087,436.62831 109.93277,435.3246 z "
-       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:type="arc"
        style="fill:#782121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -5775,7 +5801,10 @@
        sodipodi:rx="2.84375"
        sodipodi:ry="2.34375"
        d="M 572.125 642.70593 A 2.84375 2.34375 0 1 1  566.4375,642.70593 A 2.84375 2.34375 0 1 1  572.125 642.70593 z"
-       transform="matrix(0.4626859,0,0,0.4701622,-139.84406,104.70388)" />
+       transform="matrix(0.4626859,0,0,0.4701622,-139.84406,104.70388)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        transform="matrix(0.1980255,0,0,0.2183236,10.822027,266.56204)"
        d="M 572.125 642.70593 A 2.84375 2.34375 0 1 1  566.4375,642.70593 A 2.84375 2.34375 0 1 1  572.125 642.70593 z"
@@ -5785,25 +5814,40 @@
        sodipodi:cx="569.28125"
        id="path6123"
        style="fill:#002121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:type="arc" />
+       sodipodi:type="arc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:nodetypes="ccccccccccc"
        id="path4319"
        d="M 146.59812,430.40098 C 148.70245,432.17699 151.65087,433.58893 153.93431,434.20083 C 157.17291,427.35052 162.17154,410.90593 165.05195,403.90638 C 165.18627,404.07055 166.00711,405.99879 166.00711,405.99879 L 170.50721,406.25626 C 170.50721,406.25626 171.19099,403.14311 171.41488,402.71029 C 173.36997,406.33692 178.30227,433.45642 178.05788,434.73449 C 182.55013,434.58525 184.78672,433.49471 187.2791,432.30074 C 184.81656,425.43553 177.75575,407.87947 172.29339,399.37254 C 168.38321,399.70089 166.40283,402.00161 161.94043,401.53895 C 160.70169,407.16545 149.86656,425.75947 146.59812,430.40098 z "
-       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 166.74002,406.85848 C 164.979,407.25062 163.71738,408.55772 163.80845,410.02548 C 163.91255,411.7029 165.74293,413.02531 167.89814,412.89371 C 170.05335,412.7621 171.71446,411.18323 171.61038,409.50578 C 171.50627,407.82836 169.5484,406.62144 167.3932,406.75304 C 167.1238,406.76949 166.99159,406.80247 166.74002,406.85848 z M 167.35697,408.46096 C 167.45903,408.43815 167.5656,408.42691 167.67494,408.42045 C 168.54963,408.36882 169.29515,408.88477 169.33954,409.57752 C 169.38395,410.27027 168.70716,410.87656 167.83248,410.9282 C 166.95777,410.97983 166.21226,410.46387 166.16786,409.77114 C 166.12903,409.16497 166.64264,408.62066 167.35697,408.46096 z "
        id="path4321"
-       sodipodi:nodetypes="cssssccssssc" />
+       sodipodi:nodetypes="cssssccssssc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:nodetypes="ccccccccccccc"
        id="path4323"
        d="M 154.09531,438.49183 C 156.11757,432.98471 161.57968,418.15539 162.7587,412.6035 C 166.56443,412.902 169.15103,413.12331 172.71798,413.18301 C 174.91187,419.51095 176.17532,433.57656 176.92154,439.23292 C 174.84781,439.87707 173.70584,440.06883 170.69126,440.1706 C 170.79573,434.69334 170.74327,421.38075 169.80304,417.1273 C 169.51947,417.11235 169.53323,417.16204 169.33993,417.2292 C 169.28025,423.8258 169.33992,437.81253 168.62357,444.52854 C 165.45958,444.85688 165.09717,444.78225 161.51529,444.11065 C 163.36592,435.73805 166.20625,420.81362 166.22116,416.9482 C 166.05701,416.96312 165.73335,416.84628 165.73335,416.84628 C 165.73335,416.84628 161.76345,434.45456 160.12176,440.4094 C 157.8234,440.39448 155.95339,439.8201 154.09531,438.49183 z "
-       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <g
        id="g5318"
-       style="fill:#53ff00;fill-opacity:1">
+       style="fill:#53ff00;fill-opacity:1"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001">
       <path
          style="fill:#53ff00;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
          d="M 146.51387,428.92045 L 146.66163,430.29236 C 146.66163,430.29236 151.00667,433.47257 153.83778,433.94375 C 157.04881,426.43672 163.56998,406.68796 165.04614,403.78376 C 165.03217,403.61552 165.89884,405.56416 165.99175,405.76662 C 165.98067,405.65773 170.45551,406.27981 170.4468,406.17189 C 170.44222,406.11522 171.21231,402.84491 171.31549,402.69595 C 174.57449,405.61908 177.82806,432.72147 178.03127,434.66343 C 182.55739,434.26997 184.4556,433.52396 187.18574,432.24077 C 186.30579,430.31818 180.37448,413.47884 172.34322,399.38157 C 172.28183,399.25965 172.16804,399.70027 172.06304,399.52556 C 171.95808,399.35084 186.60138,431.13781 186.52003,430.97735 C 185.2113,431.43991 177.85715,433.0255 177.85048,432.95044 C 178.04438,428.04846 172.07884,402.10221 170.36946,401.36197 C 170.33909,401.23363 169.76529,404.92948 169.76243,404.89167 C 169.75198,404.75294 166.05656,404.57742 166.04614,404.49836 C 166.077,404.29207 165.29252,402.29804 165.12746,401.82512 L 153.46841,432.29746 L 146.51387,428.92045 z "
@@ -5822,7 +5866,10 @@
     </g>
     <g
        id="g5331"
-       style="fill:#800000">
+       style="fill:#800000"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001">
       <path
          sodipodi:nodetypes="ccccccccccc"
          id="path4327"
@@ -5847,7 +5894,10 @@
        sodipodi:cx="569.28125"
        id="path4337"
        style="fill:#782121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:type="arc" />
+       sodipodi:type="arc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        sodipodi:type="arc"
        style="fill:#002121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -5857,7 +5907,10 @@
        sodipodi:rx="2.84375"
        sodipodi:ry="2.34375"
        d="M 572.125 642.70593 A 2.84375 2.34375 0 1 1  566.4375,642.70593 A 2.84375 2.34375 0 1 1  572.125 642.70593 z"
-       transform="matrix(0.1980255,0,0,0.2183236,54.947025,268.31204)" />
+       transform="matrix(0.1980255,0,0,0.2183236,54.947025,268.31204)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <path
        style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 190.17358,431.19648 C 192.27791,432.97249 195.22633,434.38443 197.50977,434.99633 C 200.74837,428.14602 205.747,411.70143 208.62741,404.70188 C 208.76173,404.86605 209.58257,406.79429 209.58257,406.79429 L 214.08267,407.05176 C 214.08267,407.05176 214.76645,403.93861 214.99034,403.50579 C 216.94543,407.13242 221.87773,434.25192 221.63334,435.52999 C 226.12559,435.38075 228.36218,434.29021 230.85456,433.09624 C 228.39202,426.23103 221.33121,408.67497 215.86885,400.16804 C 211.95867,400.49639 209.97829,402.79711 205.51589,402.33445 C 204.27715,407.96095 193.44202,426.55497 190.17358,431.19648 z "
@@ -6008,57 +6061,62 @@
        transform="matrix(0.1980255,0,0,0.2183236,144.27248,270.35754)" />
     <path
        style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 279.94098,433.86069 C 282.04531,435.6367 284.99373,437.04864 287.27717,437.66054 C 290.51577,430.81023 295.5144,414.36564 298.39481,407.36609 C 298.52913,407.53026 299.34997,409.4585 299.34997,409.4585 L 303.85007,409.71597 C 303.85007,409.71597 304.53385,406.60282 304.75774,406.17 C 306.71283,409.79663 311.64513,436.91613 311.40074,438.1942 C 315.89299,438.04496 318.12958,436.95442 320.62196,435.76045 C 318.15942,428.89524 311.09861,411.33918 305.63625,402.83225 C 301.72607,403.1606 299.74569,405.46132 295.28329,404.99866 C 294.04455,410.62516 283.20942,429.21918 279.94098,433.86069 z "
+       d="M 207.94098,524.86068 C 210.04531,526.63669 212.99373,528.04863 215.27717,528.66053 C 218.51577,521.81022 223.60815,505.05313 226.48856,498.05358 C 226.62288,498.21775 227.34997,500.45849 227.34997,500.45849 L 231.85007,500.71596 C 231.85007,500.71596 232.53385,497.60281 232.75774,497.16999 C 234.71283,500.79662 239.64513,527.91612 239.40074,529.19419 C 243.89299,529.04495 246.12958,527.95441 248.62196,526.76044 C 246.15942,519.89523 239.09861,502.33917 233.63625,493.83224 C 229.72607,494.16059 227.74569,496.46131 223.28329,495.99865 C 222.04455,501.62515 211.20942,520.21917 207.94098,524.86068 z"
        id="path5365"
        sodipodi:nodetypes="ccccccccccc" />
     <path
        sodipodi:nodetypes="cssssccssssc"
        id="path5368"
-       d="M 300.08288,410.31819 C 298.32186,410.71033 297.06024,412.01743 297.15131,413.48519 C 297.25541,415.16261 299.08579,416.48502 301.241,416.35342 C 303.39621,416.22181 305.05732,414.64294 304.95324,412.96549 C 304.84913,411.28807 302.89126,410.08115 300.73606,410.21275 C 300.46666,410.2292 300.33445,410.26218 300.08288,410.31819 z M 300.69983,411.92067 C 300.80189,411.89786 300.90846,411.88662 301.0178,411.88016 C 301.89249,411.82853 302.63801,412.34448 302.6824,413.03723 C 302.72681,413.72998 302.05002,414.33627 301.17534,414.38791 C 300.30063,414.43954 299.55512,413.92358 299.51072,413.23085 C 299.47189,412.62468 299.9855,412.08037 300.69983,411.92067 z "
+       d="M 228.34805,501.31818 C 226.58703,501.71032 225.32541,503.01742 225.41648,504.48518 C 225.52058,506.1626 227.35096,507.48501 229.50617,507.35341 C 231.66138,507.2218 233.32249,505.64293 233.21841,503.96548 C 233.1143,502.28806 231.15643,501.08114 229.00123,501.21274 C 228.73183,501.22919 228.59962,501.26217 228.34805,501.31818 z M 228.965,502.92066 C 229.06706,502.89785 229.17363,502.88661 229.28297,502.88015 C 230.15766,502.82852 230.90318,503.34447 230.94757,504.03722 C 230.99198,504.72997 230.31519,505.33626 229.44051,505.3879 C 228.5658,505.43953 227.82029,504.92357 227.77589,504.23084 C 227.73706,503.62467 228.25067,503.08036 228.965,502.92066 z"
        style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 287.43817,441.95154 C 289.46043,436.44442 294.92254,421.6151 296.10156,416.06321 C 299.90729,416.36171 302.49389,416.58302 306.06084,416.64272 C 308.25473,422.97066 309.51818,437.03627 310.2644,442.69263 C 308.19067,443.33678 307.0487,443.52854 304.03412,443.63031 C 304.13859,438.15305 304.08613,424.84046 303.1459,420.58701 C 302.86233,420.57206 302.87609,420.62175 302.68279,420.68891 C 302.62311,427.28551 302.68278,441.27224 301.96643,447.98825 C 298.80244,448.31659 298.44003,448.24196 294.85815,447.57036 C 296.70878,439.19776 299.54911,424.27333 299.56402,420.40791 C 299.39987,420.42283 299.07621,420.30599 299.07621,420.30599 C 299.07621,420.30599 295.10631,437.91427 293.46462,443.86911 C 291.16626,443.85419 289.29625,443.27981 287.43817,441.95154 z "
+       d="M 215.43817,532.95153 C 217.46043,527.44441 222.92254,512.61509 224.10156,507.0632 C 227.90729,507.3617 230.49389,507.58301 234.06084,507.64271 C 236.25473,513.97065 237.51818,528.03626 238.2644,533.69262 C 236.19067,534.33677 235.0487,534.52853 232.03412,534.6303 C 232.13859,529.15304 232.08613,515.84045 231.1459,511.587 C 230.86233,511.57205 230.87609,511.62174 230.68279,511.6889 C 230.62311,518.2855 230.68278,532.27223 229.96643,538.98824 C 226.80244,539.31658 226.44003,539.24195 222.85815,538.57035 C 224.70878,530.19775 227.54911,515.27332 227.56402,511.4079 C 227.39987,511.42282 227.07621,511.30598 227.07621,511.30598 C 227.07621,511.30598 223.10631,528.91426 221.46462,534.8691 C 219.16626,534.85418 217.29625,534.2798 215.43817,532.95153 z"
        id="path5370"
        sodipodi:nodetypes="ccccccccccccc" />
     <g
        style="fill:#ffffff;fill-opacity:1"
        id="g5372"
-       transform="translate(133.34285,3.4597085)">
+       transform="translate(61.342854,94.4597)">
       <path
          sodipodi:nodetypes="cccccsccccccccscccc"
          id="path5374"
-         d="M 146.51387,428.92045 L 146.66163,430.29236 C 146.66163,430.29236 151.00667,433.47257 153.83778,433.94375 C 157.04881,426.43672 163.56998,406.68796 165.04614,403.78376 C 165.03217,403.61552 165.89884,405.56416 165.99175,405.76662 C 165.98067,405.65773 170.45551,406.27981 170.4468,406.17189 C 170.44222,406.11522 171.21231,402.84491 171.31549,402.69595 C 174.57449,405.61908 177.82806,432.72147 178.03127,434.66343 C 182.55739,434.26997 184.4556,433.52396 187.18574,432.24077 C 186.30579,430.31818 180.37448,413.47884 172.34322,399.38157 C 172.28183,399.25965 172.16804,399.70027 172.06304,399.52556 C 171.95808,399.35084 186.60138,431.13781 186.52003,430.97735 C 185.2113,431.43991 177.85715,433.0255 177.85048,432.95044 C 178.04438,428.04846 172.07884,402.10221 170.36946,401.36197 C 170.33909,401.23363 169.76529,404.92948 169.76243,404.89167 C 169.75198,404.75294 166.05656,404.57742 166.04614,404.49836 C 166.077,404.29207 165.29252,402.29804 165.12746,401.82512 L 153.46841,432.29746 L 146.51387,428.92045 z "
+         d="M 146.51387,428.92045 L 146.66163,430.29236 C 146.66163,430.29236 151.00667,433.47257 153.83778,433.94375 C 157.04881,426.43672 163.69498,406.34421 165.17114,403.44001 C 165.15717,403.27177 165.89884,405.56416 165.99175,405.76662 C 165.98067,405.65773 170.45551,406.27981 170.4468,406.17189 C 170.44222,406.11522 171.21231,402.84491 171.31549,402.69595 C 174.57449,405.61908 177.82806,432.72147 178.03127,434.66343 C 182.55739,434.26997 184.4556,433.52396 187.18574,432.24077 C 186.30579,430.31818 180.37448,413.47884 172.34322,399.38157 C 172.28183,399.25965 172.16804,399.70027 172.06304,399.52556 C 171.95808,399.35084 186.60138,431.13781 186.52003,430.97735 C 185.2113,431.43991 177.85715,433.0255 177.85048,432.95044 C 178.04438,428.04846 172.07884,402.10221 170.36946,401.36197 C 170.33909,401.23363 169.76529,404.92948 169.76243,404.89167 C 169.75198,404.75294 166.05656,404.57742 166.04614,404.49836 C 166.077,404.29207 165.29252,402.29804 165.12746,401.82512 L 153.46841,432.29746 L 146.51387,428.92045 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="csscsccssssc"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 166.92099,405.95486 C 165.15525,406.25 163.74491,407.52115 163.75981,408.93649 C 163.78999,411.80558 165.60052,412.64514 167.74132,412.61881 C 169.88208,412.5925 171.89008,411.39049 171.5512,408.77203 C 171.42518,407.59472 169.84252,405.86243 167.70173,405.88877 C 167.43414,405.89205 167.17322,405.91271 166.92099,405.95486 z M 167.45926,408.39349 C 167.56159,408.3763 167.6677,408.37046 167.77631,408.36933 C 168.64505,408.36036 169.35307,408.89109 169.35689,409.55921 C 169.36073,410.22731 168.65574,410.77878 167.78699,410.78776 C 166.91828,410.79671 166.21025,410.26597 166.20643,409.59787 C 166.20308,409.01328 166.74299,408.51382 167.45926,408.39349 z "
+         d="M 167.18616,405.95486 C 165.42042,406.25 164.01008,407.52115 164.02498,408.93649 C 164.05516,411.80558 165.86569,412.64514 168.00649,412.61881 C 170.14725,412.5925 172.15525,411.39049 171.81637,408.77203 C 171.69035,407.59472 170.10769,405.86243 167.9669,405.88877 C 167.69931,405.89205 167.43839,405.91271 167.18616,405.95486 z M 167.72443,408.39349 C 167.82676,408.3763 167.93287,408.37046 168.04148,408.36933 C 168.91022,408.36036 169.61824,408.89109 169.62206,409.55921 C 169.6259,410.22731 168.92091,410.77878 168.05216,410.78776 C 167.18345,410.79671 166.47542,410.26597 166.4716,409.59787 C 166.46825,409.01328 167.00816,408.51382 167.72443,408.39349 z"
          id="path5376" />
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccc"
          id="path5378"
-         d="M 154.11638,437.12238 C 154.11638,437.12238 154.09422,437.79461 154.14594,438.33386 C 154.87727,438.87312 157.83811,440.44689 159.9966,440.22499 C 161.47546,434.7434 165.71998,416.73251 165.71998,416.73251 C 165.71998,416.73251 165.70953,416.75875 166.14083,416.87406 C 168.38939,426.37112 160.615,441.26583 161.62406,444.03885 C 164.47992,444.53664 165.59406,444.66611 168.52231,444.43228 C 169.1313,438.7973 169.33057,417.17905 169.33057,417.17905 C 169.33057,417.17905 169.59114,417.05989 169.9329,417.06292 C 171.17409,422.78365 170.77708,438.68563 170.7495,440.06197 C 172.87899,440.21204 175.06523,439.56569 176.84041,439.18949 C 176.5324,434.27756 174.73884,420.05252 172.82694,413.38158 C 172.62887,413.10799 172.38406,412.56488 172.38406,412.56488 C 172.38406,412.56488 176.05843,434.52736 176.4746,437.70437 C 174.65983,438.13337 170.73928,438.56995 170.73928,438.56995 C 170.73928,438.56995 170.41404,416.62989 169.93752,415.777 C 169.28367,415.81057 168.89222,415.89254 168.89222,415.89254 L 168.04935,442.85546 C 168.04935,442.85546 163.61167,442.88739 161.57351,442.44305 C 161.75151,441.88052 165.93051,422.61142 166.10197,415.78432 C 165.63815,415.62048 165.39154,415.60739 165.39154,415.60739 L 159.73065,438.8953 L 154.11638,437.12238 z "
+         d="M 154.11638,437.12238 C 154.11638,437.12238 154.09422,437.79461 154.14594,438.33386 C 154.87727,438.87312 157.83811,440.44689 159.9966,440.22499 C 161.47546,434.7434 165.71998,416.73251 165.71998,416.73251 C 165.71998,416.73251 165.70953,416.75875 166.14083,416.87406 C 168.38939,426.37112 160.615,441.26583 161.62406,444.03885 C 164.47992,444.53664 165.59406,444.66611 168.52231,444.43228 C 169.1313,438.7973 169.33057,417.17905 169.33057,417.17905 C 169.33057,417.17905 169.59114,417.05989 169.9329,417.06292 C 171.17409,422.78365 170.77708,438.68563 170.7495,440.06197 C 172.87899,440.21204 175.06523,439.56569 176.84041,439.18949 C 176.5324,434.27756 174.73884,420.05252 172.82694,413.38158 C 172.62887,413.10799 172.38406,412.56488 172.38406,412.56488 C 172.38406,412.56488 176.05843,434.52736 176.4746,437.70437 C 174.65983,438.13337 170.73928,438.56995 170.73928,438.56995 C 170.73928,438.56995 170.41404,416.62989 169.93752,415.777 C 169.28367,415.81057 168.89222,415.89254 168.89222,415.89254 L 168.04935,442.85546 C 168.04935,442.85546 163.61167,442.88739 161.57351,442.44305 C 161.75151,441.88052 165.93051,422.61142 166.10197,415.78432 C 165.63815,415.62048 165.39154,415.60739 165.39154,415.60739 L 159.73065,438.8953 L 154.11638,437.12238 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        style="fill:#ff0000;fill-opacity:1"
        id="g5380"
-       transform="translate(133.34285,3.4597085)">
+       transform="translate(61.342854,94.4597)">
       <path
          style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 146.47616,428.90266 C 148.5805,430.67866 151.29675,431.93231 153.58019,432.54422 C 156.81879,425.69392 164.13175,403.87439 165.08691,402.3521 C 165.22125,402.51628 166.11729,405.15446 166.11729,405.15446 C 166.11729,405.15446 168.83612,405.09494 169.84752,405.16477 C 170.12761,403.54215 170.41301,402.43287 170.42793,401.95829 C 172.42524,405.58492 177.44734,427.23625 177.80596,433.1412 C 182.29822,432.99197 184.02945,432.11611 186.52184,430.92214 C 184.05931,424.05691 177.73511,407.80371 172.27276,399.29681 C 168.36257,399.62514 166.28088,400.47163 161.81846,400.00897 C 160.57974,405.63547 149.7446,424.26117 146.47616,428.90266 z "
+         d="M 146.47616,428.90266 C 148.5805,430.67866 151.29675,431.93231 153.58019,432.54422 C 156.81879,425.69392 164.19425,403.74939 165.14941,402.2271 C 165.28375,402.39128 166.05479,405.27946 166.05479,405.27946 C 166.05479,405.27946 169.13411,405.26413 170.14551,405.33396 C 170.4256,403.71134 170.8985,402.60206 170.91342,402.12748 C 172.91073,405.75411 177.44734,427.23625 177.80596,433.1412 C 182.29822,432.99197 184.02945,432.11611 186.52184,430.92214 C 184.05931,424.05691 177.64672,407.8921 172.62631,399.29681 C 168.71612,399.62514 166.95766,399.61808 163.02557,399.42059 C 160.99135,404.87031 149.7446,424.26117 146.47616,428.90266 z"
          id="path5382"
          sodipodi:nodetypes="ccccccccccc" />
       <path
          id="path5384"
-         d="M 166.66576,405.7823 C 164.91871,406.17375 163.66674,407.48039 163.75654,408.94817 C 163.85918,410.62565 165.67379,411.88455 167.81176,411.75374 C 169.94971,411.62295 171.60598,410.15046 171.50333,408.47299 C 171.4007,406.79551 169.58008,405.54517 167.44212,405.67598 C 167.17486,405.69232 166.91534,405.72636 166.66576,405.7823 z M 167.27718,407.38499 C 167.37843,407.36221 167.48415,407.35102 167.59259,407.34461 C 168.46029,407.2933 169.19963,407.80952 169.2434,408.50229 C 169.28719,409.19505 168.61561,409.80109 167.74792,409.8524 C 166.88022,409.90372 166.14089,409.38748 166.0971,408.69471 C 166.05881,408.08854 166.5685,407.54443 167.27718,407.38499 z "
+         d="M 166.93093,405.7823 C 165.18388,406.17375 163.93191,407.48039 164.02171,408.94817 C 164.12435,410.62565 165.93896,411.88455 168.07693,411.75374 C 170.21488,411.62295 171.87115,410.15046 171.7685,408.47299 C 171.66587,406.79551 169.84525,405.54517 167.70729,405.67598 C 167.44003,405.69232 167.18051,405.72636 166.93093,405.7823 z M 167.54235,407.38499 C 167.6436,407.36221 167.74932,407.35102 167.85776,407.34461 C 168.72546,407.2933 169.4648,407.80952 169.50857,408.50229 C 169.55236,409.19505 168.88078,409.80109 168.01309,409.8524 C 167.14539,409.90372 166.40606,409.38748 166.36227,408.69471 C 166.32398,408.08854 166.83367,407.54443 167.54235,407.38499 z"
          style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 154.05777,437.0746 C 156.08004,431.66927 161.41551,417.44554 162.59454,411.99627 C 166.40026,412.28925 168.81802,412.46503 172.38496,412.52362 C 174.57885,418.73461 175.75787,432.34462 176.5041,437.89641 C 174.45991,438.64248 173.65353,438.75919 170.65371,438.59804 C 170.7582,433.22202 170.57911,420.15551 169.63887,415.98068 C 169.35531,415.96603 169.2741,416.03877 168.9225,416.03927 C 168.8628,422.51393 168.92249,436.28356 168.20613,442.87541 C 165.04215,443.19769 165.10184,443.12444 161.51996,442.46526 C 163.3706,434.24742 166.04208,419.59887 166.05701,415.8049 C 165.89284,415.81955 165.40034,415.74631 165.40034,415.74631 C 165.40034,415.74631 161.43043,432.98767 159.78874,438.83243 C 157.49038,438.81776 155.91587,438.37831 154.05777,437.0746 z "
+         d="M 154.05777,437.0746 C 156.08004,431.66927 161.41551,417.44554 162.59454,411.99627 C 166.40026,412.28925 168.81802,412.46503 172.38496,412.52362 C 174.57885,418.73461 175.75787,432.34462 176.5041,437.89641 C 174.45991,438.64248 173.65353,438.75919 170.65371,438.59804 C 170.7582,433.22202 170.57911,420.15551 169.63887,415.98068 C 169.35531,415.96603 169.2741,416.03877 168.9225,416.03927 C 168.8628,422.51393 168.92249,436.28356 168.20613,442.87541 C 165.04215,443.19769 165.10184,443.12444 161.51996,442.46526 C 163.3706,434.24742 166.04208,419.59887 166.05701,415.8049 C 165.89284,415.81955 165.40034,415.74631 165.40034,415.74631 C 165.40034,415.74631 161.43043,432.98767 159.78874,438.83243 C 157.49038,438.81776 155.91587,438.37831 154.05777,437.0746 z"
          id="path5386"
          sodipodi:nodetypes="ccccccccccccc" />
+      <path
+         sodipodi:nodetypes="ccccccccccc"
+         id="path4543"
+         d="M 146.47616,428.90266 C 148.5805,430.67866 151.29675,431.93231 153.58019,432.54422 C 156.81879,425.69392 164.19425,403.74939 165.14941,402.2271 C 165.28375,402.39128 166.05479,405.27946 166.05479,405.27946 C 166.05479,405.27946 169.13411,405.26413 170.14551,405.33396 C 170.4256,403.71134 170.8985,402.60206 170.91342,402.12748 C 172.91073,405.75411 177.44734,427.23625 177.80596,433.1412 C 182.29822,432.99197 184.02945,432.11611 186.52184,430.92214 C 184.05931,424.05691 177.64672,407.8921 172.62631,399.29681 C 168.71612,399.62514 166.95766,399.61808 163.02557,399.42059 C 160.99135,404.87031 149.7446,424.26117 146.47616,428.90266 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <path
        sodipodi:type="arc"
@@ -6068,17 +6126,183 @@
        sodipodi:cy="642.70593"
        sodipodi:rx="2.84375"
        sodipodi:ry="2.34375"
-       d="M 572.125 642.70593 A 2.84375 2.34375 0 1 1  566.4375,642.70593 A 2.84375 2.34375 0 1 1  572.125 642.70593 z"
-       transform="matrix(0.4626859,0,0,0.4701622,37.623786,109.91359)" />
+       d="M 572.125,642.70593 A 2.84375,2.34375 0 1 1 566.4375,642.70593 A 2.84375,2.34375 0 1 1 572.125,642.70593 z"
+       transform="matrix(0.4626859,0,0,0.4701622,-34.111042,200.91358)" />
     <path
-       transform="matrix(0.1980255,0,0,0.2183236,188.28988,271.77175)"
-       d="M 572.125 642.70593 A 2.84375 2.34375 0 1 1  566.4375,642.70593 A 2.84375 2.34375 0 1 1  572.125 642.70593 z"
+       transform="matrix(0.1980255,0,0,0.2183236,116.55505,362.77174)"
+       d="M 572.125,642.70593 A 2.84375,2.34375 0 1 1 566.4375,642.70593 A 2.84375,2.34375 0 1 1 572.125,642.70593 z"
        sodipodi:ry="2.34375"
        sodipodi:rx="2.84375"
        sodipodi:cy="642.70593"
        sodipodi:cx="569.28125"
        id="path5390"
        style="fill:#002121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       id="path5094"
+       d="M 79.477153,473.83595 C 81.581493,475.61195 84.297743,476.8656 86.581183,477.47751 C 89.819783,470.62721 97.132743,448.80768 98.087903,447.28539 C 98.222243,447.44957 99.118283,450.08775 99.118283,450.08775 C 99.118283,450.08775 101.83711,450.02823 102.84851,450.09806 C 103.1286,448.47544 103.414,447.36616 103.42892,446.89158 C 105.42623,450.51821 110.44833,472.16954 110.80695,478.07449 C 115.29921,477.92526 117.03044,477.0494 119.52283,475.85543 C 117.0603,468.9902 110.7361,452.737 105.27375,444.2301 C 101.36356,444.55843 99.812193,445.05137 95.173003,445.11904 C 93.934283,450.74554 82.745593,469.19446 79.477153,473.83595 z"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 99.666753,450.71559 C 97.919703,451.10704 96.667733,452.41368 96.757533,453.88146 C 96.860173,455.55894 98.674783,456.81784 100.81275,456.68703 C 102.9507,456.55624 104.60697,455.08375 104.50432,453.40628 C 104.40169,451.7288 102.58107,450.47846 100.44311,450.60927 C 100.17585,450.62561 99.916333,450.65965 99.666753,450.71559 z M 100.27817,452.31828 C 100.37942,452.2955 100.48514,452.28431 100.59358,452.2779 C 101.46128,452.22659 102.20062,452.74281 102.24439,453.43558 C 102.28818,454.12834 101.6166,454.73438 100.74891,454.78569 C 99.881213,454.83701 99.141883,454.32077 99.098093,453.628 C 99.059803,453.02183 99.569493,452.47772 100.27817,452.31828 z"
+       id="path5096"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       id="path5098"
+       d="M 87.058763,482.00789 C 89.081033,476.60256 94.416503,462.37883 95.595533,456.92956 C 99.401253,457.22254 101.81901,457.39832 105.38595,457.45691 C 107.57984,463.6679 108.75886,477.27791 109.50509,482.8297 C 107.4609,483.57577 106.65452,483.69248 103.6547,483.53133 C 103.75919,478.15531 103.5801,465.0888 102.63986,460.91397 C 102.3563,460.89932 102.27509,460.97206 101.92349,460.97256 C 101.86379,467.44722 101.92348,481.21685 101.20712,487.8087 C 98.043143,488.13098 98.102833,488.05773 94.520953,487.39855 C 96.371593,479.18071 99.043073,464.53216 99.058003,460.73819 C 98.893833,460.75284 98.401333,460.6796 98.401333,460.6796 C 98.401333,460.6796 94.431423,477.92096 92.789733,483.76572 C 90.491373,483.75105 88.916863,483.3116 87.058763,482.00789 z"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       style="fill:#782121;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 105.66405,525.08023 L 105.81181,526.45214 C 105.81181,526.45214 110.15685,529.63235 112.98796,530.10353 C 116.19899,522.5965 122.72016,502.84774 124.19632,499.94354 C 124.18235,499.7753 125.04902,501.72394 125.14193,501.9264 C 125.13085,501.81751 129.60569,502.43959 129.59698,502.33167 C 129.5924,502.275 130.36249,499.00469 130.46567,498.85573 C 133.72467,501.77886 136.97824,528.88125 137.18145,530.82321 C 141.70757,530.42975 143.60578,529.68374 146.33592,528.40055 C 145.45597,526.47796 139.52466,509.63862 131.4934,495.54135 C 131.43201,495.41943 131.31822,495.86005 131.21322,495.68534 C 131.10826,495.51062 145.75156,527.29759 145.67021,527.13713 C 144.36148,527.59969 137.00733,529.18528 137.00066,529.11022 C 137.19456,524.20824 131.22902,498.26199 129.51964,497.52175 C 129.48927,497.39341 128.91547,501.08926 128.91261,501.05145 C 128.90216,500.91272 125.20674,500.7372 125.19632,500.65814 C 125.22718,500.45185 124.4427,498.45782 124.27764,497.9849 L 112.61859,528.45724 L 105.66405,525.08023 z"
+       id="path5100"
+       sodipodi:nodetypes="cccccsccccccccscccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       id="path5102"
+       d="M 126.07117,502.11464 C 124.30543,502.40978 122.89509,503.68093 122.90999,505.09627 C 122.94017,507.96536 124.7507,508.80492 126.8915,508.77859 C 129.03226,508.75228 131.04026,507.55027 130.70138,504.93181 C 130.57536,503.7545 128.9927,502.02221 126.85191,502.04855 C 126.58432,502.05183 126.3234,502.07249 126.07117,502.11464 z M 126.60944,504.55327 C 126.71177,504.53608 126.81788,504.53024 126.92649,504.52911 C 127.79523,504.52014 128.50325,505.05087 128.50707,505.71899 C 128.51091,506.38709 127.80592,506.93856 126.93717,506.94754 C 126.06846,506.95649 125.36043,506.42575 125.35661,505.75765 C 125.35326,505.17306 125.89317,504.6736 126.60944,504.55327 z"
+       style="fill:#782121;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       sodipodi:nodetypes="csscsccssssc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       style="fill:#782121;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 113.26656,533.28216 C 113.26656,533.28216 113.2444,533.95439 113.29612,534.49364 C 114.02745,535.0329 116.98829,536.60667 119.14678,536.38477 C 120.62564,530.90318 124.87016,512.89229 124.87016,512.89229 C 124.87016,512.89229 124.85971,512.91853 125.29101,513.03384 C 127.53957,522.5309 119.76518,537.42561 120.77424,540.19863 C 123.6301,540.69642 124.74424,540.82589 127.67249,540.59206 C 128.28148,534.95708 128.48075,513.33883 128.48075,513.33883 C 128.48075,513.33883 128.74132,513.21967 129.08308,513.2227 C 130.32427,518.94343 129.92726,534.84541 129.89968,536.22175 C 132.02917,536.37182 134.21541,535.72547 135.99059,535.34927 C 135.68258,530.43734 133.88902,516.2123 131.97712,509.54136 C 131.77905,509.26777 131.53424,508.72466 131.53424,508.72466 C 131.53424,508.72466 135.20861,530.68714 135.62478,533.86415 C 133.81001,534.29315 129.88946,534.72973 129.88946,534.72973 C 129.88946,534.72973 129.56422,512.78967 129.0877,511.93678 C 128.43385,511.97035 128.0424,512.05232 128.0424,512.05232 L 127.19953,539.01524 C 127.19953,539.01524 122.76185,539.04717 120.72369,538.60283 C 120.90169,538.0403 125.08069,518.7712 125.25215,511.9441 C 124.78833,511.78026 124.54172,511.76717 124.54172,511.76717 L 118.88083,535.05508 L 113.26656,533.28216 z"
+       id="path5105"
+       sodipodi:nodetypes="ccccccccccccccccccccccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 137.90951,488.96805 C 140.01384,490.74406 142.96226,492.156 145.2457,492.7679 C 148.4843,485.91759 153.48293,469.473 156.36334,462.47345 C 156.49766,462.63762 157.3185,464.56586 157.3185,464.56586 L 161.8186,464.82333 C 161.8186,464.82333 162.50238,461.71018 162.72627,461.27736 C 164.68136,464.90399 169.61366,492.02349 169.36927,493.30156 C 173.86152,493.15232 176.09811,492.06178 178.59049,490.86781 C 176.12795,484.0026 169.06714,466.44654 163.60478,457.93961 C 159.6946,458.26796 157.71422,460.56868 153.25182,460.10602 C 152.01308,465.73252 141.17795,484.32654 137.90951,488.96805 z"
+       id="path5107"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       sodipodi:nodetypes="cssssccssssc"
+       id="path5109"
+       d="M 158.05141,465.42555 C 156.29039,465.81769 155.02877,467.12479 155.11984,468.59255 C 155.22394,470.26997 157.05432,471.59238 159.20953,471.46078 C 161.36474,471.32917 163.02585,469.7503 162.92177,468.07285 C 162.81766,466.39543 160.85979,465.18851 158.70459,465.32011 C 158.43519,465.33656 158.30298,465.36954 158.05141,465.42555 z M 158.66836,467.02803 C 158.77042,467.00522 158.87699,466.99398 158.98633,466.98752 C 159.86102,466.93589 160.60654,467.45184 160.65093,468.14459 C 160.69534,468.83734 160.01855,469.44363 159.14387,469.49527 C 158.26916,469.5469 157.52365,469.03094 157.47925,468.33821 C 157.44042,467.73204 157.95403,467.18773 158.66836,467.02803 z"
+       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       style="fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 145.4067,497.0589 C 147.42896,491.55178 152.89107,476.72246 154.07009,471.17057 C 157.87582,471.46907 160.46242,471.69038 164.02937,471.75008 C 166.22326,478.07802 167.48671,492.14363 168.23293,497.79999 C 166.1592,498.44414 165.01723,498.6359 162.00265,498.73767 C 162.10712,493.26041 162.05466,479.94782 161.11443,475.69437 C 160.83086,475.67942 160.84462,475.72911 160.65132,475.79627 C 160.59164,482.39287 160.65131,496.3796 159.93496,503.09561 C 156.77097,503.42395 156.40856,503.34932 152.82668,502.67772 C 154.67731,494.30512 157.51764,479.38069 157.53255,475.51527 C 157.3684,475.53019 157.04474,475.41335 157.04474,475.41335 C 157.04474,475.41335 153.07484,493.02163 151.43315,498.97647 C 149.13479,498.96155 147.26478,498.38717 145.4067,497.0589 z"
+       id="path5111"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#782121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       id="path5113"
+       sodipodi:cx="569.28125"
+       sodipodi:cy="642.70593"
+       sodipodi:rx="2.84375"
+       sodipodi:ry="2.34375"
+       d="M 572.125,642.70593 A 2.84375,2.34375 0 1 1 566.4375,642.70593 A 2.84375,2.34375 0 1 1 572.125,642.70593 z"
+       transform="matrix(0.4626859,0,0,0.4701622,-132.33591,159.5299)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       transform="matrix(0.1980255,0,0,0.2183236,18.330179,321.38806)"
+       d="M 572.125,642.70593 A 2.84375,2.34375 0 1 1 566.4375,642.70593 A 2.84375,2.34375 0 1 1 572.125,642.70593 z"
+       sodipodi:ry="2.34375"
+       sodipodi:rx="2.84375"
+       sodipodi:cy="642.70593"
+       sodipodi:cx="569.28125"
+       id="path5115"
+       style="fill:#002121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
+    <path
+       style="fill:#ff7e28;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;display:inline;stroke-miterlimit:4;stroke-dasharray:none;marker-start:none"
+       d="M 114.93255,578.06719 C 117.03688,579.8432 120.20627,581.36563 122.48971,581.97753 C 125.41267,575.05935 132.84969,552.96989 133.68973,551.3275 C 133.82383,551.57493 134.54042,553.75339 134.54042,553.75339 L 139.04052,554.01086 C 139.04052,554.01086 139.7243,550.89771 139.94819,550.46489 C 141.90328,554.09152 146.81995,581.24227 146.46619,582.62971 C 151.02094,582.2461 153.36422,581.3377 155.8566,580.14373 C 153.17309,572.92496 146.33326,555.67826 141.13606,547.17133 C 137.22588,547.49968 135.95981,547.6571 131.49741,547.19444 C 129.41898,552.64416 119.17327,572.05566 114.93255,578.06719 z"
+       id="path3711"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       sodipodi:nodetypes="cssssccssssc"
+       id="path3713"
+       d="M 135.5385,554.61308 C 133.77748,555.00522 132.51586,556.31232 132.60693,557.78008 C 132.71103,559.4575 134.54141,560.77991 136.69662,560.64831 C 138.85183,560.5167 140.51294,558.93783 140.40886,557.26038 C 140.30475,555.58296 138.34688,554.37604 136.19168,554.50764 C 135.92228,554.52409 135.79007,554.55707 135.5385,554.61308 z M 136.15545,556.21556 C 136.25751,556.19275 136.36408,556.18151 136.47342,556.17505 C 137.34811,556.12342 138.09363,556.63937 138.13802,557.33212 C 138.18243,558.02487 137.50564,558.63116 136.63096,558.6828 C 135.75625,558.73443 135.01074,558.21847 134.96634,557.52574 C 134.92751,556.91957 135.44112,556.37526 136.15545,556.21556 z"
+       style="fill:#ff7e28;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       style="fill:#ff7e28;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;display:inline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 122.62862,586.24643 C 124.65088,580.73931 130.11299,565.90999 131.29201,560.3581 C 135.09774,560.6566 137.46337,560.87791 141.03032,560.93761 C 143.09163,567.35394 144.70863,581.33116 145.45485,586.98752 C 143.38112,587.63167 142.23915,587.82343 139.22457,587.9252 C 139.32904,582.44794 139.27658,569.13535 138.33635,564.8819 C 138.05278,564.86695 138.06654,564.91664 137.87324,564.9838 C 137.81356,571.5804 137.87323,585.56713 137.15688,592.28314 C 133.99289,592.61148 133.63048,592.53685 130.0486,591.86525 C 131.89923,583.49265 134.73956,568.56822 134.75447,564.7028 C 134.59032,564.71772 134.26666,564.60088 134.26666,564.60088 C 134.26666,564.60088 130.29676,582.20916 128.65507,588.164 C 126.35671,588.14908 124.4867,587.5747 122.62862,586.24643 z"
+       id="path3715"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <g
+       style="fill:#ffffff;fill-opacity:1;display:inline;stroke:none"
+       id="g3717"
+       transform="translate(-31.466696,147.7546)">
+      <path
+         sodipodi:nodetypes="cccsccsccccccccscccc"
+         id="path3719"
+         d="M 146.51387,428.92045 L 146.66163,430.29236 C 146.66163,430.29236 151.00667,433.47257 153.83778,433.94375 C 153.87377,433.85961 153.91019,433.7739 153.94703,433.68664 C 157.19714,425.9885 163.71152,406.31166 165.17114,403.44001 C 165.15717,403.27177 165.9379,405.75947 166.03081,405.96193 C 166.10567,405.97023 170.49457,406.26419 170.48586,406.15627 C 170.48128,406.0996 171.21231,402.84491 171.31549,402.69595 C 174.57449,405.61908 177.82806,432.72147 178.03127,434.66343 C 182.55739,434.26997 184.4556,433.52396 187.18574,432.24077 C 186.30579,430.31818 180.37448,413.47884 172.34322,399.38157 C 172.28183,399.25965 172.16804,399.70027 172.06304,399.52556 C 171.95808,399.35084 186.33621,431.00523 186.25486,430.84477 C 184.94613,431.30733 177.85715,433.0255 177.85048,432.95044 C 178.04438,428.04846 172.07884,402.10221 170.36946,401.36197 C 170.33909,401.23363 169.76529,404.92948 169.76243,404.89167 C 169.75198,404.75294 166.05656,404.57742 166.04614,404.49836 C 166.077,404.29207 165.29252,402.29804 165.12746,401.82512 L 153.46841,432.29746 L 146.51387,428.92045 z"
+         style="fill:#8f3939;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="csscsccssssc"
+         style="fill:#8f3939;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 167.18616,405.95486 C 165.42042,406.25 164.01008,407.52115 164.02498,408.93649 C 164.05516,411.80558 165.86569,412.64514 168.00649,412.61881 C 170.14725,412.5925 172.15525,411.39049 171.81637,408.77203 C 171.69035,407.59472 170.10769,405.86243 167.9669,405.88877 C 167.69931,405.89205 167.43839,405.91271 167.18616,405.95486 z M 167.72443,408.39349 C 167.82676,408.3763 167.93287,408.37046 168.04148,408.36933 C 168.91022,408.36036 169.61824,408.89109 169.62206,409.55921 C 169.6259,410.22731 168.92091,410.77878 168.05216,410.78776 C 167.18345,410.79671 166.47542,410.26597 166.4716,409.59787 C 166.46825,409.01328 167.00816,408.51382 167.72443,408.39349 z"
+         id="path3721" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccccccc"
+         id="path3723"
+         d="M 154.11638,437.12238 C 154.11638,437.12238 154.09422,437.79461 154.14594,438.33386 C 154.87727,438.87312 157.83811,440.44689 159.9966,440.22499 C 161.47546,434.7434 165.71998,416.73251 165.71998,416.73251 C 165.71998,416.73251 165.70953,416.75875 166.14083,416.87406 C 168.38939,426.37112 160.615,441.26583 161.62406,444.03885 C 164.47992,444.53664 165.59406,444.66611 168.52231,444.43228 C 169.1313,438.7973 169.33057,417.17905 169.33057,417.17905 C 169.33057,417.17905 169.59114,417.05989 169.9329,417.06292 C 171.17409,422.78365 170.77708,438.68563 170.7495,440.06197 C 172.87899,440.21204 175.06523,439.56569 176.84041,439.18949 C 176.17885,434.23337 174.56206,420.2293 172.60597,413.33739 C 172.4079,413.0638 172.38406,412.56488 172.38406,412.56488 C 172.38406,412.56488 176.05843,434.52736 176.4746,437.70437 C 174.65983,438.13337 170.73928,438.56995 170.73928,438.56995 C 170.73928,438.56995 170.41404,416.62989 169.93752,415.777 C 169.28367,415.81057 168.89222,415.89254 168.89222,415.89254 L 168.04935,442.85546 C 168.04935,442.85546 163.61167,442.88739 161.57351,442.44305 C 161.75151,441.88052 165.93051,422.61142 166.10197,415.78432 C 165.63815,415.62048 165.39154,415.60739 165.39154,415.60739 L 159.73065,438.8953 L 154.11638,437.12238 z"
+         style="fill:#8f3939;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#6f9155;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 135.46423,553.5369 C 133.71718,553.92835 132.46521,555.23499 132.55501,556.70277 C 132.65765,558.38025 134.47226,559.63915 136.61023,559.50834 C 138.74818,559.37755 140.40445,557.90506 140.3018,556.22759 C 140.19917,554.55011 138.37855,553.29977 136.24059,553.43058 C 135.97333,553.44692 135.71381,553.48096 135.46423,553.5369 z M 136.07565,555.13959 C 136.1769,555.11681 136.28262,555.10562 136.39106,555.09921 C 137.25876,555.0479 137.9981,555.56412 138.04187,556.25689 C 138.08566,556.94965 137.41408,557.55569 136.54639,557.607 C 135.67869,557.65832 134.93936,557.14208 134.89557,556.44931 C 134.85728,555.84314 135.36697,555.29903 136.07565,555.13959 z"
+       id="path3729" />
+    <path
+       style="fill:#6f9155;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 114.94696,576.56351 C 117.0513,578.33951 119.76755,579.59316 122.05099,580.20507 C 125.28959,573.35477 132.66505,551.41024 133.62021,549.88795 C 133.75455,550.05213 134.52559,552.94031 134.52559,552.94031 C 134.52559,552.94031 137.60491,552.92498 138.61631,552.99481 C 138.8964,551.37219 139.3693,550.26291 139.38422,549.78833 C 141.38153,553.41496 145.91814,574.8971 146.27676,580.80205 C 150.76902,580.65282 152.50025,579.77696 154.99264,578.58299 C 152.53011,571.71776 146.11752,555.55295 141.09711,546.95766 C 137.18692,547.28599 135.42846,547.27893 131.49637,547.08144 C 129.46215,552.53116 118.2154,571.92202 114.94696,576.56351 z"
+       id="path3733"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       id="path3731"
+       d="M 122.59107,584.8292 C 124.61334,579.42387 129.94881,565.20014 131.12784,559.75087 C 134.93356,560.04385 137.35132,560.21963 140.91826,560.27822 C 143.11215,566.48921 144.29117,580.09922 145.0374,585.65101 C 142.99321,586.39708 142.18683,586.51379 139.18701,586.35264 C 139.2915,580.97662 139.11241,567.91011 138.17217,563.73528 C 137.88213,563.74312 137.86264,563.75107 137.52209,563.78472 C 137.374,570.25938 137.14329,584.03816 136.73943,590.63001 C 133.57545,590.95229 133.63514,590.87904 130.05326,590.21986 C 131.9039,582.00202 134.57538,567.35347 134.59031,563.5595 C 134.42614,563.57415 133.93364,563.50091 133.93364,563.50091 C 133.93364,563.50091 129.96373,580.74227 128.32204,586.58703 C 126.02368,586.57236 124.44917,586.13291 122.59107,584.8292 z"
+       style="fill:#6f9155;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#782121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       id="path3735"
+       sodipodi:cx="569.28125"
+       sodipodi:cy="642.70593"
+       sodipodi:rx="2.84375"
+       sodipodi:ry="2.34375"
+       d="M 572.125,642.70593 A 2.84375,2.34375 0 1 1 566.4375,642.70593 A 2.84375,2.34375 0 1 1 572.125,642.70593 z"
+       transform="matrix(0.4626859,0,0,0.4701622,-126.92059,254.20848)" />
+    <path
+       transform="matrix(0.1980255,0,0,0.2183236,23.745501,416.06664)"
+       d="M 572.125,642.70593 A 2.84375,2.34375 0 1 1 566.4375,642.70593 A 2.84375,2.34375 0 1 1 572.125,642.70593 z"
+       sodipodi:ry="2.34375"
+       sodipodi:rx="2.84375"
+       sodipodi:cy="642.70593"
+       sodipodi:cx="569.28125"
+       id="path3737"
+       style="fill:#002121;fill-opacity:1;stroke:#000000;stroke-width:0.04707803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        sodipodi:type="arc" />
   </g>
   <g
@@ -6093,7 +6317,10 @@
        width="8.5714283"
        id="rect2160"
        style="color:#000000;fill:#e6d1a1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.018982"
        x="417.62451"
@@ -6101,7 +6328,10 @@
        width="8.5714283"
        id="rect3134"
        style="color:#000000;fill:#827964;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.090416"
        x="417.62451"
@@ -6109,7 +6339,10 @@
        width="8.5714283"
        id="rect4105"
        style="color:#000000;fill:#fc0f0f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.161842"
        x="417.62451"
@@ -6117,7 +6350,10 @@
        width="8.5714283"
        id="rect5076"
        style="color:#000000;fill:#e6462e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-24.59041"
        x="417.62451"
@@ -6125,14 +6361,20 @@
        width="8.5714283"
        id="rect6047"
        style="color:#000000;fill:#c2ac80;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9608991,-1.8237752e-3,4.0211973e-3,1.0406843,0,0)"
        id="text7038"
        y="400.92285"
        x="13.869498"
        style="font-size:7.53998899px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="400.92285"
          x="13.869498"
          id="tspan7040"
@@ -6144,7 +6386,10 @@
        width="8.5714283"
        id="rect7042"
        style="color:#000000;fill:#793c3c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.364655"
        x="435.92792"
@@ -6152,7 +6397,10 @@
        width="8.5714283"
        id="rect7044"
        style="color:#000000;fill:#b5d485;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.436089"
        x="435.92792"
@@ -6160,7 +6408,10 @@
        width="8.5714283"
        id="rect7046"
        style="color:#000000;fill:#eccea1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.507515"
        x="435.92792"
@@ -6168,7 +6419,10 @@
        width="8.5714283"
        id="rect7048"
        style="color:#000000;fill:#dc5c41;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-24.936083"
        x="435.92792"
@@ -6176,14 +6430,20 @@
        width="8.5714283"
        id="rect7050"
        style="color:#000000;fill:#3f1508;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9727895,-1.8014833e-3,4.0709565e-3,1.0279641,0,0)"
        id="text7052"
        y="423.69016"
        x="14.459417"
        style="font-size:7.63329077px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="423.69016"
          x="14.459417"
          id="tspan7054"
@@ -6195,7 +6455,10 @@
        width="8.5714283"
        id="rect11901"
        style="color:#000000;fill:#180018;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-52.004543"
        x="454.91324"
@@ -6203,7 +6466,10 @@
        width="8.5714283"
        id="rect11903"
        style="color:#000000;fill:#303030;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-43.075977"
        x="454.91324"
@@ -6211,7 +6477,10 @@
        width="8.5714283"
        id="rect11905"
        style="color:#000000;fill:#484848;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-34.147404"
        x="454.91324"
@@ -6219,7 +6488,10 @@
        width="8.5714283"
        id="rect11907"
        style="color:#000000;fill:#904860;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.575972"
        x="454.91324"
@@ -6227,14 +6499,20 @@
        width="8.5714283"
        id="rect11909"
        style="color:#000000;fill:#f06060;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9313569,-1.8816247e-3,3.897568e-3,1.0736944,0,0)"
        id="text11911"
        y="423.33069"
        x="16.08514"
        style="font-size:7.30817652px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="423.33069"
          x="16.08514"
          id="tspan11913"
@@ -6246,7 +6524,10 @@
        width="8.5714283"
        id="rect16760"
        style="color:#000000;fill:#851d1d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.682564"
        x="472.89963"
@@ -6254,7 +6535,10 @@
        width="8.5714283"
        id="rect16762"
        style="color:#000000;fill:#2b4ab3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.753998"
        x="472.89963"
@@ -6262,7 +6546,10 @@
        width="8.5714283"
        id="rect16764"
        style="color:#000000;fill:#485582;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.825424"
        x="472.89963"
@@ -6270,7 +6557,10 @@
        width="8.5714283"
        id="rect16766"
        style="color:#000000;fill:#7883a1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.253992"
        x="472.89963"
@@ -6278,14 +6568,20 @@
        width="8.5714283"
        id="rect16768"
        style="color:#000000;fill:#261c0a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9630746,-1.8196557e-3,4.0303012e-3,1.0383336,0,0)"
        id="text16770"
        y="455.06665"
        x="14.859473"
        style="font-size:7.55705976px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="455.06665"
          x="14.859473"
          id="tspan16772"
@@ -6297,7 +6593,10 @@
        width="8.5714283"
        id="rect21633"
        style="color:#000000;fill:#ab2b27;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.286839"
        x="490.83792"
@@ -6305,7 +6604,10 @@
        width="8.5714283"
        id="rect21635"
        style="color:#000000;fill:#99ff95;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.358273"
        x="490.83792"
@@ -6313,7 +6615,10 @@
        width="8.5714283"
        id="rect21637"
        style="color:#000000;fill:#5ade88;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.429699"
        x="490.83792"
@@ -6321,7 +6626,10 @@
        width="8.5714283"
        id="rect21639"
        style="color:#000000;fill:#298254;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-24.858267"
        x="490.83792"
@@ -6329,14 +6637,20 @@
        width="8.5714283"
        id="rect21641"
        style="color:#000000;fill:#293332;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.9904318e-3,1.0487079,0,0)"
        id="text21643"
        y="467.66968"
        x="14.476196"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="467.66968"
          x="14.476196"
          id="tspan21645"
@@ -6348,7 +6662,10 @@
        width="8.5714283"
        id="rect26492"
        style="color:#000000;fill:#6d5d56;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.294018"
        x="508.0997"
@@ -6356,7 +6673,10 @@
        width="8.5714283"
        id="rect26494"
        style="color:#000000;fill:#e8542e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.365452"
        x="508.0997"
@@ -6364,7 +6684,10 @@
        width="8.5714283"
        id="rect26496"
        style="color:#000000;fill:#776a86;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.436878"
        x="508.0997"
@@ -6372,7 +6695,10 @@
        width="8.5714283"
        id="rect26498"
        style="color:#000000;fill:#6d5d56;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-24.865446"
        x="508.0997"
@@ -6380,14 +6706,20 @@
        width="8.5714283"
        id="rect26500"
        style="color:#000000;fill:#6d5d56;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.9904316e-3,1.0487079,0,0)"
        id="text26502"
        y="484.12997"
        x="14.576696"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="484.12997"
          x="14.576696"
          id="tspan26504"
@@ -6399,7 +6731,10 @@
        width="8.5714283"
        id="rect3481"
        style="color:#000000;fill:#b27c75;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.840885"
        x="525.4137"
@@ -6407,7 +6742,10 @@
        width="8.5714283"
        id="rect3483"
        style="color:#000000;fill:#b82c14;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.912319"
        x="525.4137"
@@ -6415,7 +6753,10 @@
        width="8.5714283"
        id="rect3485"
        style="color:#000000;fill:#dd892f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.983746"
        x="525.4137"
@@ -6423,7 +6764,10 @@
        width="8.5714283"
        id="rect3487"
        style="color:#000000;fill:#e8542e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.412315"
        x="525.4137"
@@ -6431,14 +6775,20 @@
        width="8.5714283"
        id="rect3489"
        style="color:#000000;fill:#b45924;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.9904313e-3,1.0487079,0,0)"
        id="text3491"
        y="500.64066"
        x="15.08111"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="500.64066"
          x="15.08111"
          id="tspan3493"
@@ -6450,7 +6800,10 @@
        width="8.5714283"
        id="rect4469"
        style="color:#000000;fill:#f06000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-52.194435"
        x="543.42212"
@@ -6458,7 +6811,10 @@
        width="8.5714283"
        id="rect4471"
        style="color:#000000;fill:#c03000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-43.265869"
        x="543.42212"
@@ -6466,7 +6822,10 @@
        width="8.5714283"
        id="rect4473"
        style="color:#000000;fill:#a81800;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-34.337299"
        x="543.42212"
@@ -6474,7 +6833,10 @@
        width="8.5714283"
        id="rect4475"
        style="color:#000000;fill:#781800;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.765869"
        x="543.42212"
@@ -6482,14 +6844,20 @@
        width="8.5714283"
        id="rect4477"
        style="color:#000000;fill:#780000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.990431e-3,1.0487079,0,0)"
        id="text4479"
        y="517.81323"
        x="15.380023"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="517.81323"
          x="15.380023"
          id="tspan4481"
@@ -6501,7 +6869,10 @@
        width="8.5714283"
        id="rect4490"
        style="color:#000000;fill:#6f9155;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-52.224072"
        x="561.11169"
@@ -6509,7 +6880,10 @@
        width="8.5714283"
        id="rect4492"
        style="color:#000000;fill:#d69a17;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-43.295506"
        x="561.11169"
@@ -6517,7 +6891,10 @@
        width="8.5714283"
        id="rect4494"
        style="color:#000000;fill:#c56525;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-34.366936"
        x="561.11169"
@@ -6525,7 +6902,10 @@
        width="8.5714283"
        id="rect4496"
        style="color:#000000;fill:#8f3939;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.795504"
        x="561.11169"
@@ -6533,14 +6913,20 @@
        width="8.5714283"
        id="rect4498"
        style="color:#000000;fill:#554847;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.9904306e-3,1.0487079,0,0)"
        id="text4500"
        y="534.68109"
        x="15.340512"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="534.68109"
          x="15.340512"
          id="tspan4502"
@@ -6552,7 +6938,10 @@
        width="8.5714283"
        id="rect4511"
        style="color:#000000;fill:#4f4245;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.861782"
        x="578.1228"
@@ -6560,7 +6949,10 @@
        width="8.5714283"
        id="rect4513"
        style="color:#000000;fill:#ed0546;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.933216"
        x="578.1228"
@@ -6568,7 +6960,10 @@
        width="8.5714283"
        id="rect4515"
        style="color:#000000;fill:#d6645a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-34.004646"
        x="578.1228"
@@ -6576,7 +6971,10 @@
        width="8.5714283"
        id="rect4517"
        style="color:#000000;fill:#eb3452;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.433214"
        x="578.1228"
@@ -6584,14 +6982,20 @@
        width="8.5714283"
        id="rect4519"
        style="color:#000000;fill:#ab0634;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.9904304e-3,1.0487079,0,0)"
        id="text4521"
        y="550.90131"
        x="14.892695"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="550.90131"
          x="14.892695"
          id="tspan4523"
@@ -6603,7 +7007,10 @@
        width="8.5714283"
        id="rect4532"
        style="color:#000000;fill:#91c492;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-51.487778"
        x="596.36176"
@@ -6611,7 +7018,10 @@
        width="8.5714283"
        id="rect4534"
        style="color:#000000;fill:#c2cc76;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-42.559212"
        x="596.36176"
@@ -6619,7 +7029,10 @@
        width="8.5714283"
        id="rect4536"
        style="color:#000000;fill:#e6d370;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-33.630642"
        x="596.36176"
@@ -6627,7 +7040,10 @@
        width="8.5714283"
        id="rect4538"
        style="color:#000000;fill:#e7c288;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <rect
        y="-25.059208"
        x="596.36176"
@@ -6635,14 +7051,20 @@
        width="8.5714283"
        id="rect4540"
        style="color:#000000;fill:#be3a40;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001" />
     <text
        transform="matrix(0.9535474,-1.8378363e-3,3.9904302e-3,1.0487079,0,0)"
        id="text4542"
        y="568.2923"
        x="14.427692"
        style="font-size:7.48230171px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="G:\yo.ian.g\trunk\Mom's Hamsa\TestPalettes.png"
+       inkscape:export-xdpi="281.32001"
+       inkscape:export-ydpi="281.32001"><tspan
          y="568.2923"
          x="14.427692"
          id="tspan4544"
