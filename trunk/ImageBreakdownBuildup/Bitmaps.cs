@@ -82,13 +82,17 @@ namespace ImageBreakdownBuildup
 
         string BuildUpSourceFolder;
         System.Collections.Generic.Dictionary<Color, Bitmap> BuildUpsByAverageColor;
+        double Tolerance;
 
-        public BuildUpBitmap( Bitmap Original, AverageColorBitmap AverageColorBitmap, string SetBuildUpSourceFolder ) : base( AverageColorBitmap )
+        public BuildUpBitmap( Bitmap Original, AverageColorBitmap AverageColorBitmap, string SetBuildUpSourceFolder, double SetTolerance )
+            : base( AverageColorBitmap )
         {
             BuildUpSourceFolder = SetBuildUpSourceFolder;
+            Tolerance = SetTolerance;
             CreateBuildUpsByAverageColorDictionary();
 
             BuildUp = new Bitmap( Original );
+            System.Random RandomClosest = new System.Random();
             for( int TravX = 0; TravX < BuildUp.Width; TravX += iGridWidth + iGridSpacingWidth )
             {
                 for( int TravY = 0; TravY < BuildUp.Height; TravY += iGridHeight + iGridSpacingHeight )
@@ -106,10 +110,10 @@ namespace ImageBreakdownBuildup
 
                     if( TravX != EndX && TravY != EndY )
                     {
-                        Color AverageColor = FindClosestInAverageColorDictionary( ((Bitmap)AverageColorBitmap).GetPixel( TravX, TravY ) );
-                        if( BuildUpsByAverageColor.ContainsKey( AverageColor ) )
+                        System.Collections.Generic.List<Color> ClosestColors = FindClosestInAverageColorDictionary( ( ( Bitmap )AverageColorBitmap ).GetPixel( TravX, TravY ) );
+                        if( ClosestColors.Count > 0 )
                         {
-                            BuildUp.SetBlock( TravX, TravY, EndX, EndY, BuildUpsByAverageColor[ AverageColor ] );
+                            BuildUp.SetBlock( TravX, TravY, EndX, EndY, BuildUpsByAverageColor[ ClosestColors[ RandomClosest.Next( 0, ClosestColors.Count ) ] ] );
                         }
                     }
                 }
@@ -134,16 +138,23 @@ namespace ImageBreakdownBuildup
             }
         }
 
-        private Color FindClosestInAverageColorDictionary( Color To )
+        private System.Collections.Generic.List<Color> FindClosestInAverageColorDictionary( Color To )
         {
+            double ToleranceSquared = System.Math.Pow( Tolerance, 2 );
             double ClosestDistanceSquared = -1;
             Color Closest = Color.Black;
+            System.Collections.Generic.List< Color > WithinTolerance = new System.Collections.Generic.List<Color>();
+
             foreach( Color Key in BuildUpsByAverageColor.Keys )
             {
                 if( ClosestDistanceSquared == -1 )
                 {
                     Closest = Key;
                     ClosestDistanceSquared = System.Math.Pow( To.R - Key.R, 2 ) + System.Math.Pow( To.G - Key.G, 2 ) + System.Math.Pow( To.B - Key.B, 2 );
+                    if( ClosestDistanceSquared <= ToleranceSquared )
+                    {
+                        WithinTolerance.Add( Key );
+                    }
                 } else
                 {
                     double KeyDistanceSquared = System.Math.Pow( To.R - Key.R, 2 ) + System.Math.Pow( To.G - Key.G, 2 ) + System.Math.Pow( To.B - Key.B, 2 );
@@ -152,9 +163,17 @@ namespace ImageBreakdownBuildup
                         Closest = Key;
                         ClosestDistanceSquared = KeyDistanceSquared;
                     }
+                    if( KeyDistanceSquared <= ToleranceSquared )
+                    {
+                        WithinTolerance.Add( Key );
+                    }
                 }
             }
-            return Closest;
+            if( WithinTolerance.Count == 0 )
+            {
+                WithinTolerance.Add( Closest );
+            }
+            return WithinTolerance;
         }
 
         public static implicit operator Bitmap( BuildUpBitmap Bitmap )

@@ -6,9 +6,9 @@ namespace ImageBreakdownBuildup
 {
     public partial class Main : System.Windows.Forms.ImageWindow
     {
-        Bitmap OriginalBitmap;
-        AverageColorBitmap AverageColorBitmap;
-        BuildUpBitmap BuildUpBitmap;
+        public Bitmap OriginalBitmap;
+        public AverageColorBitmap AverageColorBitmap;
+        public BuildUpBitmap BuildUpBitmap;
         string BuildUpSourceFolder;
 
         public Main( string FileName, string SetBuildUpSourceFolder )
@@ -36,10 +36,10 @@ namespace ImageBreakdownBuildup
             SetImage( AverageColorBitmap );
         }
 
-        public void ShowBuildUp( int GridWidth, int GridHeight, int GridSpacingWidth, int GridSpacingHeight )
+        public void ShowBuildUp( int GridWidth, int GridHeight, int GridSpacingWidth, int GridSpacingHeight, int Tolerance )
         {
             UpdateAverageColorBitmap( GridWidth, GridHeight, GridSpacingWidth, GridSpacingHeight );
-            BuildUpBitmap = new BuildUpBitmap( OriginalBitmap, AverageColorBitmap, BuildUpSourceFolder );
+            BuildUpBitmap = new BuildUpBitmap( OriginalBitmap, AverageColorBitmap, BuildUpSourceFolder, Tolerance );
             SetImage( BuildUpBitmap );
         }
 
